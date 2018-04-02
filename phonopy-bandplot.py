@@ -15,28 +15,35 @@ except ImportError:
     from yaml import Loader
 
 
-def dot_product(local_modes, normal_modes):
-	sum = 0.0
-	for i, mode in enumerate(local_modes):
-		for j, xyz in enumerate(mode):
-			sum += np.dot(xyz, normal_modes[i][j])
-	return sum
+def compute_overlap(local_modes, normal_modes):
+    real_part = 0.0
+    imag_part = 0.0
+    for i, lmode in enumerate(local_modes):
+        nmode = normal_modes[i]
+        for j, ldim in enumerate(lmode):
+            ndim = nmode[j]
+            real_part += ldim[0]*ndim[0] - ldim[1]*ndim[1]
+            imag_part += ldim[1]*ndim[0] + ldim[0]*ndim[1]
+    overlap = np.sqrt(real_part*real_part + imag_part*imag_part)
+    return overlap
 
 
 def reordering(freq_vec, local_modes, normal_modes):
     outvec = []
+    outmode = []
     for j, nmod in enumerate(normal_modes):
         max_overlap = 0.0
-        second_largest = 0.0
-        max_index = 0
-        for k, lmod in enumerate(local_modes):
-            overlap = dot_product(local_modes[k], normal_modes[j])
+        max_index = j
+        for k in range(max(0, j-3), min(j+3, len(normal_modes))):
+            #overlap = compute_overlap(local_modes[k], nmod)
+            overlap = compute_overlap(nmod, nmod)
+            print overlap
             if overlap > max_overlap:
-                second_largest = max_overlap
                 max_overlap = overlap
                 max_index = k
         outvec.append(freq_vec[max_index])
-    return outvec
+        outmode.append(local_modes[max_index])
+    return (outvec, outmode)
 
 
 def read_band_yaml(filename):
@@ -53,10 +60,12 @@ def read_band_yaml(filename):
     normal_modes = global_eigenvecs[0]
     for i, local_freq in enumerate(raw_frequencies):
         if i == 0:
+            ordered_frequencies.append(local_freq)
             continue
         local_modes = global_eigenvecs[i]
-        ordered_frequencies.append(reordering(local_freq, local_modes, normal_modes))
-        normal_modes = local_modes
+        (new_frequencies, new_modes) = reordering(local_freq, local_modes, normal_modes)
+        ordered_frequencies.append(new_frequencies)
+        normal_modes = new_modes
 
     return (np.array(distances),
             np.array(ordered_frequencies),
