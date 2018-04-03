@@ -31,18 +31,21 @@ def compute_overlap(local_modes, normal_modes):
 def reordering(local_freqs, local_modes, normal_freqs, normal_modes):
     outvec = []
     outmode = []
+    index_list = []
     for j, nmod in enumerate(normal_modes):
         max_index = j
-        max_overlap = compute_overlap(local_modes[j], nmod)
+        max_overlap = 0.0
         for k, lmod in enumerate(local_modes):
-            if np.fabs(normal_freqs[j] - local_freqs[k]) > 0.5:
+            if (k in index_list or np.fabs(normal_freqs[j] - local_freqs[k]) > 0.5):
                 continue
             overlap = compute_overlap(lmod, nmod)
             if (overlap - max_overlap) > 1.0E-8:
                 max_index = k
                 max_overlap = overlap
+        index_list.append(max_index)
         outvec.append(local_freqs[max_index])
         outmode.append(local_modes[max_index])
+        print (max_index)
     return (outvec, outmode)
 
 
