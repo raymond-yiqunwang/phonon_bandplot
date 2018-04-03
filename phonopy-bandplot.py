@@ -45,7 +45,6 @@ def reordering(local_freqs, local_modes, normal_freqs, normal_modes):
         index_list.append(max_index)
         outvec.append(local_freqs[max_index])
         outmode.append(local_modes[max_index])
-        print (max_index)
     return (outvec, outmode)
 
 
