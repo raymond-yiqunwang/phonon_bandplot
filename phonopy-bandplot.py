@@ -31,19 +31,19 @@ def compute_overlap(local_modes, normal_modes):
 def reordering(freq_vec, local_modes, normal_modes):
     outvec = []
     outmode = []
+    index_list = []
     for j, nmod in enumerate(normal_modes):
-        max_index = -1
-        max_overlap = -1.0
-        second_large = -1.0
-        for k, lmod in enumerate(local_modes):
-            overlap = compute_overlap(lmod, nmod)
-            if overlap > max_overlap:
-                second_large = max_overlap
-                max_overlap = overlap
+        max_index = j
+        max_overlap = compute_overlap(local_modes[j], nmod)
+        for k in range(max(0, j-5), min(j+5, len(normal_modes))):
+            overlap = compute_overlap(local_modes[k], nmod)
+            if (overlap - max_overlap > 1.0E-8 and (k not in index_list)):
                 max_index = k
-        print max_index
+                max_overlap = overlap
+        index_list.append(max_index)
         outvec.append(freq_vec[max_index])
         outmode.append(local_modes[max_index])
+        print max_index
     return (outvec, outmode)
 
 
@@ -64,9 +64,7 @@ def read_band_yaml(filename):
             ordered_frequencies.append(local_freq)
             continue
         local_modes = global_eigenvecs[i]
-        print 'before reordering'
         (new_frequencies, new_modes) = reordering(local_freq, local_modes, normal_modes)
-        print 'after reordering'
         ordered_frequencies.append(new_frequencies)
         normal_modes = new_modes
 
