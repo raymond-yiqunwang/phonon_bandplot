@@ -1,2 +1,7 @@
 # phonon_bandplot
-Plot phonon band structure and fix the ordering problem in Phonopy
+This script would fix the band ordering problem in phonopy-bandplot
+
+## usage
+```
+python plot_phonon.py > plot.dat
+```
