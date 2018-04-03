@@ -28,21 +28,22 @@ def compute_overlap(local_modes, normal_modes):
     return overlap
 
 
-def reordering(freq_vec, local_modes, normal_modes):
+def reordering(local_freqs, local_modes, normal_freqs, normal_modes):
     outvec = []
     outmode = []
-    index_list = []
     for j, nmod in enumerate(normal_modes):
         max_index = j
         max_overlap = compute_overlap(local_modes[j], nmod)
-        for k in range(max(0, j-2), min(j+2, len(normal_modes))):
-            overlap = compute_overlap(local_modes[k], nmod)
-            if (overlap - max_overlap > 1.0E-8 and (k not in index_list)):
+        for k, lmod in enumerate(local_modes):
+            if np.fabs(normal_freqs[j] - local_freqs[k]) > 0.5:
+                continue
+            overlap = compute_overlap(lmod, nmod)
+            if (overlap - max_overlap) > 1.0E-8:
                 max_index = k
                 max_overlap = overlap
-        index_list.append(max_index)
-        outvec.append(freq_vec[max_index])
+        outvec.append(local_freqs[max_index])
         outmode.append(local_modes[max_index])
+        print max_index
     return (outvec, outmode)
 
 
@@ -57,14 +58,16 @@ def read_band_yaml(filename):
         distances.append(v['distance'])
         global_eigenvecs.append([eigvecs['eigenvector'] for eigvecs in v['band']])
 
+    normal_freqs = raw_frequencies[0]
     normal_modes = global_eigenvecs[0]
-    for i, local_freq in enumerate(raw_frequencies):
+    for i, local_freqs in enumerate(raw_frequencies):
         if i == 0:
-            ordered_frequencies.append(local_freq)
+            ordered_frequencies.append(local_freqs)
             continue
         local_modes = global_eigenvecs[i]
-        (new_frequencies, new_modes) = reordering(local_freq, local_modes, normal_modes)
-        ordered_frequencies.append(new_frequencies)
+        (new_freqs, new_modes) = reordering(local_freqs, local_modes, normal_freqs, normal_modes)
+        ordered_frequencies.append(new_freqs)
+        normal_freqs = new_freqs
         normal_modes = new_modes
 
     return (np.array(distances),
