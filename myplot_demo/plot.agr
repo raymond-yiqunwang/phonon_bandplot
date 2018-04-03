@@ -1,0 +1,7532 @@
+# Grace project file
+#
+@version 50125
+@page size 520, 520
+@page scroll 10%
+@page inout 5%
+@link page off
+@map font 8 to "Courier", "Courier"
+@map font 10 to "Courier-Bold", "Courier-Bold"
+@map font 11 to "Courier-BoldOblique", "Courier-BoldOblique"
+@map font 9 to "Courier-Oblique", "Courier-Oblique"
+@map font 14 to "Courier-Regular", "Courier-Regular"
+@map font 15 to "Dingbats-Regular", "Dingbats-Regular"
+@map font 4 to "Helvetica", "Helvetica"
+@map font 6 to "Helvetica-Bold", "Helvetica-Bold"
+@map font 7 to "Helvetica-BoldOblique", "Helvetica-BoldOblique"
+@map font 5 to "Helvetica-Oblique", "Helvetica-Oblique"
+@map font 20 to "NimbusMonoL-Bold", "NimbusMonoL-Bold"
+@map font 21 to "NimbusMonoL-BoldOblique", "NimbusMonoL-BoldOblique"
+@map font 22 to "NimbusMonoL-Regular", "NimbusMonoL-Regular"
+@map font 23 to "NimbusMonoL-RegularOblique", "NimbusMonoL-RegularOblique"
+@map font 24 to "NimbusRomanNo9L-Medium", "NimbusRomanNo9L-Medium"
+@map font 25 to "NimbusRomanNo9L-MediumItalic", "NimbusRomanNo9L-MediumItalic"
+@map font 26 to "NimbusRomanNo9L-Regular", "NimbusRomanNo9L-Regular"
+@map font 27 to "NimbusRomanNo9L-RegularItalic", "NimbusRomanNo9L-RegularItalic"
+@map font 28 to "NimbusSansL-Bold", "NimbusSansL-Bold"
+@map font 29 to "NimbusSansL-BoldCondensed", "NimbusSansL-BoldCondensed"
+@map font 30 to "NimbusSansL-BoldCondensedItalic", "NimbusSansL-BoldCondensedItalic"
+@map font 31 to "NimbusSansL-BoldItalic", "NimbusSansL-BoldItalic"
+@map font 32 to "NimbusSansL-Regular", "NimbusSansL-Regular"
+@map font 33 to "NimbusSansL-RegularCondensed", "NimbusSansL-RegularCondensed"
+@map font 34 to "NimbusSansL-RegularCondensedItalic", "NimbusSansL-RegularCondensedItalic"
+@map font 35 to "NimbusSansL-RegularItalic", "NimbusSansL-RegularItalic"
+@map font 36 to "StandardSymbolsL-Regular", "StandardSymbolsL-Regular"
+@map font 12 to "Symbol", "Symbol"
+@map font 2 to "Times-Bold", "Times-Bold"
+@map font 3 to "Times-BoldItalic", "Times-BoldItalic"
+@map font 1 to "Times-Italic", "Times-Italic"
+@map font 0 to "Times-Roman", "Times-Roman"
+@map font 42 to "URWBookmanL-DemiBold", "URWBookmanL-DemiBold"
+@map font 43 to "URWBookmanL-DemiBoldItalic", "URWBookmanL-DemiBoldItalic"
+@map font 44 to "URWBookmanL-Light", "URWBookmanL-Light"
+@map font 45 to "URWBookmanL-LightItalic", "URWBookmanL-LightItalic"
+@map font 46 to "URWChanceryL-MediumItalic", "URWChanceryL-MediumItalic"
+@map font 47 to "URWGothicL-Book", "URWGothicL-Book"
+@map font 48 to "URWGothicL-BookOblique", "URWGothicL-BookOblique"
+@map font 49 to "URWGothicL-Demi", "URWGothicL-Demi"
+@map font 50 to "URWGothicL-DemiOblique", "URWGothicL-DemiOblique"
+@map font 51 to "URWPalladioL-Bold", "URWPalladioL-Bold"
+@map font 52 to "URWPalladioL-BoldItalic", "URWPalladioL-BoldItalic"
+@map font 53 to "URWPalladioL-Italic", "URWPalladioL-Italic"
+@map font 54 to "URWPalladioL-Roman", "URWPalladioL-Roman"
+@map font 55 to "Utopia-Bold", "Utopia-Bold"
+@map font 56 to "Utopia-BoldItalic", "Utopia-BoldItalic"
+@map font 57 to "Utopia-Italic", "Utopia-Italic"
+@map font 58 to "Utopia-Regular", "Utopia-Regular"
+@map font 13 to "ZapfDingbats", "ZapfDingbats"
+@map color 0 to (255, 255, 255), "white"
+@map color 1 to (0, 0, 0), "black"
+@map color 2 to (0, 157, 255), "Azure"
+@map color 3 to (253, 0, 52), "Strawberry"
+@map color 4 to (120, 210, 120), "Mint"
+@map color 5 to (253, 148, 0), "Burnt Orange"
+@map color 6 to (140, 0, 255), "Lavender"
+@map color 7 to (255, 55, 0), "Coral"
+@map color 8 to (50, 92, 95), "Steel"
+@map color 9 to (133, 77, 98), "Wine"
+@map color 10 to (224, 162, 96), "Peach"
+@map color 11 to (183, 0, 41), "Burgandy"
+@map color 12 to (230, 141, 230), "Lilac"
+@map color 13 to (103, 7, 72), "Maroon"
+@map color 14 to (64, 224, 208), "Turquoise"
+@map color 15 to (255, 175, 0), "Mustard"
+@map color 16 to (206, 0, 69), "Merlot"
+@map color 17 to (25, 25, 131), "Navy"
+@map color 18 to (127, 253, 0), "Lime"
+@map color 19 to (114, 33, 188), "Indigo"
+@map color 20 to (164, 109, 28), "Umber"
+@map color 21 to (25, 97, 25), "Kelp"
+@map color 22 to (0, 255, 0), "Green"
+@map color 23 to (195, 18, 30), "sangre"
+@map color 24 to (3, 72, 161), "neptune"
+@map color 25 to (255, 176, 28), "pumpkin"
+@map color 26 to (2, 118, 8), "clover"
+@map color 27 to (1, 147, 176), "denim"
+@map color 28 to (156, 83, 0), "cocoa"
+@map color 29 to (148, 156, 1), "cumin"
+@map color 30 to (113, 4, 181), "berry"
+@map color 31 to (255, 210, 210), "     reds"
+@map color 32 to (255, 206, 206), "Red19"
+@map color 33 to (255, 170, 170), "Red20"
+@map color 34 to (255, 135, 135), "Red21"
+@map color 35 to (255, 74, 74), "Red22"
+@map color 36 to (255, 0, 0), "Red23"
+@map color 37 to (225, 0, 0), "Red24"
+@map color 38 to (197, 0, 0), "Red25"
+@map color 39 to (142, 0, 0), "Red26"
+@map color 40 to (255, 236, 182), "   oranges"
+@map color 41 to (255, 223, 135), "Or28"
+@map color 42 to (255, 209, 84), "Or29"
+@map color 43 to (255, 200, 49), "Or30"
+@map color 44 to (255, 187, 0), "Or31"
+@map color 45 to (223, 164, 0), "Or32"
+@map color 46 to (155, 114, 0), "Or33"
+@map color 47 to (110, 81, 0), "Or34"
+@map color 48 to (66, 48, 0), "Or35"
+@map color 49 to (255, 255, 160), "   yellows"
+@map color 50 to (255, 255, 40), "Ye37"
+@map color 51 to (233, 233, 0), "Ye38"
+@map color 52 to (203, 203, 0), "Ye39"
+@map color 53 to (171, 171, 0), "Ye40"
+@map color 54 to (131, 131, 0), "Ye41"
+@map color 55 to (96, 96, 0), "Ye42"
+@map color 56 to (66, 66, 0), "Ye43"
+@map color 57 to (41, 41, 0), "Ye44"
+@map color 58 to (232, 255, 177), "    neons"
+@map color 59 to (206, 255, 90), "Ne46"
+@map color 60 to (179, 255, 0), "Ne47"
+@map color 61 to (163, 233, 0), "Ne48"
+@map color 62 to (137, 196, 0), "Ne49"
+@map color 63 to (109, 156, 0), "Ne50"
+@map color 64 to (81, 116, 0), "Ne51"
+@map color 65 to (55, 78, 0), "Ne52"
+@map color 66 to (25, 36, 0), "Ne53"
+@map color 67 to (195, 255, 195), "   greens"
+@map color 68 to (117, 255, 117), "Grn55"
+@map color 69 to (0, 255, 0), "Grn56"
+@map color 70 to (0, 228, 0), "Grn57"
+@map color 71 to (0, 193, 0), "Grn58"
+@map color 72 to (0, 161, 0), "Grn59"
+@map color 73 to (0, 128, 0), "Grn60"
+@map color 74 to (0, 85, 0), "Grn61"
+@map color 75 to (0, 40, 0), "Grn62"
+@map color 76 to (172, 255, 218), " turquoises"
+@map color 77 to (105, 255, 188), "Trq64"
+@map color 78 to (17, 255, 148), "Trq65"
+@map color 79 to (3, 241, 134), "Trq66"
+@map color 80 to (2, 208, 116), "Trq67"
+@map color 81 to (2, 165, 92), "Trq68"
+@map color 82 to (1, 126, 70), "Trq69"
+@map color 83 to (1, 90, 50), "Trq70"
+@map color 84 to (1, 48, 27), "Trq71"
+@map color 85 to (210, 249, 255), "   azures"
+@map color 86 to (150, 241, 255), "Az73"
+@map color 87 to (102, 235, 255), "Az74"
+@map color 88 to (4, 222, 255), "Az75"
+@map color 89 to (0, 202, 233), "Az76"
+@map color 90 to (0, 159, 183), "Az77"
+@map color 91 to (0, 122, 141), "Az78"
+@map color 92 to (0, 83, 96), "Az79"
+@map color 93 to (0, 61, 70), "Az80"
+@map color 94 to (177, 177, 255), "    blues"
+@map color 95 to (134, 134, 255), "Blu82"
+@map color 96 to (107, 107, 255), "Blu83"
+@map color 97 to (59, 59, 255), "Blu84"
+@map color 98 to (0, 0, 255), "Blu85"
+@map color 99 to (0, 0, 203), "Blu86"
+@map color 100 to (0, 0, 146), "Blu87"
+@map color 101 to (0, 0, 100), "Blu88"
+@map color 102 to (0, 0, 63), "Blu89"
+@map color 103 to (213, 192, 255), "   violets"
+@map color 104 to (180, 142, 255), "Vi91"
+@map color 105 to (155, 105, 255), "Vi92"
+@map color 106 to (120, 52, 255), "Vi93"
+@map color 107 to (85, 0, 255), "Vi94"
+@map color 108 to (73, 0, 218), "Vi95"
+@map color 109 to (53, 0, 158), "Vi96"
+@map color 110 to (37, 0, 110), "Vi97"
+@map color 111 to (21, 0, 63), "Vi98"
+@map color 112 to (255, 192, 233), "    pinks"
+@map color 113 to (255, 135, 213), "Pnk100"
+@map color 114 to (255, 89, 197), "Pnk101"
+@map color 115 to (255, 0, 166), "Pnk102"
+@map color 116 to (223, 0, 145), "Pnk103"
+@map color 117 to (176, 0, 114), "Pnk104"
+@map color 118 to (140, 0, 91), "Pnk105"
+@map color 119 to (103, 0, 67), "Pnk106"
+@map color 120 to (60, 0, 39), "Pnk107"
+@map color 121 to (255, 255, 255), "    grays"
+@map color 122 to (236, 236, 236), "Gry109"
+@map color 123 to (219, 219, 219), "Gry110"
+@map color 124 to (186, 186, 186), "Gry111"
+@map color 125 to (145, 145, 145), "Gry112"
+@map color 126 to (101, 101, 101), "Gry113"
+@map color 127 to (65, 65, 65), "Gry114"
+@map color 128 to (32, 32, 32), "-by dshoe"
+@reference date 0
+@date wrap off
+@date wrap year 1950
+@default linewidth 1.0
+@default linestyle 1
+@default color 1
+@default pattern 1
+@default font 4
+@default char size 1.000000
+@default symbol size 1.000000
+@default sformat "%.8g"
+@background color 0
+@page background fill on
+@timestamp off
+@timestamp 0.03, 0.03
+@timestamp color 1
+@timestamp rot 0
+@timestamp font 4
+@timestamp char size 1.000000
+@timestamp def "Tue Apr  3 11:16:34 2018"
+@r0 off
+@link r0 to g0
+@r0 type above
+@r0 linestyle 1
+@r0 linewidth 1.0
+@r0 color 1
+@r0 line 0, 0, 0, 0
+@r1 off
+@link r1 to g0
+@r1 type above
+@r1 linestyle 1
+@r1 linewidth 1.0
+@r1 color 1
+@r1 line 0, 0, 0, 0
+@r2 off
+@link r2 to g0
+@r2 type above
+@r2 linestyle 1
+@r2 linewidth 1.0
+@r2 color 1
+@r2 line 0, 0, 0, 0
+@r3 off
+@link r3 to g0
+@r3 type above
+@r3 linestyle 1
+@r3 linewidth 1.0
+@r3 color 1
+@r3 line 0, 0, 0, 0
+@r4 off
+@link r4 to g0
+@r4 type above
+@r4 linestyle 1
+@r4 linewidth 1.0
+@r4 color 1
+@r4 line 0, 0, 0, 0
+@g0 on
+@g0 hidden false
+@g0 type XY
+@g0 stacked false
+@g0 bar hgap 0.000000
+@g0 fixedpoint off
+@g0 fixedpoint type 0
+@g0 fixedpoint xy 0.000000, 0.000000
+@g0 fixedpoint format general general
+@g0 fixedpoint prec 6, 6
+@with g0
+@    world 0, -0.6, 0.55722, 35
+@    stack world 0, 0, 0, 0
+@    znorm 1
+@    view 0.100000, 0.100000, 0.873016, 0.797980
+@    title ""
+@    title font 4
+@    title size 1.500000
+@    title color 1
+@    subtitle ""
+@    subtitle font 4
+@    subtitle size 1.000000
+@    subtitle color 1
+@    xaxes scale Normal
+@    yaxes scale Normal
+@    xaxes invert off
+@    yaxes invert off
+@    xaxis  on
+@    xaxis  type zero false
+@    xaxis  offset 0.000000 , 0.000000
+@    xaxis  bar on
+@    xaxis  bar color 1
+@    xaxis  bar linestyle 1
+@    xaxis  bar linewidth 1.0
+@    xaxis  label ""
+@    xaxis  label layout para
+@    xaxis  label place auto
+@    xaxis  label char size 1.000000
+@    xaxis  label font 4
+@    xaxis  label color 1
+@    xaxis  label place normal
+@    xaxis  tick on
+@    xaxis  tick major 0.1
+@    xaxis  tick minor ticks 1
+@    xaxis  tick default 6
+@    xaxis  tick place rounded true
+@    xaxis  tick in
+@    xaxis  tick major size 1.000000
+@    xaxis  tick major color 1
+@    xaxis  tick major linewidth 1.0
+@    xaxis  tick major linestyle 1
+@    xaxis  tick major grid off
+@    xaxis  tick minor color 1
+@    xaxis  tick minor linewidth 1.0
+@    xaxis  tick minor linestyle 1
+@    xaxis  tick minor grid off
+@    xaxis  tick minor size 0.500000
+@    xaxis  ticklabel on
+@    xaxis  ticklabel format general
+@    xaxis  ticklabel prec 5
+@    xaxis  ticklabel formula ""
+@    xaxis  ticklabel append ""
+@    xaxis  ticklabel prepend ""
+@    xaxis  ticklabel angle 0
+@    xaxis  ticklabel skip 0
+@    xaxis  ticklabel stagger 0
+@    xaxis  ticklabel place normal
+@    xaxis  ticklabel offset auto
+@    xaxis  ticklabel offset 0.000000 , 0.010000
+@    xaxis  ticklabel start type auto
+@    xaxis  ticklabel start 0.000000
+@    xaxis  ticklabel stop type auto
+@    xaxis  ticklabel stop 0.000000
+@    xaxis  ticklabel char size 1.000000
+@    xaxis  ticklabel font 4
+@    xaxis  ticklabel color 1
+@    xaxis  tick place both
+@    xaxis  tick spec type both
+@    xaxis  tick spec 4
+@    xaxis  tick major 0, 0
+@    xaxis  ticklabel 0, "A"
+@    xaxis  tick major 1, 0.2587552
+@    xaxis  ticklabel 1, "\x G \f{}"
+@    xaxis  tick major 2, 0.4335891
+@    xaxis  ticklabel 2, "M"
+@    xaxis  tick major 3, 0.5572154
+@    xaxis  ticklabel 3, "X"
+@    yaxis  on
+@    yaxis  type zero false
+@    yaxis  offset 0.000000 , 0.000000
+@    yaxis  bar on
+@    yaxis  bar color 1
+@    yaxis  bar linestyle 1
+@    yaxis  bar linewidth 1.0
+@    yaxis  label "Frequency (THz)"
+@    yaxis  label layout para
+@    yaxis  label place auto
+@    yaxis  label char size 1.100000
+@    yaxis  label font 4
+@    yaxis  label color 1
+@    yaxis  label place normal
+@    yaxis  tick on
+@    yaxis  tick major 10
+@    yaxis  tick minor ticks 1
+@    yaxis  tick default 6
+@    yaxis  tick place rounded true
+@    yaxis  tick in
+@    yaxis  tick major size 1.000000
+@    yaxis  tick major color 1
+@    yaxis  tick major linewidth 1.0
+@    yaxis  tick major linestyle 1
+@    yaxis  tick major grid off
+@    yaxis  tick minor color 1
+@    yaxis  tick minor linewidth 1.0
+@    yaxis  tick minor linestyle 1
+@    yaxis  tick minor grid off
+@    yaxis  tick minor size 0.500000
+@    yaxis  ticklabel on
+@    yaxis  ticklabel format general
+@    yaxis  ticklabel prec 5
+@    yaxis  ticklabel formula ""
+@    yaxis  ticklabel append ""
+@    yaxis  ticklabel prepend ""
+@    yaxis  ticklabel angle 0
+@    yaxis  ticklabel skip 0
+@    yaxis  ticklabel stagger 0
+@    yaxis  ticklabel place normal
+@    yaxis  ticklabel offset auto
+@    yaxis  ticklabel offset 0.000000 , 0.010000
+@    yaxis  ticklabel start type auto
+@    yaxis  ticklabel start 0.000000
+@    yaxis  ticklabel stop type auto
+@    yaxis  ticklabel stop 0.000000
+@    yaxis  ticklabel char size 1.000000
+@    yaxis  ticklabel font 4
+@    yaxis  ticklabel color 1
+@    yaxis  tick place both
+@    yaxis  tick spec type none
+@    altxaxis  off
+@    altyaxis  off
+@    legend on
+@    legend loctype view
+@    legend 0.85, 0.8
+@    legend box color 0
+@    legend box pattern 1
+@    legend box linewidth 1.0
+@    legend box linestyle 1
+@    legend box fill color 0
+@    legend box fill pattern 1
+@    legend font 4
+@    legend char size 1.000000
+@    legend color 1
+@    legend length 4
+@    legend vgap 1
+@    legend hgap 1
+@    legend invert false
+@    frame type 0
+@    frame linestyle 1
+@    frame linewidth 1.0
+@    frame color 1
+@    frame pattern 1
+@    frame background color 0
+@    frame background pattern 0
+@    s0 hidden false
+@    s0 type xy
+@    s0 symbol 0
+@    s0 symbol size 1.000000
+@    s0 symbol color 54
+@    s0 symbol pattern 1
+@    s0 symbol fill color 54
+@    s0 symbol fill pattern 0
+@    s0 symbol linewidth 1.0
+@    s0 symbol linestyle 1
+@    s0 symbol char 65
+@    s0 symbol char font 4
+@    s0 symbol skip 0
+@    s0 line type 1
+@    s0 line linestyle 1
+@    s0 line linewidth 1.5
+@    s0 line color 54
+@    s0 line pattern 1
+@    s0 baseline type 0
+@    s0 baseline off
+@    s0 dropline off
+@    s0 fill type 0
+@    s0 fill rule 0
+@    s0 fill color 1
+@    s0 fill pattern 1
+@    s0 avalue off
+@    s0 avalue type 2
+@    s0 avalue char size 1.000000
+@    s0 avalue font 4
+@    s0 avalue color 1
+@    s0 avalue rot 0
+@    s0 avalue format general
+@    s0 avalue prec 3
+@    s0 avalue prepend ""
+@    s0 avalue append ""
+@    s0 avalue offset 0.000000 , 0.000000
+@    s0 errorbar on
+@    s0 errorbar place both
+@    s0 errorbar color 54
+@    s0 errorbar pattern 1
+@    s0 errorbar size 1.000000
+@    s0 errorbar linewidth 1.0
+@    s0 errorbar linestyle 1
+@    s0 errorbar riser linewidth 1.0
+@    s0 errorbar riser linestyle 1
+@    s0 errorbar riser clip off
+@    s0 errorbar riser clip length 0.100000
+@    s0 comment "/home/raymondw/Research/phonon_bandplot/plot_demo.dat"
+@    s0 legend  ""
+@    s1 hidden false
+@    s1 type xy
+@    s1 symbol 0
+@    s1 symbol size 1.000000
+@    s1 symbol color 54
+@    s1 symbol pattern 1
+@    s1 symbol fill color 54
+@    s1 symbol fill pattern 0
+@    s1 symbol linewidth 1.0
+@    s1 symbol linestyle 1
+@    s1 symbol char 65
+@    s1 symbol char font 4
+@    s1 symbol skip 0
+@    s1 line type 1
+@    s1 line linestyle 1
+@    s1 line linewidth 1.5
+@    s1 line color 54
+@    s1 line pattern 1
+@    s1 baseline type 0
+@    s1 baseline off
+@    s1 dropline off
+@    s1 fill type 0
+@    s1 fill rule 0
+@    s1 fill color 1
+@    s1 fill pattern 1
+@    s1 avalue off
+@    s1 avalue type 2
+@    s1 avalue char size 1.000000
+@    s1 avalue font 4
+@    s1 avalue color 1
+@    s1 avalue rot 0
+@    s1 avalue format general
+@    s1 avalue prec 3
+@    s1 avalue prepend ""
+@    s1 avalue append ""
+@    s1 avalue offset 0.000000 , 0.000000
+@    s1 errorbar on
+@    s1 errorbar place both
+@    s1 errorbar color 54
+@    s1 errorbar pattern 1
+@    s1 errorbar size 1.000000
+@    s1 errorbar linewidth 1.0
+@    s1 errorbar linestyle 1
+@    s1 errorbar riser linewidth 1.0
+@    s1 errorbar riser linestyle 1
+@    s1 errorbar riser clip off
+@    s1 errorbar riser clip length 0.100000
+@    s1 comment "/home/raymondw/Research/phonon_bandplot/plot_demo.dat"
+@    s1 legend  ""
+@    s2 hidden false
+@    s2 type xy
+@    s2 symbol 0
+@    s2 symbol size 1.000000
+@    s2 symbol color 54
+@    s2 symbol pattern 1
+@    s2 symbol fill color 54
+@    s2 symbol fill pattern 0
+@    s2 symbol linewidth 1.0
+@    s2 symbol linestyle 1
+@    s2 symbol char 65
+@    s2 symbol char font 4
+@    s2 symbol skip 0
+@    s2 line type 1
+@    s2 line linestyle 1
+@    s2 line linewidth 1.5
+@    s2 line color 54
+@    s2 line pattern 1
+@    s2 baseline type 0
+@    s2 baseline off
+@    s2 dropline off
+@    s2 fill type 0
+@    s2 fill rule 0
+@    s2 fill color 1
+@    s2 fill pattern 1
+@    s2 avalue off
+@    s2 avalue type 2
+@    s2 avalue char size 1.000000
+@    s2 avalue font 4
+@    s2 avalue color 1
+@    s2 avalue rot 0
+@    s2 avalue format general
+@    s2 avalue prec 3
+@    s2 avalue prepend ""
+@    s2 avalue append ""
+@    s2 avalue offset 0.000000 , 0.000000
+@    s2 errorbar on
+@    s2 errorbar place both
+@    s2 errorbar color 54
+@    s2 errorbar pattern 1
+@    s2 errorbar size 1.000000
+@    s2 errorbar linewidth 1.0
+@    s2 errorbar linestyle 1
+@    s2 errorbar riser linewidth 1.0
+@    s2 errorbar riser linestyle 1
+@    s2 errorbar riser clip off
+@    s2 errorbar riser clip length 0.100000
+@    s2 comment "/home/raymondw/Research/phonon_bandplot/plot_demo.dat"
+@    s2 legend  ""
+@    s3 hidden false
+@    s3 type xy
+@    s3 symbol 0
+@    s3 symbol size 1.000000
+@    s3 symbol color 54
+@    s3 symbol pattern 1
+@    s3 symbol fill color 54
+@    s3 symbol fill pattern 0
+@    s3 symbol linewidth 1.0
+@    s3 symbol linestyle 1
+@    s3 symbol char 65
+@    s3 symbol char font 4
+@    s3 symbol skip 0
+@    s3 line type 1
+@    s3 line linestyle 1
+@    s3 line linewidth 1.5
+@    s3 line color 54
+@    s3 line pattern 1
+@    s3 baseline type 0
+@    s3 baseline off
+@    s3 dropline off
+@    s3 fill type 0
+@    s3 fill rule 0
+@    s3 fill color 1
+@    s3 fill pattern 1
+@    s3 avalue off
+@    s3 avalue type 2
+@    s3 avalue char size 1.000000
+@    s3 avalue font 4
+@    s3 avalue color 1
+@    s3 avalue rot 0
+@    s3 avalue format general
+@    s3 avalue prec 3
+@    s3 avalue prepend ""
+@    s3 avalue append ""
+@    s3 avalue offset 0.000000 , 0.000000
+@    s3 errorbar on
+@    s3 errorbar place both
+@    s3 errorbar color 54
+@    s3 errorbar pattern 1
+@    s3 errorbar size 1.000000
+@    s3 errorbar linewidth 1.0
+@    s3 errorbar linestyle 1
+@    s3 errorbar riser linewidth 1.0
+@    s3 errorbar riser linestyle 1
+@    s3 errorbar riser clip off
+@    s3 errorbar riser clip length 0.100000
+@    s3 comment "/home/raymondw/Research/phonon_bandplot/plot_demo.dat"
+@    s3 legend  ""
+@    s4 hidden false
+@    s4 type xy
+@    s4 symbol 0
+@    s4 symbol size 1.000000
+@    s4 symbol color 54
+@    s4 symbol pattern 1
+@    s4 symbol fill color 54
+@    s4 symbol fill pattern 0
+@    s4 symbol linewidth 1.0
+@    s4 symbol linestyle 1
+@    s4 symbol char 65
+@    s4 symbol char font 4
+@    s4 symbol skip 0
+@    s4 line type 1
+@    s4 line linestyle 1
+@    s4 line linewidth 1.5
+@    s4 line color 54
+@    s4 line pattern 1
+@    s4 baseline type 0
+@    s4 baseline off
+@    s4 dropline off
+@    s4 fill type 0
+@    s4 fill rule 0
+@    s4 fill color 1
+@    s4 fill pattern 1
+@    s4 avalue off
+@    s4 avalue type 2
+@    s4 avalue char size 1.000000
+@    s4 avalue font 4
+@    s4 avalue color 1
+@    s4 avalue rot 0
+@    s4 avalue format general
+@    s4 avalue prec 3
+@    s4 avalue prepend ""
+@    s4 avalue append ""
+@    s4 avalue offset 0.000000 , 0.000000
+@    s4 errorbar on
+@    s4 errorbar place both
+@    s4 errorbar color 54
+@    s4 errorbar pattern 1
+@    s4 errorbar size 1.000000
+@    s4 errorbar linewidth 1.0
+@    s4 errorbar linestyle 1
+@    s4 errorbar riser linewidth 1.0
+@    s4 errorbar riser linestyle 1
+@    s4 errorbar riser clip off
+@    s4 errorbar riser clip length 0.100000
+@    s4 comment "/home/raymondw/Research/phonon_bandplot/plot_demo.dat"
+@    s4 legend  ""
+@    s5 hidden false
+@    s5 type xy
+@    s5 symbol 0
+@    s5 symbol size 1.000000
+@    s5 symbol color 54
+@    s5 symbol pattern 1
+@    s5 symbol fill color 54
+@    s5 symbol fill pattern 0
+@    s5 symbol linewidth 1.0
+@    s5 symbol linestyle 1
+@    s5 symbol char 65
+@    s5 symbol char font 4
+@    s5 symbol skip 0
+@    s5 line type 1
+@    s5 line linestyle 1
+@    s5 line linewidth 1.5
+@    s5 line color 54
+@    s5 line pattern 1
+@    s5 baseline type 0
+@    s5 baseline off
+@    s5 dropline off
+@    s5 fill type 0
+@    s5 fill rule 0
+@    s5 fill color 1
+@    s5 fill pattern 1
+@    s5 avalue off
+@    s5 avalue type 2
+@    s5 avalue char size 1.000000
+@    s5 avalue font 4
+@    s5 avalue color 1
+@    s5 avalue rot 0
+@    s5 avalue format general
+@    s5 avalue prec 3
+@    s5 avalue prepend ""
+@    s5 avalue append ""
+@    s5 avalue offset 0.000000 , 0.000000
+@    s5 errorbar on
+@    s5 errorbar place both
+@    s5 errorbar color 54
+@    s5 errorbar pattern 1
+@    s5 errorbar size 1.000000
+@    s5 errorbar linewidth 1.0
+@    s5 errorbar linestyle 1
+@    s5 errorbar riser linewidth 1.0
+@    s5 errorbar riser linestyle 1
+@    s5 errorbar riser clip off
+@    s5 errorbar riser clip length 0.100000
+@    s5 comment "/home/raymondw/Research/phonon_bandplot/plot_demo.dat"
+@    s5 legend  ""
+@    s6 hidden false
+@    s6 type xy
+@    s6 symbol 0
+@    s6 symbol size 1.000000
+@    s6 symbol color 37
+@    s6 symbol pattern 1
+@    s6 symbol fill color 37
+@    s6 symbol fill pattern 0
+@    s6 symbol linewidth 1.0
+@    s6 symbol linestyle 1
+@    s6 symbol char 65
+@    s6 symbol char font 4
+@    s6 symbol skip 0
+@    s6 line type 1
+@    s6 line linestyle 1
+@    s6 line linewidth 3.0
+@    s6 line color 37
+@    s6 line pattern 1
+@    s6 baseline type 0
+@    s6 baseline off
+@    s6 dropline off
+@    s6 fill type 0
+@    s6 fill rule 0
+@    s6 fill color 1
+@    s6 fill pattern 1
+@    s6 avalue off
+@    s6 avalue type 2
+@    s6 avalue char size 1.000000
+@    s6 avalue font 4
+@    s6 avalue color 1
+@    s6 avalue rot 0
+@    s6 avalue format general
+@    s6 avalue prec 3
+@    s6 avalue prepend ""
+@    s6 avalue append ""
+@    s6 avalue offset 0.000000 , 0.000000
+@    s6 errorbar on
+@    s6 errorbar place both
+@    s6 errorbar color 37
+@    s6 errorbar pattern 1
+@    s6 errorbar size 1.000000
+@    s6 errorbar linewidth 1.0
+@    s6 errorbar linestyle 1
+@    s6 errorbar riser linewidth 1.0
+@    s6 errorbar riser linestyle 1
+@    s6 errorbar riser clip off
+@    s6 errorbar riser clip length 0.100000
+@    s6 comment "/home/raymondw/Research/phonon_bandplot/plot_demo.dat"
+@    s6 legend  ""
+@    s7 hidden false
+@    s7 type xy
+@    s7 symbol 0
+@    s7 symbol size 1.000000
+@    s7 symbol color 98
+@    s7 symbol pattern 1
+@    s7 symbol fill color 98
+@    s7 symbol fill pattern 0
+@    s7 symbol linewidth 1.0
+@    s7 symbol linestyle 1
+@    s7 symbol char 65
+@    s7 symbol char font 4
+@    s7 symbol skip 0
+@    s7 line type 1
+@    s7 line linestyle 1
+@    s7 line linewidth 3.0
+@    s7 line color 98
+@    s7 line pattern 1
+@    s7 baseline type 0
+@    s7 baseline off
+@    s7 dropline off
+@    s7 fill type 0
+@    s7 fill rule 0
+@    s7 fill color 1
+@    s7 fill pattern 1
+@    s7 avalue off
+@    s7 avalue type 2
+@    s7 avalue char size 1.000000
+@    s7 avalue font 4
+@    s7 avalue color 1
+@    s7 avalue rot 0
+@    s7 avalue format general
+@    s7 avalue prec 3
+@    s7 avalue prepend ""
+@    s7 avalue append ""
+@    s7 avalue offset 0.000000 , 0.000000
+@    s7 errorbar on
+@    s7 errorbar place both
+@    s7 errorbar color 98
+@    s7 errorbar pattern 1
+@    s7 errorbar size 1.000000
+@    s7 errorbar linewidth 1.0
+@    s7 errorbar linestyle 1
+@    s7 errorbar riser linewidth 1.0
+@    s7 errorbar riser linestyle 1
+@    s7 errorbar riser clip off
+@    s7 errorbar riser clip length 0.100000
+@    s7 comment "/home/raymondw/Research/phonon_bandplot/plot_demo.dat"
+@    s7 legend  ""
+@    s8 hidden false
+@    s8 type xy
+@    s8 symbol 0
+@    s8 symbol size 1.000000
+@    s8 symbol color 98
+@    s8 symbol pattern 1
+@    s8 symbol fill color 98
+@    s8 symbol fill pattern 0
+@    s8 symbol linewidth 1.0
+@    s8 symbol linestyle 1
+@    s8 symbol char 65
+@    s8 symbol char font 4
+@    s8 symbol skip 0
+@    s8 line type 1
+@    s8 line linestyle 1
+@    s8 line linewidth 3.0
+@    s8 line color 98
+@    s8 line pattern 1
+@    s8 baseline type 0
+@    s8 baseline off
+@    s8 dropline off
+@    s8 fill type 0
+@    s8 fill rule 0
+@    s8 fill color 1
+@    s8 fill pattern 1
+@    s8 avalue off
+@    s8 avalue type 2
+@    s8 avalue char size 1.000000
+@    s8 avalue font 4
+@    s8 avalue color 1
+@    s8 avalue rot 0
+@    s8 avalue format general
+@    s8 avalue prec 3
+@    s8 avalue prepend ""
+@    s8 avalue append ""
+@    s8 avalue offset 0.000000 , 0.000000
+@    s8 errorbar on
+@    s8 errorbar place both
+@    s8 errorbar color 98
+@    s8 errorbar pattern 1
+@    s8 errorbar size 1.000000
+@    s8 errorbar linewidth 1.0
+@    s8 errorbar linestyle 1
+@    s8 errorbar riser linewidth 1.0
+@    s8 errorbar riser linestyle 1
+@    s8 errorbar riser clip off
+@    s8 errorbar riser clip length 0.100000
+@    s8 comment "/home/raymondw/Research/phonon_bandplot/plot_demo.dat"
+@    s8 legend  ""
+@    s9 hidden false
+@    s9 type xy
+@    s9 symbol 0
+@    s9 symbol size 1.000000
+@    s9 symbol color 54
+@    s9 symbol pattern 1
+@    s9 symbol fill color 54
+@    s9 symbol fill pattern 0
+@    s9 symbol linewidth 1.0
+@    s9 symbol linestyle 1
+@    s9 symbol char 65
+@    s9 symbol char font 4
+@    s9 symbol skip 0
+@    s9 line type 1
+@    s9 line linestyle 1
+@    s9 line linewidth 1.5
+@    s9 line color 54
+@    s9 line pattern 1
+@    s9 baseline type 0
+@    s9 baseline off
+@    s9 dropline off
+@    s9 fill type 0
+@    s9 fill rule 0
+@    s9 fill color 1
+@    s9 fill pattern 1
+@    s9 avalue off
+@    s9 avalue type 2
+@    s9 avalue char size 1.000000
+@    s9 avalue font 4
+@    s9 avalue color 1
+@    s9 avalue rot 0
+@    s9 avalue format general
+@    s9 avalue prec 3
+@    s9 avalue prepend ""
+@    s9 avalue append ""
+@    s9 avalue offset 0.000000 , 0.000000
+@    s9 errorbar on
+@    s9 errorbar place both
+@    s9 errorbar color 54
+@    s9 errorbar pattern 1
+@    s9 errorbar size 1.000000
+@    s9 errorbar linewidth 1.0
+@    s9 errorbar linestyle 1
+@    s9 errorbar riser linewidth 1.0
+@    s9 errorbar riser linestyle 1
+@    s9 errorbar riser clip off
+@    s9 errorbar riser clip length 0.100000
+@    s9 comment "/home/raymondw/Research/phonon_bandplot/plot_demo.dat"
+@    s9 legend  ""
+@    s10 hidden false
+@    s10 type xy
+@    s10 symbol 0
+@    s10 symbol size 1.000000
+@    s10 symbol color 88
+@    s10 symbol pattern 1
+@    s10 symbol fill color 88
+@    s10 symbol fill pattern 0
+@    s10 symbol linewidth 1.0
+@    s10 symbol linestyle 1
+@    s10 symbol char 65
+@    s10 symbol char font 4
+@    s10 symbol skip 0
+@    s10 line type 1
+@    s10 line linestyle 1
+@    s10 line linewidth 3.0
+@    s10 line color 88
+@    s10 line pattern 1
+@    s10 baseline type 0
+@    s10 baseline off
+@    s10 dropline off
+@    s10 fill type 0
+@    s10 fill rule 0
+@    s10 fill color 1
+@    s10 fill pattern 1
+@    s10 avalue off
+@    s10 avalue type 2
+@    s10 avalue char size 1.000000
+@    s10 avalue font 4
+@    s10 avalue color 1
+@    s10 avalue rot 0
+@    s10 avalue format general
+@    s10 avalue prec 3
+@    s10 avalue prepend ""
+@    s10 avalue append ""
+@    s10 avalue offset 0.000000 , 0.000000
+@    s10 errorbar on
+@    s10 errorbar place both
+@    s10 errorbar color 88
+@    s10 errorbar pattern 1
+@    s10 errorbar size 1.000000
+@    s10 errorbar linewidth 1.0
+@    s10 errorbar linestyle 1
+@    s10 errorbar riser linewidth 1.0
+@    s10 errorbar riser linestyle 1
+@    s10 errorbar riser clip off
+@    s10 errorbar riser clip length 0.100000
+@    s10 comment "/home/raymondw/Research/phonon_bandplot/plot_demo.dat"
+@    s10 legend  ""
+@    s11 hidden false
+@    s11 type xy
+@    s11 symbol 0
+@    s11 symbol size 1.000000
+@    s11 symbol color 54
+@    s11 symbol pattern 1
+@    s11 symbol fill color 54
+@    s11 symbol fill pattern 0
+@    s11 symbol linewidth 1.0
+@    s11 symbol linestyle 1
+@    s11 symbol char 65
+@    s11 symbol char font 4
+@    s11 symbol skip 0
+@    s11 line type 1
+@    s11 line linestyle 1
+@    s11 line linewidth 0.0
+@    s11 line color 54
+@    s11 line pattern 1
+@    s11 baseline type 0
+@    s11 baseline off
+@    s11 dropline off
+@    s11 fill type 0
+@    s11 fill rule 0
+@    s11 fill color 1
+@    s11 fill pattern 1
+@    s11 avalue off
+@    s11 avalue type 2
+@    s11 avalue char size 1.000000
+@    s11 avalue font 4
+@    s11 avalue color 1
+@    s11 avalue rot 0
+@    s11 avalue format general
+@    s11 avalue prec 3
+@    s11 avalue prepend ""
+@    s11 avalue append ""
+@    s11 avalue offset 0.000000 , 0.000000
+@    s11 errorbar on
+@    s11 errorbar place both
+@    s11 errorbar color 54
+@    s11 errorbar pattern 1
+@    s11 errorbar size 1.000000
+@    s11 errorbar linewidth 1.0
+@    s11 errorbar linestyle 1
+@    s11 errorbar riser linewidth 1.0
+@    s11 errorbar riser linestyle 1
+@    s11 errorbar riser clip off
+@    s11 errorbar riser clip length 0.100000
+@    s11 comment "/home/raymondw/Research/phonon_bandplot/plot_demo.dat"
+@    s11 legend  ""
+@    s12 hidden false
+@    s12 type xy
+@    s12 symbol 0
+@    s12 symbol size 1.000000
+@    s12 symbol color 54
+@    s12 symbol pattern 1
+@    s12 symbol fill color 54
+@    s12 symbol fill pattern 0
+@    s12 symbol linewidth 1.0
+@    s12 symbol linestyle 1
+@    s12 symbol char 65
+@    s12 symbol char font 4
+@    s12 symbol skip 0
+@    s12 line type 1
+@    s12 line linestyle 1
+@    s12 line linewidth 1.5
+@    s12 line color 54
+@    s12 line pattern 1
+@    s12 baseline type 0
+@    s12 baseline off
+@    s12 dropline off
+@    s12 fill type 0
+@    s12 fill rule 0
+@    s12 fill color 1
+@    s12 fill pattern 1
+@    s12 avalue off
+@    s12 avalue type 2
+@    s12 avalue char size 1.000000
+@    s12 avalue font 4
+@    s12 avalue color 1
+@    s12 avalue rot 0
+@    s12 avalue format general
+@    s12 avalue prec 3
+@    s12 avalue prepend ""
+@    s12 avalue append ""
+@    s12 avalue offset 0.000000 , 0.000000
+@    s12 errorbar on
+@    s12 errorbar place both
+@    s12 errorbar color 54
+@    s12 errorbar pattern 1
+@    s12 errorbar size 1.000000
+@    s12 errorbar linewidth 1.0
+@    s12 errorbar linestyle 1
+@    s12 errorbar riser linewidth 1.0
+@    s12 errorbar riser linestyle 1
+@    s12 errorbar riser clip off
+@    s12 errorbar riser clip length 0.100000
+@    s12 comment "/home/raymondw/Research/phonon_bandplot/plot_demo.dat"
+@    s12 legend  ""
+@    s13 hidden false
+@    s13 type xy
+@    s13 symbol 0
+@    s13 symbol size 1.000000
+@    s13 symbol color 18
+@    s13 symbol pattern 1
+@    s13 symbol fill color 18
+@    s13 symbol fill pattern 0
+@    s13 symbol linewidth 1.0
+@    s13 symbol linestyle 1
+@    s13 symbol char 65
+@    s13 symbol char font 4
+@    s13 symbol skip 0
+@    s13 line type 1
+@    s13 line linestyle 1
+@    s13 line linewidth 3.0
+@    s13 line color 18
+@    s13 line pattern 1
+@    s13 baseline type 0
+@    s13 baseline off
+@    s13 dropline off
+@    s13 fill type 0
+@    s13 fill rule 0
+@    s13 fill color 1
+@    s13 fill pattern 1
+@    s13 avalue off
+@    s13 avalue type 2
+@    s13 avalue char size 1.000000
+@    s13 avalue font 4
+@    s13 avalue color 1
+@    s13 avalue rot 0
+@    s13 avalue format general
+@    s13 avalue prec 3
+@    s13 avalue prepend ""
+@    s13 avalue append ""
+@    s13 avalue offset 0.000000 , 0.000000
+@    s13 errorbar on
+@    s13 errorbar place both
+@    s13 errorbar color 18
+@    s13 errorbar pattern 1
+@    s13 errorbar size 1.000000
+@    s13 errorbar linewidth 1.0
+@    s13 errorbar linestyle 1
+@    s13 errorbar riser linewidth 1.0
+@    s13 errorbar riser linestyle 1
+@    s13 errorbar riser clip off
+@    s13 errorbar riser clip length 0.100000
+@    s13 comment "/home/raymondw/Research/phonon_bandplot/plot_demo.dat"
+@    s13 legend  ""
+@    s14 hidden false
+@    s14 type xy
+@    s14 symbol 0
+@    s14 symbol size 1.000000
+@    s14 symbol color 54
+@    s14 symbol pattern 1
+@    s14 symbol fill color 54
+@    s14 symbol fill pattern 0
+@    s14 symbol linewidth 1.0
+@    s14 symbol linestyle 1
+@    s14 symbol char 65
+@    s14 symbol char font 4
+@    s14 symbol skip 0
+@    s14 line type 1
+@    s14 line linestyle 1
+@    s14 line linewidth 1.5
+@    s14 line color 54
+@    s14 line pattern 1
+@    s14 baseline type 0
+@    s14 baseline off
+@    s14 dropline off
+@    s14 fill type 0
+@    s14 fill rule 0
+@    s14 fill color 1
+@    s14 fill pattern 1
+@    s14 avalue off
+@    s14 avalue type 2
+@    s14 avalue char size 1.000000
+@    s14 avalue font 4
+@    s14 avalue color 1
+@    s14 avalue rot 0
+@    s14 avalue format general
+@    s14 avalue prec 3
+@    s14 avalue prepend ""
+@    s14 avalue append ""
+@    s14 avalue offset 0.000000 , 0.000000
+@    s14 errorbar on
+@    s14 errorbar place both
+@    s14 errorbar color 54
+@    s14 errorbar pattern 1
+@    s14 errorbar size 1.000000
+@    s14 errorbar linewidth 1.0
+@    s14 errorbar linestyle 1
+@    s14 errorbar riser linewidth 1.0
+@    s14 errorbar riser linestyle 1
+@    s14 errorbar riser clip off
+@    s14 errorbar riser clip length 0.100000
+@    s14 comment "/home/raymondw/Research/phonon_bandplot/plot_demo.dat"
+@    s14 legend  ""
+@    s15 hidden false
+@    s15 type xy
+@    s15 symbol 0
+@    s15 symbol size 1.000000
+@    s15 symbol color 54
+@    s15 symbol pattern 1
+@    s15 symbol fill color 54
+@    s15 symbol fill pattern 0
+@    s15 symbol linewidth 1.0
+@    s15 symbol linestyle 1
+@    s15 symbol char 65
+@    s15 symbol char font 4
+@    s15 symbol skip 0
+@    s15 line type 1
+@    s15 line linestyle 1
+@    s15 line linewidth 1.5
+@    s15 line color 54
+@    s15 line pattern 1
+@    s15 baseline type 0
+@    s15 baseline off
+@    s15 dropline off
+@    s15 fill type 0
+@    s15 fill rule 0
+@    s15 fill color 1
+@    s15 fill pattern 1
+@    s15 avalue off
+@    s15 avalue type 2
+@    s15 avalue char size 1.000000
+@    s15 avalue font 4
+@    s15 avalue color 1
+@    s15 avalue rot 0
+@    s15 avalue format general
+@    s15 avalue prec 3
+@    s15 avalue prepend ""
+@    s15 avalue append ""
+@    s15 avalue offset 0.000000 , 0.000000
+@    s15 errorbar on
+@    s15 errorbar place both
+@    s15 errorbar color 54
+@    s15 errorbar pattern 1
+@    s15 errorbar size 1.000000
+@    s15 errorbar linewidth 1.0
+@    s15 errorbar linestyle 1
+@    s15 errorbar riser linewidth 1.0
+@    s15 errorbar riser linestyle 1
+@    s15 errorbar riser clip off
+@    s15 errorbar riser clip length 0.100000
+@    s15 comment "/home/raymondw/Research/phonon_bandplot/plot_demo.dat"
+@    s15 legend  ""
+@    s16 hidden false
+@    s16 type xy
+@    s16 symbol 0
+@    s16 symbol size 1.000000
+@    s16 symbol color 54
+@    s16 symbol pattern 1
+@    s16 symbol fill color 54
+@    s16 symbol fill pattern 0
+@    s16 symbol linewidth 1.0
+@    s16 symbol linestyle 1
+@    s16 symbol char 65
+@    s16 symbol char font 4
+@    s16 symbol skip 0
+@    s16 line type 1
+@    s16 line linestyle 1
+@    s16 line linewidth 1.5
+@    s16 line color 54
+@    s16 line pattern 1
+@    s16 baseline type 0
+@    s16 baseline off
+@    s16 dropline off
+@    s16 fill type 0
+@    s16 fill rule 0
+@    s16 fill color 1
+@    s16 fill pattern 1
+@    s16 avalue off
+@    s16 avalue type 2
+@    s16 avalue char size 1.000000
+@    s16 avalue font 4
+@    s16 avalue color 1
+@    s16 avalue rot 0
+@    s16 avalue format general
+@    s16 avalue prec 3
+@    s16 avalue prepend ""
+@    s16 avalue append ""
+@    s16 avalue offset 0.000000 , 0.000000
+@    s16 errorbar on
+@    s16 errorbar place both
+@    s16 errorbar color 54
+@    s16 errorbar pattern 1
+@    s16 errorbar size 1.000000
+@    s16 errorbar linewidth 1.0
+@    s16 errorbar linestyle 1
+@    s16 errorbar riser linewidth 1.0
+@    s16 errorbar riser linestyle 1
+@    s16 errorbar riser clip off
+@    s16 errorbar riser clip length 0.100000
+@    s16 comment "/home/raymondw/Research/phonon_bandplot/plot_demo.dat"
+@    s16 legend  ""
+@    s17 hidden false
+@    s17 type xy
+@    s17 symbol 0
+@    s17 symbol size 1.000000
+@    s17 symbol color 54
+@    s17 symbol pattern 1
+@    s17 symbol fill color 54
+@    s17 symbol fill pattern 0
+@    s17 symbol linewidth 1.0
+@    s17 symbol linestyle 1
+@    s17 symbol char 65
+@    s17 symbol char font 4
+@    s17 symbol skip 0
+@    s17 line type 1
+@    s17 line linestyle 1
+@    s17 line linewidth 1.5
+@    s17 line color 54
+@    s17 line pattern 1
+@    s17 baseline type 0
+@    s17 baseline off
+@    s17 dropline off
+@    s17 fill type 0
+@    s17 fill rule 0
+@    s17 fill color 1
+@    s17 fill pattern 1
+@    s17 avalue off
+@    s17 avalue type 2
+@    s17 avalue char size 1.000000
+@    s17 avalue font 4
+@    s17 avalue color 1
+@    s17 avalue rot 0
+@    s17 avalue format general
+@    s17 avalue prec 3
+@    s17 avalue prepend ""
+@    s17 avalue append ""
+@    s17 avalue offset 0.000000 , 0.000000
+@    s17 errorbar on
+@    s17 errorbar place both
+@    s17 errorbar color 54
+@    s17 errorbar pattern 1
+@    s17 errorbar size 1.000000
+@    s17 errorbar linewidth 1.0
+@    s17 errorbar linestyle 1
+@    s17 errorbar riser linewidth 1.0
+@    s17 errorbar riser linestyle 1
+@    s17 errorbar riser clip off
+@    s17 errorbar riser clip length 0.100000
+@    s17 comment "/home/raymondw/Research/phonon_bandplot/plot_demo.dat"
+@    s17 legend  ""
+@    s18 hidden false
+@    s18 type xy
+@    s18 symbol 0
+@    s18 symbol size 1.000000
+@    s18 symbol color 54
+@    s18 symbol pattern 1
+@    s18 symbol fill color 54
+@    s18 symbol fill pattern 0
+@    s18 symbol linewidth 1.0
+@    s18 symbol linestyle 1
+@    s18 symbol char 65
+@    s18 symbol char font 4
+@    s18 symbol skip 0
+@    s18 line type 1
+@    s18 line linestyle 1
+@    s18 line linewidth 1.5
+@    s18 line color 54
+@    s18 line pattern 1
+@    s18 baseline type 0
+@    s18 baseline off
+@    s18 dropline off
+@    s18 fill type 0
+@    s18 fill rule 0
+@    s18 fill color 1
+@    s18 fill pattern 1
+@    s18 avalue off
+@    s18 avalue type 2
+@    s18 avalue char size 1.000000
+@    s18 avalue font 4
+@    s18 avalue color 1
+@    s18 avalue rot 0
+@    s18 avalue format general
+@    s18 avalue prec 3
+@    s18 avalue prepend ""
+@    s18 avalue append ""
+@    s18 avalue offset 0.000000 , 0.000000
+@    s18 errorbar on
+@    s18 errorbar place both
+@    s18 errorbar color 54
+@    s18 errorbar pattern 1
+@    s18 errorbar size 1.000000
+@    s18 errorbar linewidth 1.0
+@    s18 errorbar linestyle 1
+@    s18 errorbar riser linewidth 1.0
+@    s18 errorbar riser linestyle 1
+@    s18 errorbar riser clip off
+@    s18 errorbar riser clip length 0.100000
+@    s18 comment "/home/raymondw/Research/phonon_bandplot/plot_demo.dat"
+@    s18 legend  ""
+@    s19 hidden false
+@    s19 type xy
+@    s19 symbol 0
+@    s19 symbol size 1.000000
+@    s19 symbol color 113
+@    s19 symbol pattern 1
+@    s19 symbol fill color 113
+@    s19 symbol fill pattern 0
+@    s19 symbol linewidth 1.0
+@    s19 symbol linestyle 1
+@    s19 symbol char 65
+@    s19 symbol char font 4
+@    s19 symbol skip 0
+@    s19 line type 1
+@    s19 line linestyle 1
+@    s19 line linewidth 3.0
+@    s19 line color 113
+@    s19 line pattern 1
+@    s19 baseline type 0
+@    s19 baseline off
+@    s19 dropline off
+@    s19 fill type 0
+@    s19 fill rule 0
+@    s19 fill color 1
+@    s19 fill pattern 1
+@    s19 avalue off
+@    s19 avalue type 2
+@    s19 avalue char size 1.000000
+@    s19 avalue font 4
+@    s19 avalue color 1
+@    s19 avalue rot 0
+@    s19 avalue format general
+@    s19 avalue prec 3
+@    s19 avalue prepend ""
+@    s19 avalue append ""
+@    s19 avalue offset 0.000000 , 0.000000
+@    s19 errorbar on
+@    s19 errorbar place both
+@    s19 errorbar color 113
+@    s19 errorbar pattern 1
+@    s19 errorbar size 1.000000
+@    s19 errorbar linewidth 1.0
+@    s19 errorbar linestyle 1
+@    s19 errorbar riser linewidth 1.0
+@    s19 errorbar riser linestyle 1
+@    s19 errorbar riser clip off
+@    s19 errorbar riser clip length 0.100000
+@    s19 comment "/home/raymondw/Research/phonon_bandplot/plot_demo.dat"
+@    s19 legend  ""
+@    s20 hidden false
+@    s20 type xy
+@    s20 symbol 0
+@    s20 symbol size 1.000000
+@    s20 symbol color 54
+@    s20 symbol pattern 1
+@    s20 symbol fill color 54
+@    s20 symbol fill pattern 0
+@    s20 symbol linewidth 1.0
+@    s20 symbol linestyle 1
+@    s20 symbol char 65
+@    s20 symbol char font 4
+@    s20 symbol skip 0
+@    s20 line type 1
+@    s20 line linestyle 1
+@    s20 line linewidth 1.5
+@    s20 line color 54
+@    s20 line pattern 1
+@    s20 baseline type 0
+@    s20 baseline off
+@    s20 dropline off
+@    s20 fill type 0
+@    s20 fill rule 0
+@    s20 fill color 1
+@    s20 fill pattern 1
+@    s20 avalue off
+@    s20 avalue type 2
+@    s20 avalue char size 1.000000
+@    s20 avalue font 4
+@    s20 avalue color 1
+@    s20 avalue rot 0
+@    s20 avalue format general
+@    s20 avalue prec 3
+@    s20 avalue prepend ""
+@    s20 avalue append ""
+@    s20 avalue offset 0.000000 , 0.000000
+@    s20 errorbar on
+@    s20 errorbar place both
+@    s20 errorbar color 54
+@    s20 errorbar pattern 1
+@    s20 errorbar size 1.000000
+@    s20 errorbar linewidth 1.0
+@    s20 errorbar linestyle 1
+@    s20 errorbar riser linewidth 1.0
+@    s20 errorbar riser linestyle 1
+@    s20 errorbar riser clip off
+@    s20 errorbar riser clip length 0.100000
+@    s20 comment "/home/raymondw/Research/phonon_bandplot/plot_demo.dat"
+@    s20 legend  ""
+@    s21 hidden false
+@    s21 type xy
+@    s21 symbol 0
+@    s21 symbol size 1.000000
+@    s21 symbol color 54
+@    s21 symbol pattern 1
+@    s21 symbol fill color 54
+@    s21 symbol fill pattern 0
+@    s21 symbol linewidth 1.0
+@    s21 symbol linestyle 1
+@    s21 symbol char 65
+@    s21 symbol char font 4
+@    s21 symbol skip 0
+@    s21 line type 1
+@    s21 line linestyle 1
+@    s21 line linewidth 1.5
+@    s21 line color 54
+@    s21 line pattern 1
+@    s21 baseline type 0
+@    s21 baseline off
+@    s21 dropline off
+@    s21 fill type 0
+@    s21 fill rule 0
+@    s21 fill color 1
+@    s21 fill pattern 1
+@    s21 avalue off
+@    s21 avalue type 2
+@    s21 avalue char size 1.000000
+@    s21 avalue font 4
+@    s21 avalue color 1
+@    s21 avalue rot 0
+@    s21 avalue format general
+@    s21 avalue prec 3
+@    s21 avalue prepend ""
+@    s21 avalue append ""
+@    s21 avalue offset 0.000000 , 0.000000
+@    s21 errorbar on
+@    s21 errorbar place both
+@    s21 errorbar color 54
+@    s21 errorbar pattern 1
+@    s21 errorbar size 1.000000
+@    s21 errorbar linewidth 1.0
+@    s21 errorbar linestyle 1
+@    s21 errorbar riser linewidth 1.0
+@    s21 errorbar riser linestyle 1
+@    s21 errorbar riser clip off
+@    s21 errorbar riser clip length 0.100000
+@    s21 comment "/home/raymondw/Research/phonon_bandplot/plot_demo.dat"
+@    s21 legend  ""
+@    s22 hidden false
+@    s22 type xy
+@    s22 symbol 0
+@    s22 symbol size 1.000000
+@    s22 symbol color 54
+@    s22 symbol pattern 1
+@    s22 symbol fill color 54
+@    s22 symbol fill pattern 0
+@    s22 symbol linewidth 1.0
+@    s22 symbol linestyle 1
+@    s22 symbol char 65
+@    s22 symbol char font 4
+@    s22 symbol skip 0
+@    s22 line type 1
+@    s22 line linestyle 1
+@    s22 line linewidth 1.5
+@    s22 line color 54
+@    s22 line pattern 1
+@    s22 baseline type 0
+@    s22 baseline off
+@    s22 dropline off
+@    s22 fill type 0
+@    s22 fill rule 0
+@    s22 fill color 1
+@    s22 fill pattern 1
+@    s22 avalue off
+@    s22 avalue type 2
+@    s22 avalue char size 1.000000
+@    s22 avalue font 4
+@    s22 avalue color 1
+@    s22 avalue rot 0
+@    s22 avalue format general
+@    s22 avalue prec 3
+@    s22 avalue prepend ""
+@    s22 avalue append ""
+@    s22 avalue offset 0.000000 , 0.000000
+@    s22 errorbar on
+@    s22 errorbar place both
+@    s22 errorbar color 54
+@    s22 errorbar pattern 1
+@    s22 errorbar size 1.000000
+@    s22 errorbar linewidth 1.0
+@    s22 errorbar linestyle 1
+@    s22 errorbar riser linewidth 1.0
+@    s22 errorbar riser linestyle 1
+@    s22 errorbar riser clip off
+@    s22 errorbar riser clip length 0.100000
+@    s22 comment "/home/raymondw/Research/phonon_bandplot/plot_demo.dat"
+@    s22 legend  ""
+@    s23 hidden false
+@    s23 type xy
+@    s23 symbol 0
+@    s23 symbol size 1.000000
+@    s23 symbol color 37
+@    s23 symbol pattern 1
+@    s23 symbol fill color 37
+@    s23 symbol fill pattern 0
+@    s23 symbol linewidth 1.0
+@    s23 symbol linestyle 1
+@    s23 symbol char 65
+@    s23 symbol char font 4
+@    s23 symbol skip 0
+@    s23 line type 1
+@    s23 line linestyle 1
+@    s23 line linewidth 3.0
+@    s23 line color 37
+@    s23 line pattern 1
+@    s23 baseline type 0
+@    s23 baseline off
+@    s23 dropline off
+@    s23 fill type 0
+@    s23 fill rule 0
+@    s23 fill color 1
+@    s23 fill pattern 1
+@    s23 avalue off
+@    s23 avalue type 2
+@    s23 avalue char size 1.000000
+@    s23 avalue font 4
+@    s23 avalue color 1
+@    s23 avalue rot 0
+@    s23 avalue format general
+@    s23 avalue prec 3
+@    s23 avalue prepend ""
+@    s23 avalue append ""
+@    s23 avalue offset 0.000000 , 0.000000
+@    s23 errorbar on
+@    s23 errorbar place both
+@    s23 errorbar color 37
+@    s23 errorbar pattern 1
+@    s23 errorbar size 1.000000
+@    s23 errorbar linewidth 1.0
+@    s23 errorbar linestyle 1
+@    s23 errorbar riser linewidth 1.0
+@    s23 errorbar riser linestyle 1
+@    s23 errorbar riser clip off
+@    s23 errorbar riser clip length 0.100000
+@    s23 comment "/home/raymondw/Research/phonon_bandplot/plot_demo.dat"
+@    s23 legend  ""
+@    s24 hidden false
+@    s24 type xy
+@    s24 symbol 0
+@    s24 symbol size 1.000000
+@    s24 symbol color 54
+@    s24 symbol pattern 1
+@    s24 symbol fill color 54
+@    s24 symbol fill pattern 0
+@    s24 symbol linewidth 1.0
+@    s24 symbol linestyle 1
+@    s24 symbol char 65
+@    s24 symbol char font 4
+@    s24 symbol skip 0
+@    s24 line type 1
+@    s24 line linestyle 1
+@    s24 line linewidth 1.5
+@    s24 line color 54
+@    s24 line pattern 1
+@    s24 baseline type 0
+@    s24 baseline off
+@    s24 dropline off
+@    s24 fill type 0
+@    s24 fill rule 0
+@    s24 fill color 1
+@    s24 fill pattern 1
+@    s24 avalue off
+@    s24 avalue type 2
+@    s24 avalue char size 1.000000
+@    s24 avalue font 4
+@    s24 avalue color 1
+@    s24 avalue rot 0
+@    s24 avalue format general
+@    s24 avalue prec 3
+@    s24 avalue prepend ""
+@    s24 avalue append ""
+@    s24 avalue offset 0.000000 , 0.000000
+@    s24 errorbar on
+@    s24 errorbar place both
+@    s24 errorbar color 54
+@    s24 errorbar pattern 1
+@    s24 errorbar size 1.000000
+@    s24 errorbar linewidth 1.0
+@    s24 errorbar linestyle 1
+@    s24 errorbar riser linewidth 1.0
+@    s24 errorbar riser linestyle 1
+@    s24 errorbar riser clip off
+@    s24 errorbar riser clip length 0.100000
+@    s24 comment "/home/raymondw/Research/phonon_bandplot/plot_demo.dat"
+@    s24 legend  ""
+@    s25 hidden false
+@    s25 type xy
+@    s25 symbol 0
+@    s25 symbol size 1.000000
+@    s25 symbol color 54
+@    s25 symbol pattern 1
+@    s25 symbol fill color 54
+@    s25 symbol fill pattern 0
+@    s25 symbol linewidth 1.0
+@    s25 symbol linestyle 1
+@    s25 symbol char 65
+@    s25 symbol char font 4
+@    s25 symbol skip 0
+@    s25 line type 1
+@    s25 line linestyle 1
+@    s25 line linewidth 1.5
+@    s25 line color 54
+@    s25 line pattern 1
+@    s25 baseline type 0
+@    s25 baseline off
+@    s25 dropline off
+@    s25 fill type 0
+@    s25 fill rule 0
+@    s25 fill color 1
+@    s25 fill pattern 1
+@    s25 avalue off
+@    s25 avalue type 2
+@    s25 avalue char size 1.000000
+@    s25 avalue font 4
+@    s25 avalue color 1
+@    s25 avalue rot 0
+@    s25 avalue format general
+@    s25 avalue prec 3
+@    s25 avalue prepend ""
+@    s25 avalue append ""
+@    s25 avalue offset 0.000000 , 0.000000
+@    s25 errorbar on
+@    s25 errorbar place both
+@    s25 errorbar color 54
+@    s25 errorbar pattern 1
+@    s25 errorbar size 1.000000
+@    s25 errorbar linewidth 1.0
+@    s25 errorbar linestyle 1
+@    s25 errorbar riser linewidth 1.0
+@    s25 errorbar riser linestyle 1
+@    s25 errorbar riser clip off
+@    s25 errorbar riser clip length 0.100000
+@    s25 comment "/home/raymondw/Research/phonon_bandplot/plot_demo.dat"
+@    s25 legend  ""
+@    s26 hidden false
+@    s26 type xy
+@    s26 symbol 0
+@    s26 symbol size 1.000000
+@    s26 symbol color 54
+@    s26 symbol pattern 1
+@    s26 symbol fill color 54
+@    s26 symbol fill pattern 0
+@    s26 symbol linewidth 1.0
+@    s26 symbol linestyle 1
+@    s26 symbol char 65
+@    s26 symbol char font 4
+@    s26 symbol skip 0
+@    s26 line type 1
+@    s26 line linestyle 1
+@    s26 line linewidth 1.5
+@    s26 line color 54
+@    s26 line pattern 1
+@    s26 baseline type 0
+@    s26 baseline off
+@    s26 dropline off
+@    s26 fill type 0
+@    s26 fill rule 0
+@    s26 fill color 1
+@    s26 fill pattern 1
+@    s26 avalue off
+@    s26 avalue type 2
+@    s26 avalue char size 1.000000
+@    s26 avalue font 4
+@    s26 avalue color 1
+@    s26 avalue rot 0
+@    s26 avalue format general
+@    s26 avalue prec 3
+@    s26 avalue prepend ""
+@    s26 avalue append ""
+@    s26 avalue offset 0.000000 , 0.000000
+@    s26 errorbar on
+@    s26 errorbar place both
+@    s26 errorbar color 54
+@    s26 errorbar pattern 1
+@    s26 errorbar size 1.000000
+@    s26 errorbar linewidth 1.0
+@    s26 errorbar linestyle 1
+@    s26 errorbar riser linewidth 1.0
+@    s26 errorbar riser linestyle 1
+@    s26 errorbar riser clip off
+@    s26 errorbar riser clip length 0.100000
+@    s26 comment "/home/raymondw/Research/phonon_bandplot/plot_demo.dat"
+@    s26 legend  ""
+@    s27 hidden false
+@    s27 type xy
+@    s27 symbol 0
+@    s27 symbol size 1.000000
+@    s27 symbol color 98
+@    s27 symbol pattern 1
+@    s27 symbol fill color 98
+@    s27 symbol fill pattern 0
+@    s27 symbol linewidth 1.0
+@    s27 symbol linestyle 1
+@    s27 symbol char 65
+@    s27 symbol char font 4
+@    s27 symbol skip 0
+@    s27 line type 1
+@    s27 line linestyle 1
+@    s27 line linewidth 3.0
+@    s27 line color 98
+@    s27 line pattern 1
+@    s27 baseline type 0
+@    s27 baseline off
+@    s27 dropline off
+@    s27 fill type 0
+@    s27 fill rule 0
+@    s27 fill color 1
+@    s27 fill pattern 1
+@    s27 avalue off
+@    s27 avalue type 2
+@    s27 avalue char size 1.000000
+@    s27 avalue font 4
+@    s27 avalue color 1
+@    s27 avalue rot 0
+@    s27 avalue format general
+@    s27 avalue prec 3
+@    s27 avalue prepend ""
+@    s27 avalue append ""
+@    s27 avalue offset 0.000000 , 0.000000
+@    s27 errorbar on
+@    s27 errorbar place both
+@    s27 errorbar color 98
+@    s27 errorbar pattern 1
+@    s27 errorbar size 1.000000
+@    s27 errorbar linewidth 1.0
+@    s27 errorbar linestyle 1
+@    s27 errorbar riser linewidth 1.0
+@    s27 errorbar riser linestyle 1
+@    s27 errorbar riser clip off
+@    s27 errorbar riser clip length 0.100000
+@    s27 comment "/home/raymondw/Research/phonon_bandplot/plot_demo.dat"
+@    s27 legend  ""
+@    s28 hidden false
+@    s28 type xy
+@    s28 symbol 0
+@    s28 symbol size 1.000000
+@    s28 symbol color 37
+@    s28 symbol pattern 1
+@    s28 symbol fill color 37
+@    s28 symbol fill pattern 0
+@    s28 symbol linewidth 1.0
+@    s28 symbol linestyle 1
+@    s28 symbol char 65
+@    s28 symbol char font 4
+@    s28 symbol skip 0
+@    s28 line type 1
+@    s28 line linestyle 1
+@    s28 line linewidth 3.0
+@    s28 line color 37
+@    s28 line pattern 1
+@    s28 baseline type 0
+@    s28 baseline off
+@    s28 dropline off
+@    s28 fill type 0
+@    s28 fill rule 0
+@    s28 fill color 1
+@    s28 fill pattern 1
+@    s28 avalue off
+@    s28 avalue type 2
+@    s28 avalue char size 1.000000
+@    s28 avalue font 4
+@    s28 avalue color 1
+@    s28 avalue rot 0
+@    s28 avalue format general
+@    s28 avalue prec 3
+@    s28 avalue prepend ""
+@    s28 avalue append ""
+@    s28 avalue offset 0.000000 , 0.000000
+@    s28 errorbar on
+@    s28 errorbar place both
+@    s28 errorbar color 37
+@    s28 errorbar pattern 1
+@    s28 errorbar size 1.000000
+@    s28 errorbar linewidth 1.0
+@    s28 errorbar linestyle 1
+@    s28 errorbar riser linewidth 1.0
+@    s28 errorbar riser linestyle 1
+@    s28 errorbar riser clip off
+@    s28 errorbar riser clip length 0.100000
+@    s28 comment "/home/raymondw/Research/phonon_bandplot/plot_demo.dat"
+@    s28 legend  ""
+@    s29 hidden false
+@    s29 type xy
+@    s29 symbol 0
+@    s29 symbol size 1.000000
+@    s29 symbol color 54
+@    s29 symbol pattern 1
+@    s29 symbol fill color 54
+@    s29 symbol fill pattern 0
+@    s29 symbol linewidth 1.0
+@    s29 symbol linestyle 1
+@    s29 symbol char 65
+@    s29 symbol char font 4
+@    s29 symbol skip 0
+@    s29 line type 1
+@    s29 line linestyle 1
+@    s29 line linewidth 0.0
+@    s29 line color 54
+@    s29 line pattern 1
+@    s29 baseline type 0
+@    s29 baseline off
+@    s29 dropline off
+@    s29 fill type 0
+@    s29 fill rule 0
+@    s29 fill color 1
+@    s29 fill pattern 1
+@    s29 avalue off
+@    s29 avalue type 2
+@    s29 avalue char size 1.000000
+@    s29 avalue font 4
+@    s29 avalue color 1
+@    s29 avalue rot 0
+@    s29 avalue format general
+@    s29 avalue prec 3
+@    s29 avalue prepend ""
+@    s29 avalue append ""
+@    s29 avalue offset 0.000000 , 0.000000
+@    s29 errorbar on
+@    s29 errorbar place both
+@    s29 errorbar color 54
+@    s29 errorbar pattern 1
+@    s29 errorbar size 1.000000
+@    s29 errorbar linewidth 1.0
+@    s29 errorbar linestyle 1
+@    s29 errorbar riser linewidth 1.0
+@    s29 errorbar riser linestyle 1
+@    s29 errorbar riser clip off
+@    s29 errorbar riser clip length 0.100000
+@    s29 comment "/home/raymondw/Research/phonon_bandplot/plot_demo.dat"
+@    s29 legend  ""
+@    s30 hidden false
+@    s30 type xy
+@    s30 symbol 0
+@    s30 symbol size 1.000000
+@    s30 symbol color 54
+@    s30 symbol pattern 1
+@    s30 symbol fill color 54
+@    s30 symbol fill pattern 0
+@    s30 symbol linewidth 1.0
+@    s30 symbol linestyle 1
+@    s30 symbol char 65
+@    s30 symbol char font 4
+@    s30 symbol skip 0
+@    s30 line type 1
+@    s30 line linestyle 1
+@    s30 line linewidth 1.5
+@    s30 line color 54
+@    s30 line pattern 1
+@    s30 baseline type 0
+@    s30 baseline off
+@    s30 dropline off
+@    s30 fill type 0
+@    s30 fill rule 0
+@    s30 fill color 1
+@    s30 fill pattern 1
+@    s30 avalue off
+@    s30 avalue type 2
+@    s30 avalue char size 1.000000
+@    s30 avalue font 4
+@    s30 avalue color 1
+@    s30 avalue rot 0
+@    s30 avalue format general
+@    s30 avalue prec 3
+@    s30 avalue prepend ""
+@    s30 avalue append ""
+@    s30 avalue offset 0.000000 , 0.000000
+@    s30 errorbar on
+@    s30 errorbar place both
+@    s30 errorbar color 54
+@    s30 errorbar pattern 1
+@    s30 errorbar size 1.000000
+@    s30 errorbar linewidth 1.0
+@    s30 errorbar linestyle 1
+@    s30 errorbar riser linewidth 1.0
+@    s30 errorbar riser linestyle 1
+@    s30 errorbar riser clip off
+@    s30 errorbar riser clip length 0.100000
+@    s30 comment "/home/raymondw/Research/phonon_bandplot/plot_demo.dat"
+@    s30 legend  ""
+@    s31 hidden false
+@    s31 type xy
+@    s31 symbol 0
+@    s31 symbol size 1.000000
+@    s31 symbol color 54
+@    s31 symbol pattern 1
+@    s31 symbol fill color 54
+@    s31 symbol fill pattern 0
+@    s31 symbol linewidth 1.0
+@    s31 symbol linestyle 1
+@    s31 symbol char 65
+@    s31 symbol char font 4
+@    s31 symbol skip 0
+@    s31 line type 1
+@    s31 line linestyle 1
+@    s31 line linewidth 1.5
+@    s31 line color 54
+@    s31 line pattern 1
+@    s31 baseline type 0
+@    s31 baseline off
+@    s31 dropline off
+@    s31 fill type 0
+@    s31 fill rule 0
+@    s31 fill color 1
+@    s31 fill pattern 1
+@    s31 avalue off
+@    s31 avalue type 2
+@    s31 avalue char size 1.000000
+@    s31 avalue font 4
+@    s31 avalue color 1
+@    s31 avalue rot 0
+@    s31 avalue format general
+@    s31 avalue prec 3
+@    s31 avalue prepend ""
+@    s31 avalue append ""
+@    s31 avalue offset 0.000000 , 0.000000
+@    s31 errorbar on
+@    s31 errorbar place both
+@    s31 errorbar color 54
+@    s31 errorbar pattern 1
+@    s31 errorbar size 1.000000
+@    s31 errorbar linewidth 1.0
+@    s31 errorbar linestyle 1
+@    s31 errorbar riser linewidth 1.0
+@    s31 errorbar riser linestyle 1
+@    s31 errorbar riser clip off
+@    s31 errorbar riser clip length 0.100000
+@    s31 comment "/home/raymondw/Research/phonon_bandplot/plot_demo.dat"
+@    s31 legend  ""
+@    s32 hidden false
+@    s32 type xy
+@    s32 symbol 0
+@    s32 symbol size 1.000000
+@    s32 symbol color 54
+@    s32 symbol pattern 1
+@    s32 symbol fill color 54
+@    s32 symbol fill pattern 0
+@    s32 symbol linewidth 1.0
+@    s32 symbol linestyle 1
+@    s32 symbol char 65
+@    s32 symbol char font 4
+@    s32 symbol skip 0
+@    s32 line type 1
+@    s32 line linestyle 1
+@    s32 line linewidth 1.5
+@    s32 line color 54
+@    s32 line pattern 1
+@    s32 baseline type 0
+@    s32 baseline off
+@    s32 dropline off
+@    s32 fill type 0
+@    s32 fill rule 0
+@    s32 fill color 1
+@    s32 fill pattern 1
+@    s32 avalue off
+@    s32 avalue type 2
+@    s32 avalue char size 1.000000
+@    s32 avalue font 4
+@    s32 avalue color 1
+@    s32 avalue rot 0
+@    s32 avalue format general
+@    s32 avalue prec 3
+@    s32 avalue prepend ""
+@    s32 avalue append ""
+@    s32 avalue offset 0.000000 , 0.000000
+@    s32 errorbar on
+@    s32 errorbar place both
+@    s32 errorbar color 54
+@    s32 errorbar pattern 1
+@    s32 errorbar size 1.000000
+@    s32 errorbar linewidth 1.0
+@    s32 errorbar linestyle 1
+@    s32 errorbar riser linewidth 1.0
+@    s32 errorbar riser linestyle 1
+@    s32 errorbar riser clip off
+@    s32 errorbar riser clip length 0.100000
+@    s32 comment "/home/raymondw/Research/phonon_bandplot/plot_demo.dat"
+@    s32 legend  ""
+@    s33 hidden false
+@    s33 type xy
+@    s33 symbol 0
+@    s33 symbol size 1.000000
+@    s33 symbol color 54
+@    s33 symbol pattern 1
+@    s33 symbol fill color 54
+@    s33 symbol fill pattern 0
+@    s33 symbol linewidth 1.0
+@    s33 symbol linestyle 1
+@    s33 symbol char 65
+@    s33 symbol char font 4
+@    s33 symbol skip 0
+@    s33 line type 1
+@    s33 line linestyle 1
+@    s33 line linewidth 1.5
+@    s33 line color 54
+@    s33 line pattern 1
+@    s33 baseline type 0
+@    s33 baseline off
+@    s33 dropline off
+@    s33 fill type 0
+@    s33 fill rule 0
+@    s33 fill color 1
+@    s33 fill pattern 1
+@    s33 avalue off
+@    s33 avalue type 2
+@    s33 avalue char size 1.000000
+@    s33 avalue font 4
+@    s33 avalue color 1
+@    s33 avalue rot 0
+@    s33 avalue format general
+@    s33 avalue prec 3
+@    s33 avalue prepend ""
+@    s33 avalue append ""
+@    s33 avalue offset 0.000000 , 0.000000
+@    s33 errorbar on
+@    s33 errorbar place both
+@    s33 errorbar color 54
+@    s33 errorbar pattern 1
+@    s33 errorbar size 1.000000
+@    s33 errorbar linewidth 1.0
+@    s33 errorbar linestyle 1
+@    s33 errorbar riser linewidth 1.0
+@    s33 errorbar riser linestyle 1
+@    s33 errorbar riser clip off
+@    s33 errorbar riser clip length 0.100000
+@    s33 comment "/home/raymondw/Research/phonon_bandplot/plot_demo.dat"
+@    s33 legend  ""
+@    s34 hidden false
+@    s34 type xy
+@    s34 symbol 0
+@    s34 symbol size 1.000000
+@    s34 symbol color 54
+@    s34 symbol pattern 1
+@    s34 symbol fill color 54
+@    s34 symbol fill pattern 0
+@    s34 symbol linewidth 1.0
+@    s34 symbol linestyle 1
+@    s34 symbol char 65
+@    s34 symbol char font 4
+@    s34 symbol skip 0
+@    s34 line type 1
+@    s34 line linestyle 1
+@    s34 line linewidth 1.5
+@    s34 line color 54
+@    s34 line pattern 1
+@    s34 baseline type 0
+@    s34 baseline off
+@    s34 dropline off
+@    s34 fill type 0
+@    s34 fill rule 0
+@    s34 fill color 1
+@    s34 fill pattern 1
+@    s34 avalue off
+@    s34 avalue type 2
+@    s34 avalue char size 1.000000
+@    s34 avalue font 4
+@    s34 avalue color 1
+@    s34 avalue rot 0
+@    s34 avalue format general
+@    s34 avalue prec 3
+@    s34 avalue prepend ""
+@    s34 avalue append ""
+@    s34 avalue offset 0.000000 , 0.000000
+@    s34 errorbar on
+@    s34 errorbar place both
+@    s34 errorbar color 54
+@    s34 errorbar pattern 1
+@    s34 errorbar size 1.000000
+@    s34 errorbar linewidth 1.0
+@    s34 errorbar linestyle 1
+@    s34 errorbar riser linewidth 1.0
+@    s34 errorbar riser linestyle 1
+@    s34 errorbar riser clip off
+@    s34 errorbar riser clip length 0.100000
+@    s34 comment "/home/raymondw/Research/phonon_bandplot/plot_demo.dat"
+@    s34 legend  ""
+@    s35 hidden false
+@    s35 type xy
+@    s35 symbol 0
+@    s35 symbol size 1.000000
+@    s35 symbol color 54
+@    s35 symbol pattern 1
+@    s35 symbol fill color 54
+@    s35 symbol fill pattern 0
+@    s35 symbol linewidth 1.0
+@    s35 symbol linestyle 1
+@    s35 symbol char 65
+@    s35 symbol char font 4
+@    s35 symbol skip 0
+@    s35 line type 1
+@    s35 line linestyle 1
+@    s35 line linewidth 1.5
+@    s35 line color 54
+@    s35 line pattern 1
+@    s35 baseline type 0
+@    s35 baseline off
+@    s35 dropline off
+@    s35 fill type 0
+@    s35 fill rule 0
+@    s35 fill color 1
+@    s35 fill pattern 1
+@    s35 avalue off
+@    s35 avalue type 2
+@    s35 avalue char size 1.000000
+@    s35 avalue font 4
+@    s35 avalue color 1
+@    s35 avalue rot 0
+@    s35 avalue format general
+@    s35 avalue prec 3
+@    s35 avalue prepend ""
+@    s35 avalue append ""
+@    s35 avalue offset 0.000000 , 0.000000
+@    s35 errorbar on
+@    s35 errorbar place both
+@    s35 errorbar color 54
+@    s35 errorbar pattern 1
+@    s35 errorbar size 1.000000
+@    s35 errorbar linewidth 1.0
+@    s35 errorbar linestyle 1
+@    s35 errorbar riser linewidth 1.0
+@    s35 errorbar riser linestyle 1
+@    s35 errorbar riser clip off
+@    s35 errorbar riser clip length 0.100000
+@    s35 comment "/home/raymondw/Research/phonon_bandplot/plot_demo.dat"
+@    s35 legend  ""
+@    s36 hidden false
+@    s36 type xy
+@    s36 symbol 0
+@    s36 symbol size 1.000000
+@    s36 symbol color 54
+@    s36 symbol pattern 1
+@    s36 symbol fill color 54
+@    s36 symbol fill pattern 0
+@    s36 symbol linewidth 1.0
+@    s36 symbol linestyle 1
+@    s36 symbol char 65
+@    s36 symbol char font 4
+@    s36 symbol skip 0
+@    s36 line type 1
+@    s36 line linestyle 1
+@    s36 line linewidth 1.5
+@    s36 line color 54
+@    s36 line pattern 1
+@    s36 baseline type 0
+@    s36 baseline off
+@    s36 dropline off
+@    s36 fill type 0
+@    s36 fill rule 0
+@    s36 fill color 1
+@    s36 fill pattern 1
+@    s36 avalue off
+@    s36 avalue type 2
+@    s36 avalue char size 1.000000
+@    s36 avalue font 4
+@    s36 avalue color 1
+@    s36 avalue rot 0
+@    s36 avalue format general
+@    s36 avalue prec 3
+@    s36 avalue prepend ""
+@    s36 avalue append ""
+@    s36 avalue offset 0.000000 , 0.000000
+@    s36 errorbar on
+@    s36 errorbar place both
+@    s36 errorbar color 54
+@    s36 errorbar pattern 1
+@    s36 errorbar size 1.000000
+@    s36 errorbar linewidth 1.0
+@    s36 errorbar linestyle 1
+@    s36 errorbar riser linewidth 1.0
+@    s36 errorbar riser linestyle 1
+@    s36 errorbar riser clip off
+@    s36 errorbar riser clip length 0.100000
+@    s36 comment "/home/raymondw/Research/phonon_bandplot/plot_demo.dat"
+@    s36 legend  ""
+@    s37 hidden false
+@    s37 type xy
+@    s37 symbol 0
+@    s37 symbol size 1.000000
+@    s37 symbol color 54
+@    s37 symbol pattern 1
+@    s37 symbol fill color 54
+@    s37 symbol fill pattern 0
+@    s37 symbol linewidth 1.0
+@    s37 symbol linestyle 1
+@    s37 symbol char 65
+@    s37 symbol char font 4
+@    s37 symbol skip 0
+@    s37 line type 1
+@    s37 line linestyle 1
+@    s37 line linewidth 1.5
+@    s37 line color 54
+@    s37 line pattern 1
+@    s37 baseline type 0
+@    s37 baseline off
+@    s37 dropline off
+@    s37 fill type 0
+@    s37 fill rule 0
+@    s37 fill color 1
+@    s37 fill pattern 1
+@    s37 avalue off
+@    s37 avalue type 2
+@    s37 avalue char size 1.000000
+@    s37 avalue font 4
+@    s37 avalue color 1
+@    s37 avalue rot 0
+@    s37 avalue format general
+@    s37 avalue prec 3
+@    s37 avalue prepend ""
+@    s37 avalue append ""
+@    s37 avalue offset 0.000000 , 0.000000
+@    s37 errorbar on
+@    s37 errorbar place both
+@    s37 errorbar color 54
+@    s37 errorbar pattern 1
+@    s37 errorbar size 1.000000
+@    s37 errorbar linewidth 1.0
+@    s37 errorbar linestyle 1
+@    s37 errorbar riser linewidth 1.0
+@    s37 errorbar riser linestyle 1
+@    s37 errorbar riser clip off
+@    s37 errorbar riser clip length 0.100000
+@    s37 comment "/home/raymondw/Research/phonon_bandplot/plot_demo.dat"
+@    s37 legend  ""
+@    s38 hidden false
+@    s38 type xy
+@    s38 symbol 0
+@    s38 symbol size 1.000000
+@    s38 symbol color 54
+@    s38 symbol pattern 1
+@    s38 symbol fill color 54
+@    s38 symbol fill pattern 0
+@    s38 symbol linewidth 1.0
+@    s38 symbol linestyle 1
+@    s38 symbol char 65
+@    s38 symbol char font 4
+@    s38 symbol skip 0
+@    s38 line type 1
+@    s38 line linestyle 1
+@    s38 line linewidth 1.5
+@    s38 line color 54
+@    s38 line pattern 1
+@    s38 baseline type 0
+@    s38 baseline off
+@    s38 dropline off
+@    s38 fill type 0
+@    s38 fill rule 0
+@    s38 fill color 1
+@    s38 fill pattern 1
+@    s38 avalue off
+@    s38 avalue type 2
+@    s38 avalue char size 1.000000
+@    s38 avalue font 4
+@    s38 avalue color 1
+@    s38 avalue rot 0
+@    s38 avalue format general
+@    s38 avalue prec 3
+@    s38 avalue prepend ""
+@    s38 avalue append ""
+@    s38 avalue offset 0.000000 , 0.000000
+@    s38 errorbar on
+@    s38 errorbar place both
+@    s38 errorbar color 54
+@    s38 errorbar pattern 1
+@    s38 errorbar size 1.000000
+@    s38 errorbar linewidth 1.0
+@    s38 errorbar linestyle 1
+@    s38 errorbar riser linewidth 1.0
+@    s38 errorbar riser linestyle 1
+@    s38 errorbar riser clip off
+@    s38 errorbar riser clip length 0.100000
+@    s38 comment "/home/raymondw/Research/phonon_bandplot/plot_demo.dat"
+@    s38 legend  ""
+@    s39 hidden false
+@    s39 type xy
+@    s39 symbol 0
+@    s39 symbol size 1.000000
+@    s39 symbol color 54
+@    s39 symbol pattern 1
+@    s39 symbol fill color 54
+@    s39 symbol fill pattern 0
+@    s39 symbol linewidth 1.0
+@    s39 symbol linestyle 1
+@    s39 symbol char 65
+@    s39 symbol char font 4
+@    s39 symbol skip 0
+@    s39 line type 1
+@    s39 line linestyle 1
+@    s39 line linewidth 1.5
+@    s39 line color 54
+@    s39 line pattern 1
+@    s39 baseline type 0
+@    s39 baseline off
+@    s39 dropline off
+@    s39 fill type 0
+@    s39 fill rule 0
+@    s39 fill color 1
+@    s39 fill pattern 1
+@    s39 avalue off
+@    s39 avalue type 2
+@    s39 avalue char size 1.000000
+@    s39 avalue font 4
+@    s39 avalue color 1
+@    s39 avalue rot 0
+@    s39 avalue format general
+@    s39 avalue prec 3
+@    s39 avalue prepend ""
+@    s39 avalue append ""
+@    s39 avalue offset 0.000000 , 0.000000
+@    s39 errorbar on
+@    s39 errorbar place both
+@    s39 errorbar color 54
+@    s39 errorbar pattern 1
+@    s39 errorbar size 1.000000
+@    s39 errorbar linewidth 1.0
+@    s39 errorbar linestyle 1
+@    s39 errorbar riser linewidth 1.0
+@    s39 errorbar riser linestyle 1
+@    s39 errorbar riser clip off
+@    s39 errorbar riser clip length 0.100000
+@    s39 comment "/home/raymondw/Research/phonon_bandplot/plot_demo.dat"
+@    s39 legend  ""
+@    s40 hidden false
+@    s40 type xy
+@    s40 symbol 0
+@    s40 symbol size 1.000000
+@    s40 symbol color 54
+@    s40 symbol pattern 1
+@    s40 symbol fill color 54
+@    s40 symbol fill pattern 0
+@    s40 symbol linewidth 1.0
+@    s40 symbol linestyle 1
+@    s40 symbol char 65
+@    s40 symbol char font 4
+@    s40 symbol skip 0
+@    s40 line type 1
+@    s40 line linestyle 1
+@    s40 line linewidth 1.5
+@    s40 line color 54
+@    s40 line pattern 1
+@    s40 baseline type 0
+@    s40 baseline off
+@    s40 dropline off
+@    s40 fill type 0
+@    s40 fill rule 0
+@    s40 fill color 1
+@    s40 fill pattern 1
+@    s40 avalue off
+@    s40 avalue type 2
+@    s40 avalue char size 1.000000
+@    s40 avalue font 4
+@    s40 avalue color 1
+@    s40 avalue rot 0
+@    s40 avalue format general
+@    s40 avalue prec 3
+@    s40 avalue prepend ""
+@    s40 avalue append ""
+@    s40 avalue offset 0.000000 , 0.000000
+@    s40 errorbar on
+@    s40 errorbar place both
+@    s40 errorbar color 54
+@    s40 errorbar pattern 1
+@    s40 errorbar size 1.000000
+@    s40 errorbar linewidth 1.0
+@    s40 errorbar linestyle 1
+@    s40 errorbar riser linewidth 1.0
+@    s40 errorbar riser linestyle 1
+@    s40 errorbar riser clip off
+@    s40 errorbar riser clip length 0.100000
+@    s40 comment "/home/raymondw/Research/phonon_bandplot/plot_demo.dat"
+@    s40 legend  ""
+@    s41 hidden false
+@    s41 type xy
+@    s41 symbol 0
+@    s41 symbol size 1.000000
+@    s41 symbol color 54
+@    s41 symbol pattern 1
+@    s41 symbol fill color 54
+@    s41 symbol fill pattern 0
+@    s41 symbol linewidth 1.0
+@    s41 symbol linestyle 1
+@    s41 symbol char 65
+@    s41 symbol char font 4
+@    s41 symbol skip 0
+@    s41 line type 1
+@    s41 line linestyle 1
+@    s41 line linewidth 1.5
+@    s41 line color 54
+@    s41 line pattern 1
+@    s41 baseline type 0
+@    s41 baseline off
+@    s41 dropline off
+@    s41 fill type 0
+@    s41 fill rule 0
+@    s41 fill color 1
+@    s41 fill pattern 1
+@    s41 avalue off
+@    s41 avalue type 2
+@    s41 avalue char size 1.000000
+@    s41 avalue font 4
+@    s41 avalue color 1
+@    s41 avalue rot 0
+@    s41 avalue format general
+@    s41 avalue prec 3
+@    s41 avalue prepend ""
+@    s41 avalue append ""
+@    s41 avalue offset 0.000000 , 0.000000
+@    s41 errorbar on
+@    s41 errorbar place both
+@    s41 errorbar color 54
+@    s41 errorbar pattern 1
+@    s41 errorbar size 1.000000
+@    s41 errorbar linewidth 1.0
+@    s41 errorbar linestyle 1
+@    s41 errorbar riser linewidth 1.0
+@    s41 errorbar riser linestyle 1
+@    s41 errorbar riser clip off
+@    s41 errorbar riser clip length 0.100000
+@    s41 comment "/home/raymondw/Research/phonon_bandplot/plot_demo.dat"
+@    s41 legend  ""
+@    s42 hidden false
+@    s42 type xy
+@    s42 symbol 0
+@    s42 symbol size 1.000000
+@    s42 symbol color 54
+@    s42 symbol pattern 1
+@    s42 symbol fill color 54
+@    s42 symbol fill pattern 0
+@    s42 symbol linewidth 1.0
+@    s42 symbol linestyle 1
+@    s42 symbol char 65
+@    s42 symbol char font 4
+@    s42 symbol skip 0
+@    s42 line type 1
+@    s42 line linestyle 1
+@    s42 line linewidth 1.5
+@    s42 line color 54
+@    s42 line pattern 1
+@    s42 baseline type 0
+@    s42 baseline off
+@    s42 dropline off
+@    s42 fill type 0
+@    s42 fill rule 0
+@    s42 fill color 1
+@    s42 fill pattern 1
+@    s42 avalue off
+@    s42 avalue type 2
+@    s42 avalue char size 1.000000
+@    s42 avalue font 4
+@    s42 avalue color 1
+@    s42 avalue rot 0
+@    s42 avalue format general
+@    s42 avalue prec 3
+@    s42 avalue prepend ""
+@    s42 avalue append ""
+@    s42 avalue offset 0.000000 , 0.000000
+@    s42 errorbar on
+@    s42 errorbar place both
+@    s42 errorbar color 54
+@    s42 errorbar pattern 1
+@    s42 errorbar size 1.000000
+@    s42 errorbar linewidth 1.0
+@    s42 errorbar linestyle 1
+@    s42 errorbar riser linewidth 1.0
+@    s42 errorbar riser linestyle 1
+@    s42 errorbar riser clip off
+@    s42 errorbar riser clip length 0.100000
+@    s42 comment "/home/raymondw/Research/phonon_bandplot/plot_demo.dat"
+@    s42 legend  ""
+@    s43 hidden false
+@    s43 type xy
+@    s43 symbol 0
+@    s43 symbol size 1.000000
+@    s43 symbol color 54
+@    s43 symbol pattern 1
+@    s43 symbol fill color 54
+@    s43 symbol fill pattern 0
+@    s43 symbol linewidth 1.0
+@    s43 symbol linestyle 1
+@    s43 symbol char 65
+@    s43 symbol char font 4
+@    s43 symbol skip 0
+@    s43 line type 1
+@    s43 line linestyle 1
+@    s43 line linewidth 1.5
+@    s43 line color 54
+@    s43 line pattern 1
+@    s43 baseline type 0
+@    s43 baseline off
+@    s43 dropline off
+@    s43 fill type 0
+@    s43 fill rule 0
+@    s43 fill color 1
+@    s43 fill pattern 1
+@    s43 avalue off
+@    s43 avalue type 2
+@    s43 avalue char size 1.000000
+@    s43 avalue font 4
+@    s43 avalue color 1
+@    s43 avalue rot 0
+@    s43 avalue format general
+@    s43 avalue prec 3
+@    s43 avalue prepend ""
+@    s43 avalue append ""
+@    s43 avalue offset 0.000000 , 0.000000
+@    s43 errorbar on
+@    s43 errorbar place both
+@    s43 errorbar color 54
+@    s43 errorbar pattern 1
+@    s43 errorbar size 1.000000
+@    s43 errorbar linewidth 1.0
+@    s43 errorbar linestyle 1
+@    s43 errorbar riser linewidth 1.0
+@    s43 errorbar riser linestyle 1
+@    s43 errorbar riser clip off
+@    s43 errorbar riser clip length 0.100000
+@    s43 comment "/home/raymondw/Research/phonon_bandplot/plot_demo.dat"
+@    s43 legend  ""
+@    s44 hidden false
+@    s44 type xy
+@    s44 symbol 0
+@    s44 symbol size 1.000000
+@    s44 symbol color 54
+@    s44 symbol pattern 1
+@    s44 symbol fill color 54
+@    s44 symbol fill pattern 0
+@    s44 symbol linewidth 1.0
+@    s44 symbol linestyle 1
+@    s44 symbol char 65
+@    s44 symbol char font 4
+@    s44 symbol skip 0
+@    s44 line type 1
+@    s44 line linestyle 1
+@    s44 line linewidth 1.5
+@    s44 line color 54
+@    s44 line pattern 1
+@    s44 baseline type 0
+@    s44 baseline off
+@    s44 dropline off
+@    s44 fill type 0
+@    s44 fill rule 0
+@    s44 fill color 1
+@    s44 fill pattern 1
+@    s44 avalue off
+@    s44 avalue type 2
+@    s44 avalue char size 1.000000
+@    s44 avalue font 4
+@    s44 avalue color 1
+@    s44 avalue rot 0
+@    s44 avalue format general
+@    s44 avalue prec 3
+@    s44 avalue prepend ""
+@    s44 avalue append ""
+@    s44 avalue offset 0.000000 , 0.000000
+@    s44 errorbar on
+@    s44 errorbar place both
+@    s44 errorbar color 54
+@    s44 errorbar pattern 1
+@    s44 errorbar size 1.000000
+@    s44 errorbar linewidth 1.0
+@    s44 errorbar linestyle 1
+@    s44 errorbar riser linewidth 1.0
+@    s44 errorbar riser linestyle 1
+@    s44 errorbar riser clip off
+@    s44 errorbar riser clip length 0.100000
+@    s44 comment "/home/raymondw/Research/phonon_bandplot/plot_demo.dat"
+@    s44 legend  ""
+@    s45 hidden false
+@    s45 type xy
+@    s45 symbol 0
+@    s45 symbol size 1.000000
+@    s45 symbol color 54
+@    s45 symbol pattern 1
+@    s45 symbol fill color 54
+@    s45 symbol fill pattern 0
+@    s45 symbol linewidth 1.0
+@    s45 symbol linestyle 1
+@    s45 symbol char 65
+@    s45 symbol char font 4
+@    s45 symbol skip 0
+@    s45 line type 1
+@    s45 line linestyle 1
+@    s45 line linewidth 1.5
+@    s45 line color 54
+@    s45 line pattern 1
+@    s45 baseline type 0
+@    s45 baseline off
+@    s45 dropline off
+@    s45 fill type 0
+@    s45 fill rule 0
+@    s45 fill color 1
+@    s45 fill pattern 1
+@    s45 avalue off
+@    s45 avalue type 2
+@    s45 avalue char size 1.000000
+@    s45 avalue font 4
+@    s45 avalue color 1
+@    s45 avalue rot 0
+@    s45 avalue format general
+@    s45 avalue prec 3
+@    s45 avalue prepend ""
+@    s45 avalue append ""
+@    s45 avalue offset 0.000000 , 0.000000
+@    s45 errorbar on
+@    s45 errorbar place both
+@    s45 errorbar color 54
+@    s45 errorbar pattern 1
+@    s45 errorbar size 1.000000
+@    s45 errorbar linewidth 1.0
+@    s45 errorbar linestyle 1
+@    s45 errorbar riser linewidth 1.0
+@    s45 errorbar riser linestyle 1
+@    s45 errorbar riser clip off
+@    s45 errorbar riser clip length 0.100000
+@    s45 comment "/home/raymondw/Research/phonon_bandplot/plot_demo.dat"
+@    s45 legend  ""
+@    s46 hidden false
+@    s46 type xy
+@    s46 symbol 0
+@    s46 symbol size 1.000000
+@    s46 symbol color 54
+@    s46 symbol pattern 1
+@    s46 symbol fill color 54
+@    s46 symbol fill pattern 0
+@    s46 symbol linewidth 1.0
+@    s46 symbol linestyle 1
+@    s46 symbol char 65
+@    s46 symbol char font 4
+@    s46 symbol skip 0
+@    s46 line type 1
+@    s46 line linestyle 1
+@    s46 line linewidth 1.5
+@    s46 line color 54
+@    s46 line pattern 1
+@    s46 baseline type 0
+@    s46 baseline off
+@    s46 dropline off
+@    s46 fill type 0
+@    s46 fill rule 0
+@    s46 fill color 1
+@    s46 fill pattern 1
+@    s46 avalue off
+@    s46 avalue type 2
+@    s46 avalue char size 1.000000
+@    s46 avalue font 4
+@    s46 avalue color 1
+@    s46 avalue rot 0
+@    s46 avalue format general
+@    s46 avalue prec 3
+@    s46 avalue prepend ""
+@    s46 avalue append ""
+@    s46 avalue offset 0.000000 , 0.000000
+@    s46 errorbar on
+@    s46 errorbar place both
+@    s46 errorbar color 54
+@    s46 errorbar pattern 1
+@    s46 errorbar size 1.000000
+@    s46 errorbar linewidth 1.0
+@    s46 errorbar linestyle 1
+@    s46 errorbar riser linewidth 1.0
+@    s46 errorbar riser linestyle 1
+@    s46 errorbar riser clip off
+@    s46 errorbar riser clip length 0.100000
+@    s46 comment "/home/raymondw/Research/phonon_bandplot/plot_demo.dat"
+@    s46 legend  ""
+@    s47 hidden false
+@    s47 type xy
+@    s47 symbol 0
+@    s47 symbol size 1.000000
+@    s47 symbol color 54
+@    s47 symbol pattern 1
+@    s47 symbol fill color 54
+@    s47 symbol fill pattern 0
+@    s47 symbol linewidth 1.0
+@    s47 symbol linestyle 1
+@    s47 symbol char 65
+@    s47 symbol char font 4
+@    s47 symbol skip 0
+@    s47 line type 1
+@    s47 line linestyle 1
+@    s47 line linewidth 1.5
+@    s47 line color 54
+@    s47 line pattern 1
+@    s47 baseline type 0
+@    s47 baseline off
+@    s47 dropline off
+@    s47 fill type 0
+@    s47 fill rule 0
+@    s47 fill color 1
+@    s47 fill pattern 1
+@    s47 avalue off
+@    s47 avalue type 2
+@    s47 avalue char size 1.000000
+@    s47 avalue font 4
+@    s47 avalue color 1
+@    s47 avalue rot 0
+@    s47 avalue format general
+@    s47 avalue prec 3
+@    s47 avalue prepend ""
+@    s47 avalue append ""
+@    s47 avalue offset 0.000000 , 0.000000
+@    s47 errorbar on
+@    s47 errorbar place both
+@    s47 errorbar color 54
+@    s47 errorbar pattern 1
+@    s47 errorbar size 1.000000
+@    s47 errorbar linewidth 1.0
+@    s47 errorbar linestyle 1
+@    s47 errorbar riser linewidth 1.0
+@    s47 errorbar riser linestyle 1
+@    s47 errorbar riser clip off
+@    s47 errorbar riser clip length 0.100000
+@    s47 comment "/home/raymondw/Research/phonon_bandplot/plot_demo.dat"
+@    s47 legend  ""
+@    s48 hidden false
+@    s48 type xy
+@    s48 symbol 0
+@    s48 symbol size 1.000000
+@    s48 symbol color 54
+@    s48 symbol pattern 1
+@    s48 symbol fill color 54
+@    s48 symbol fill pattern 0
+@    s48 symbol linewidth 1.0
+@    s48 symbol linestyle 1
+@    s48 symbol char 65
+@    s48 symbol char font 4
+@    s48 symbol skip 0
+@    s48 line type 1
+@    s48 line linestyle 1
+@    s48 line linewidth 1.5
+@    s48 line color 54
+@    s48 line pattern 1
+@    s48 baseline type 0
+@    s48 baseline off
+@    s48 dropline off
+@    s48 fill type 0
+@    s48 fill rule 0
+@    s48 fill color 1
+@    s48 fill pattern 1
+@    s48 avalue off
+@    s48 avalue type 2
+@    s48 avalue char size 1.000000
+@    s48 avalue font 4
+@    s48 avalue color 1
+@    s48 avalue rot 0
+@    s48 avalue format general
+@    s48 avalue prec 3
+@    s48 avalue prepend ""
+@    s48 avalue append ""
+@    s48 avalue offset 0.000000 , 0.000000
+@    s48 errorbar on
+@    s48 errorbar place both
+@    s48 errorbar color 54
+@    s48 errorbar pattern 1
+@    s48 errorbar size 1.000000
+@    s48 errorbar linewidth 1.0
+@    s48 errorbar linestyle 1
+@    s48 errorbar riser linewidth 1.0
+@    s48 errorbar riser linestyle 1
+@    s48 errorbar riser clip off
+@    s48 errorbar riser clip length 0.100000
+@    s48 comment "/home/raymondw/Research/phonon_bandplot/plot_demo.dat"
+@    s48 legend  ""
+@    s49 hidden false
+@    s49 type xy
+@    s49 symbol 0
+@    s49 symbol size 1.000000
+@    s49 symbol color 54
+@    s49 symbol pattern 1
+@    s49 symbol fill color 54
+@    s49 symbol fill pattern 0
+@    s49 symbol linewidth 1.0
+@    s49 symbol linestyle 1
+@    s49 symbol char 65
+@    s49 symbol char font 4
+@    s49 symbol skip 0
+@    s49 line type 1
+@    s49 line linestyle 1
+@    s49 line linewidth 1.5
+@    s49 line color 54
+@    s49 line pattern 1
+@    s49 baseline type 0
+@    s49 baseline off
+@    s49 dropline off
+@    s49 fill type 0
+@    s49 fill rule 0
+@    s49 fill color 1
+@    s49 fill pattern 1
+@    s49 avalue off
+@    s49 avalue type 2
+@    s49 avalue char size 1.000000
+@    s49 avalue font 4
+@    s49 avalue color 1
+@    s49 avalue rot 0
+@    s49 avalue format general
+@    s49 avalue prec 3
+@    s49 avalue prepend ""
+@    s49 avalue append ""
+@    s49 avalue offset 0.000000 , 0.000000
+@    s49 errorbar on
+@    s49 errorbar place both
+@    s49 errorbar color 54
+@    s49 errorbar pattern 1
+@    s49 errorbar size 1.000000
+@    s49 errorbar linewidth 1.0
+@    s49 errorbar linestyle 1
+@    s49 errorbar riser linewidth 1.0
+@    s49 errorbar riser linestyle 1
+@    s49 errorbar riser clip off
+@    s49 errorbar riser clip length 0.100000
+@    s49 comment "/home/raymondw/Research/phonon_bandplot/plot_demo.dat"
+@    s49 legend  ""
+@    s50 hidden false
+@    s50 type xy
+@    s50 symbol 0
+@    s50 symbol size 1.000000
+@    s50 symbol color 54
+@    s50 symbol pattern 1
+@    s50 symbol fill color 54
+@    s50 symbol fill pattern 0
+@    s50 symbol linewidth 1.0
+@    s50 symbol linestyle 1
+@    s50 symbol char 65
+@    s50 symbol char font 4
+@    s50 symbol skip 0
+@    s50 line type 1
+@    s50 line linestyle 1
+@    s50 line linewidth 1.5
+@    s50 line color 54
+@    s50 line pattern 1
+@    s50 baseline type 0
+@    s50 baseline off
+@    s50 dropline off
+@    s50 fill type 0
+@    s50 fill rule 0
+@    s50 fill color 1
+@    s50 fill pattern 1
+@    s50 avalue off
+@    s50 avalue type 2
+@    s50 avalue char size 1.000000
+@    s50 avalue font 4
+@    s50 avalue color 1
+@    s50 avalue rot 0
+@    s50 avalue format general
+@    s50 avalue prec 3
+@    s50 avalue prepend ""
+@    s50 avalue append ""
+@    s50 avalue offset 0.000000 , 0.000000
+@    s50 errorbar on
+@    s50 errorbar place both
+@    s50 errorbar color 54
+@    s50 errorbar pattern 1
+@    s50 errorbar size 1.000000
+@    s50 errorbar linewidth 1.0
+@    s50 errorbar linestyle 1
+@    s50 errorbar riser linewidth 1.0
+@    s50 errorbar riser linestyle 1
+@    s50 errorbar riser clip off
+@    s50 errorbar riser clip length 0.100000
+@    s50 comment "/home/raymondw/Research/phonon_bandplot/plot_demo.dat"
+@    s50 legend  ""
+@    s51 hidden false
+@    s51 type xy
+@    s51 symbol 0
+@    s51 symbol size 1.000000
+@    s51 symbol color 54
+@    s51 symbol pattern 1
+@    s51 symbol fill color 54
+@    s51 symbol fill pattern 0
+@    s51 symbol linewidth 1.0
+@    s51 symbol linestyle 1
+@    s51 symbol char 65
+@    s51 symbol char font 4
+@    s51 symbol skip 0
+@    s51 line type 1
+@    s51 line linestyle 1
+@    s51 line linewidth 1.5
+@    s51 line color 54
+@    s51 line pattern 1
+@    s51 baseline type 0
+@    s51 baseline off
+@    s51 dropline off
+@    s51 fill type 0
+@    s51 fill rule 0
+@    s51 fill color 1
+@    s51 fill pattern 1
+@    s51 avalue off
+@    s51 avalue type 2
+@    s51 avalue char size 1.000000
+@    s51 avalue font 4
+@    s51 avalue color 1
+@    s51 avalue rot 0
+@    s51 avalue format general
+@    s51 avalue prec 3
+@    s51 avalue prepend ""
+@    s51 avalue append ""
+@    s51 avalue offset 0.000000 , 0.000000
+@    s51 errorbar on
+@    s51 errorbar place both
+@    s51 errorbar color 54
+@    s51 errorbar pattern 1
+@    s51 errorbar size 1.000000
+@    s51 errorbar linewidth 1.0
+@    s51 errorbar linestyle 1
+@    s51 errorbar riser linewidth 1.0
+@    s51 errorbar riser linestyle 1
+@    s51 errorbar riser clip off
+@    s51 errorbar riser clip length 0.100000
+@    s51 comment "/home/raymondw/Research/phonon_bandplot/plot_demo.dat"
+@    s51 legend  ""
+@    s52 hidden false
+@    s52 type xy
+@    s52 symbol 0
+@    s52 symbol size 1.000000
+@    s52 symbol color 54
+@    s52 symbol pattern 1
+@    s52 symbol fill color 54
+@    s52 symbol fill pattern 0
+@    s52 symbol linewidth 1.0
+@    s52 symbol linestyle 1
+@    s52 symbol char 65
+@    s52 symbol char font 4
+@    s52 symbol skip 0
+@    s52 line type 1
+@    s52 line linestyle 1
+@    s52 line linewidth 1.5
+@    s52 line color 54
+@    s52 line pattern 1
+@    s52 baseline type 0
+@    s52 baseline off
+@    s52 dropline off
+@    s52 fill type 0
+@    s52 fill rule 0
+@    s52 fill color 1
+@    s52 fill pattern 1
+@    s52 avalue off
+@    s52 avalue type 2
+@    s52 avalue char size 1.000000
+@    s52 avalue font 4
+@    s52 avalue color 1
+@    s52 avalue rot 0
+@    s52 avalue format general
+@    s52 avalue prec 3
+@    s52 avalue prepend ""
+@    s52 avalue append ""
+@    s52 avalue offset 0.000000 , 0.000000
+@    s52 errorbar on
+@    s52 errorbar place both
+@    s52 errorbar color 54
+@    s52 errorbar pattern 1
+@    s52 errorbar size 1.000000
+@    s52 errorbar linewidth 1.0
+@    s52 errorbar linestyle 1
+@    s52 errorbar riser linewidth 1.0
+@    s52 errorbar riser linestyle 1
+@    s52 errorbar riser clip off
+@    s52 errorbar riser clip length 0.100000
+@    s52 comment "/home/raymondw/Research/phonon_bandplot/plot_demo.dat"
+@    s52 legend  ""
+@    s53 hidden false
+@    s53 type xy
+@    s53 symbol 0
+@    s53 symbol size 1.000000
+@    s53 symbol color 54
+@    s53 symbol pattern 1
+@    s53 symbol fill color 54
+@    s53 symbol fill pattern 0
+@    s53 symbol linewidth 1.0
+@    s53 symbol linestyle 1
+@    s53 symbol char 65
+@    s53 symbol char font 4
+@    s53 symbol skip 0
+@    s53 line type 1
+@    s53 line linestyle 1
+@    s53 line linewidth 1.5
+@    s53 line color 54
+@    s53 line pattern 1
+@    s53 baseline type 0
+@    s53 baseline off
+@    s53 dropline off
+@    s53 fill type 0
+@    s53 fill rule 0
+@    s53 fill color 1
+@    s53 fill pattern 1
+@    s53 avalue off
+@    s53 avalue type 2
+@    s53 avalue char size 1.000000
+@    s53 avalue font 4
+@    s53 avalue color 1
+@    s53 avalue rot 0
+@    s53 avalue format general
+@    s53 avalue prec 3
+@    s53 avalue prepend ""
+@    s53 avalue append ""
+@    s53 avalue offset 0.000000 , 0.000000
+@    s53 errorbar on
+@    s53 errorbar place both
+@    s53 errorbar color 54
+@    s53 errorbar pattern 1
+@    s53 errorbar size 1.000000
+@    s53 errorbar linewidth 1.0
+@    s53 errorbar linestyle 1
+@    s53 errorbar riser linewidth 1.0
+@    s53 errorbar riser linestyle 1
+@    s53 errorbar riser clip off
+@    s53 errorbar riser clip length 0.100000
+@    s53 comment "/home/raymondw/Research/phonon_bandplot/plot_demo.dat"
+@    s53 legend  ""
+@target G0.S0
+@type xy
+0 8.719073
+0.003275 8.722814
+0.006551 8.734001
+0.009826 8.752527
+0.013102 8.778218
+0.016377 8.810828
+0.019652 8.850041
+0.022928 8.895477
+0.026203 8.946688
+0.029478 9.003163
+0.032754 9.06433
+0.036029 9.129558
+0.039305 9.198163
+0.04258 9.269416
+0.045855 9.342544
+0.049131 9.416745
+0.052406 9.491197
+0.055682 9.565073
+0.058957 9.637552
+0.062232 9.707832
+0.065508 9.775134
+0.068783 9.838676
+0.072058 9.89761
+0.075334 9.950882
+0.078609 9.996986
+0.081885 10.033606
+0.08516 10.057309
+0.088435 10.063739
+0.091711 10.048876
+0.094986 10.010874
+0.098262 9.95068
+0.101537 9.870846
+0.104812 9.774093
+0.108088 9.662666
+0.111363 9.53829
+0.114638 9.402324
+0.117914 9.255903
+0.121189 9.100032
+0.124465 8.93563
+0.12774 8.763555
+0.131015 8.584612
+0.134291 8.39955
+0.137566 8.209068
+0.140841 8.013805
+0.144117 7.814348
+0.147392 7.611225
+0.150668 7.404913
+0.153943 7.195835
+0.157218 6.984368
+0.160494 6.77084
+0.163769 6.555539
+0.167045 6.338713
+0.17032 6.120574
+0.173595 5.9013
+0.176871 5.681045
+0.180146 5.45993
+0.183421 5.238058
+0.186697 5.015509
+0.189972 4.792347
+0.193247 4.568618
+0.196523 4.344358
+0.199798 4.119591
+0.203074 3.894334
+0.206349 3.668596
+0.209624 3.442383
+0.2129 3.215698
+0.216175 2.988544
+0.219451 2.760924
+0.222726 2.532844
+0.226001 2.304312
+0.229277 2.075342
+0.232552 1.845953
+0.235827 1.61617
+0.239103 1.386024
+0.242378 1.155552
+0.245654 0.924798
+0.248929 0.693811
+0.252204 0.462644
+0.25548 0.231359
+0.258755 0.003816
+&
+@target G0.S1
+@type xy
+0.258755 0.003816
+0.260968 0.178488
+0.263181 0.356871
+0.265394 0.535179
+0.267607 0.713356
+0.269821 0.891357
+0.272034 1.069136
+0.274247 1.246648
+0.27646 1.423846
+0.278673 1.600687
+0.280886 1.777122
+0.283099 1.953108
+0.285312 2.128596
+0.287525 2.303539
+0.289738 2.477891
+0.291951 2.651602
+0.294165 2.824625
+0.296378 2.996909
+0.298591 3.168406
+0.300804 3.339064
+0.303017 3.508831
+0.30523 3.677657
+0.307443 3.845488
+0.309656 4.012271
+0.311869 4.177951
+0.314082 4.342472
+0.316296 4.505779
+0.318509 4.667814
+0.320722 4.828519
+0.322935 4.987834
+0.325148 5.145701
+0.327361 5.302057
+0.329574 5.456841
+0.331787 5.609989
+0.334 5.761437
+0.336213 5.911119
+0.338426 6.05897
+0.340639 6.204922
+0.342853 6.348905
+0.345066 6.490852
+0.347279 6.63069
+0.349492 6.768349
+0.351705 6.903757
+0.353918 7.036839
+0.356131 7.167521
+0.358344 7.295729
+0.360557 7.421386
+0.36277 7.544416
+0.364983 7.664742
+0.367196 7.782286
+0.36941 7.89697
+0.371623 8.008716
+0.373836 8.117446
+0.376049 8.22308
+0.378262 8.325542
+0.380475 8.424752
+0.382688 8.520634
+0.384901 8.613109
+0.387114 8.702104
+0.389327 8.787542
+0.39154 8.86935
+0.393753 8.947456
+0.395967 9.021789
+0.39818 9.092281
+0.400393 9.158867
+0.402606 9.221481
+0.404819 9.280063
+0.407032 9.334555
+0.409245 9.384902
+0.411458 9.431053
+0.413671 9.472958
+0.415884 9.510576
+0.418098 9.543864
+0.420311 9.572788
+0.422524 9.597317
+0.424737 9.617423
+0.42695 9.633084
+0.429163 9.644282
+0.431376 9.651007
+0.433589 9.653249
+&
+@target G0.S2
+@type xy
+0.433589 9.653249
+0.435154 9.652906
+0.436719 9.651878
+0.438284 9.650166
+0.439849 9.647773
+0.441414 9.644701
+0.442978 9.640955
+0.444543 9.63654
+0.446108 9.631463
+0.447673 9.625729
+0.449238 9.619347
+0.450803 9.612325
+0.452368 9.604674
+0.453933 9.596403
+0.455498 9.587524
+0.457062 9.57805
+0.458627 9.567993
+0.460192 9.557368
+0.461757 9.546189
+0.463322 9.534471
+0.464887 9.522233
+0.466452 9.50949
+0.468017 9.496261
+0.469582 9.482564
+0.471147 9.46842
+0.472711 9.453849
+0.474276 9.438871
+0.475841 9.423508
+0.477406 9.407784
+0.478971 9.39172
+0.480536 9.375341
+0.482101 9.35867
+0.483666 9.341734
+0.485231 9.324556
+0.486795 9.307164
+0.48836 9.289582
+0.489925 9.271839
+0.49149 9.253961
+0.493055 9.235976
+0.49462 9.217912
+0.496185 9.199797
+0.49775 9.18166
+0.499314 9.163529
+0.500879 9.145432
+0.502444 9.1274
+0.504009 9.109461
+0.505574 9.091644
+0.507139 9.073978
+0.508704 9.056492
+0.510269 9.039215
+0.511834 9.022175
+0.513398 9.005402
+0.514963 8.988922
+0.516528 8.972765
+0.518093 8.956957
+0.519658 8.941525
+0.521223 8.926496
+0.522788 8.911895
+0.524353 8.897749
+0.525918 8.884081
+0.527482 8.870916
+0.529047 8.858277
+0.530612 8.846185
+0.532177 8.834663
+0.533742 8.823731
+0.535307 8.813409
+0.536872 8.803714
+0.538437 8.794666
+0.540002 8.786278
+0.541566 8.778569
+0.543131 8.77155
+0.544696 8.765235
+0.546261 8.759635
+0.547826 8.754761
+0.549391 8.750622
+0.550956 8.747224
+0.552521 8.744576
+0.554086 8.74268
+0.555651 8.741542
+0.557215 8.741162
+&
+@target G0.S3
+@type xy
+0 8.719073
+0.003275 8.722039
+0.006551 8.730915
+0.009826 8.745641
+0.013102 8.766116
+0.016377 8.792201
+0.019652 8.823716
+0.022928 8.860446
+0.026203 8.902134
+0.029478 8.948492
+0.032754 8.999191
+0.036029 9.053869
+0.039305 9.112124
+0.04258 9.173517
+0.045855 9.237566
+0.049131 9.303744
+0.052406 9.371466
+0.055682 9.44008
+0.058957 9.508844
+0.062232 9.576888
+0.065508 9.643149
+0.068783 9.706252
+0.072058 9.764276
+0.075334 9.814281
+0.078609 9.851387
+0.081885 9.867255
+0.08516 9.849534
+0.088435 9.788087
+0.091711 9.686107
+0.094986 9.556708
+0.098262 9.411344
+0.101537 9.25672
+0.104812 9.096364
+0.108088 8.932133
+0.111363 8.765025
+0.114638 8.595581
+0.117914 8.424093
+0.121189 8.250704
+0.124465 8.075467
+0.12774 7.898381
+0.131015 7.719411
+0.134291 7.5385
+0.137566 7.355582
+0.140841 7.170583
+0.144117 6.983432
+0.147392 6.794059
+0.150668 6.602405
+0.153943 6.408417
+0.157218 6.212058
+0.160494 6.013305
+0.163769 5.812153
+0.167045 5.608616
+0.17032 5.402729
+0.173595 5.194552
+0.176871 4.984171
+0.180146 4.771701
+0.183421 4.557287
+0.186697 4.341107
+0.189972 4.123377
+0.193247 3.90435
+0.196523 3.684324
+0.199798 3.463641
+0.203074 3.242694
+0.206349 3.021929
+0.209624 2.801849
+0.2129 2.583016
+0.216175 2.366055
+0.219451 2.15165
+0.222726 1.940542
+0.226001 1.733514
+0.229277 1.531373
+0.232552 1.334914
+0.235827 1.144864
+0.239103 0.961807
+0.242378 0.78609
+0.245654 0.617704
+0.248929 0.456177
+0.252204 0.300497
+0.25548 0.149099
+0.258755 -0.002235
+&
+@target G0.S4
+@type xy
+0.258755 -0.002235
+0.260968 -0.096217
+0.263181 -0.189319
+0.265394 -0.276344
+0.267607 -0.354374
+0.269821 -0.420581
+0.272034 -0.472123
+0.274247 -0.505921
+0.27646 -0.518223
+0.278673 -0.503651
+0.280886 -0.452681
+0.283099 -0.341667
+0.285312 0.125133
+0.287525 0.442976
+0.289738 0.654346
+0.291951 0.844961
+0.294165 1.02734
+0.296378 1.205736
+0.298591 1.381946
+0.300804 1.556781
+0.303017 1.730594
+0.30523 1.903507
+0.307443 2.075515
+0.309656 2.246547
+0.311869 2.416492
+0.314082 2.585218
+0.316296 2.752586
+0.318509 2.918453
+0.320722 3.082677
+0.322935 3.245118
+0.325148 3.405642
+0.327361 3.564122
+0.329574 3.720436
+0.331787 3.874469
+0.334 4.026112
+0.336213 4.175266
+0.338426 4.321836
+0.340639 4.465738
+0.342853 4.606892
+0.345066 4.745228
+0.347279 4.880681
+0.349492 5.013195
+0.351705 5.142722
+0.353918 5.269218
+0.356131 5.392649
+0.358344 5.512986
+0.360557 5.630207
+0.36277 5.744294
+0.364983 5.855236
+0.367196 5.963028
+0.36941 6.067665
+0.371623 6.169149
+0.373836 6.267482
+0.376049 6.362669
+0.378262 6.454715
+0.380475 6.543624
+0.382688 6.629398
+0.384901 6.712037
+0.387114 6.791536
+0.389327 6.867887
+0.39154 6.941074
+0.393753 7.011076
+0.395967 7.077864
+0.39818 7.141399
+0.400393 7.201638
+0.402606 7.258527
+0.404819 7.312003
+0.407032 7.361997
+0.409245 7.408435
+0.411458 7.451235
+0.413671 7.490311
+0.415884 7.525578
+0.418098 7.556948
+0.420311 7.584337
+0.422524 7.607665
+0.424737 7.626861
+0.42695 7.64186
+0.429163 7.652613
+0.431376 7.65908
+0.433589 7.661238
+&
+@target G0.S5
+@type xy
+0.433589 7.661238
+0.435154 7.662391
+0.436719 7.665848
+0.438284 7.671593
+0.439849 7.679607
+0.441414 7.689858
+0.442978 7.702307
+0.444543 7.716907
+0.446108 7.733603
+0.447673 7.752332
+0.449238 7.773022
+0.450803 7.795595
+0.452368 7.819965
+0.453933 7.846039
+0.455498 7.873717
+0.457062 7.902895
+0.458627 7.93346
+0.460192 7.965295
+0.461757 7.998277
+0.463322 8.032277
+0.464887 8.067164
+0.466452 8.102801
+0.468017 8.139047
+0.469582 8.175758
+0.471147 8.212787
+0.472711 8.249985
+0.474276 8.287201
+0.475841 8.324283
+0.477406 8.361078
+0.478971 8.397434
+0.480536 8.433199
+0.482101 8.468226
+0.483666 8.502368
+0.485231 8.535484
+0.486795 8.567438
+0.48836 8.598101
+0.489925 8.627352
+0.49149 8.65508
+0.493055 8.681183
+0.49462 8.705571
+0.496185 8.728167
+0.49775 8.74891
+0.499314 8.76775
+0.500879 8.784654
+0.502444 8.799605
+0.504009 8.812602
+0.505574 8.823657
+0.507139 8.832801
+0.508704 8.840077
+0.510269 8.845544
+0.511834 8.849271
+0.513398 8.851341
+0.514963 8.851849
+0.516528 8.850895
+0.518093 8.84859
+0.519658 8.845051
+0.521223 8.840398
+0.522788 8.834758
+0.524353 8.828256
+0.525918 8.821022
+0.527482 8.813184
+0.529047 8.804869
+0.530612 8.796204
+0.532177 8.78731
+0.533742 8.778306
+0.535307 8.769307
+0.536872 8.760422
+0.538437 8.751756
+0.540002 8.743406
+0.541566 8.735465
+0.543131 8.728016
+0.544696 8.721138
+0.546261 8.714901
+0.547826 8.709368
+0.549391 8.704592
+0.550956 8.70062
+0.552521 8.697491
+0.554086 8.695235
+0.555651 8.693873
+0.557215 8.693417
+&
+@target G0.S6
+@type xy
+0 13.464365
+0.003275 13.464837
+0.006551 13.466266
+0.009826 13.468653
+0.013102 13.471918
+0.016377 13.475764
+0.019652 13.479571
+0.022928 13.482975
+0.026203 13.486509
+0.029478 13.490444
+0.032754 13.49473
+0.036029 13.499316
+0.039305 13.504187
+0.04258 13.509363
+0.045855 13.514885
+0.049131 13.520823
+0.052406 13.527265
+0.055682 13.534322
+0.058957 13.542128
+0.062232 13.550833
+0.065508 13.560608
+0.068783 13.57164
+0.072058 13.58413
+0.075334 13.598288
+0.078609 13.614327
+0.081885 13.632458
+0.08516 13.652879
+0.088435 13.67577
+0.091711 13.701277
+0.094986 13.729504
+0.098262 13.760502
+0.101537 13.794263
+0.104812 13.830709
+0.108088 13.869694
+0.111363 13.911005
+0.114638 13.954364
+0.117914 13.999443
+0.121189 14.045871
+0.124465 14.093252
+0.12774 14.141176
+0.131015 14.189236
+0.134291 14.237038
+0.137566 14.284211
+0.140841 14.330415
+0.144117 14.375346
+0.147392 14.418739
+0.150668 14.460368
+0.153943 14.500046
+0.157218 14.537623
+0.160494 14.572985
+0.163769 14.60605
+0.167045 14.636768
+0.17032 14.665114
+0.173595 14.691091
+0.176871 14.714721
+0.180146 14.73605
+0.183421 14.755139
+0.186697 14.772067
+0.189972 14.786927
+0.193247 14.799822
+0.196523 14.810869
+0.199798 14.820191
+0.203074 14.82792
+0.206349 14.834192
+0.209624 14.839146
+0.2129 14.842927
+0.216175 14.845676
+0.219451 14.847535
+0.222726 14.848645
+0.226001 14.849141
+0.229277 14.849151
+0.232552 14.848799
+0.235827 14.848199
+0.239103 14.847456
+0.242378 14.846661
+0.245654 14.845897
+0.248929 14.845231
+0.252204 14.844716
+0.25548 14.844391
+0.258755 14.844281
+&
+@target G0.S7
+@type xy
+0.258755 14.844281
+0.260968 14.845392
+0.263181 14.848716
+0.265394 14.854226
+0.267607 14.861877
+0.269821 14.871606
+0.272034 14.883333
+0.274247 14.896962
+0.27646 14.91238
+0.278673 14.929463
+0.280886 14.94807
+0.283099 14.968048
+0.285312 14.989234
+0.287525 15.011455
+0.289738 15.034527
+0.291951 15.058263
+0.294165 15.082465
+0.296378 15.106935
+0.298591 15.131468
+0.300804 15.15586
+0.303017 15.179905
+0.30523 15.203397
+0.307443 15.226134
+0.309656 15.247917
+0.311869 15.26855
+0.314082 15.287843
+0.316296 15.305613
+0.318509 15.321684
+0.320722 15.33589
+0.322935 15.348071
+0.325148 15.358081
+0.327361 15.365783
+0.329574 15.371051
+0.331787 15.373774
+0.334 15.373852
+0.336213 15.3712
+0.338426 15.365746
+0.340639 15.357434
+0.342853 15.346223
+0.345066 15.332088
+0.347279 15.31502
+0.349492 15.295026
+0.351705 15.27213
+0.353918 15.246372
+0.356131 15.21781
+0.358344 15.186517
+0.360557 15.152582
+0.36277 15.116112
+0.364983 15.077226
+0.367196 15.036062
+0.36941 14.992769
+0.371623 14.947513
+0.373836 14.90047
+0.376049 14.851832
+0.378262 14.801801
+0.380475 14.750591
+0.382688 14.698428
+0.384901 14.645548
+0.387114 14.592197
+0.389327 14.538629
+0.39154 14.485109
+0.393753 14.431909
+0.395967 14.379305
+0.39818 14.327583
+0.400393 14.277031
+0.402606 14.227939
+0.404819 14.1806
+0.407032 14.135306
+0.409245 14.092344
+0.411458 14.051996
+0.413671 14.014536
+0.415884 13.980224
+0.418098 13.949306
+0.420311 13.92201
+0.422524 13.898542
+0.424737 13.879083
+0.42695 13.863784
+0.429163 13.852767
+0.431376 13.846121
+0.433589 13.8439
+&
+@target G0.S8
+@type xy
+0.433589 13.8439
+0.435154 13.840816
+0.436719 13.83178
+0.438284 13.817374
+0.439849 13.798394
+0.441414 13.775691
+0.442978 13.750059
+0.444543 13.722185
+0.446108 13.692635
+0.447673 13.661866
+0.449238 13.630246
+0.450803 13.598072
+0.452368 13.565584
+0.453933 13.532984
+0.455498 13.500439
+0.457062 13.468096
+0.458627 13.436082
+0.460192 13.404514
+0.461757 13.373496
+0.463322 13.343129
+0.464887 13.313507
+0.466452 13.284722
+0.468017 13.256863
+0.469582 13.230018
+0.471147 13.204275
+0.472711 13.179721
+0.474276 13.156444
+0.475841 13.134531
+0.477406 13.114069
+0.478971 13.095145
+0.480536 13.077846
+0.482101 13.062255
+0.483666 13.048454
+0.485231 13.036522
+0.486795 13.026535
+0.48836 13.018561
+0.489925 13.012664
+0.49149 13.008899
+0.493055 13.007314
+0.49462 13.007945
+0.496185 13.010818
+0.49775 13.015947
+0.499314 13.023331
+0.500879 13.032957
+0.502444 13.044798
+0.504009 13.05881
+0.505574 13.074936
+0.507139 13.093104
+0.508704 13.113226
+0.510269 13.135202
+0.511834 13.158918
+0.513398 13.184246
+0.514963 13.21105
+0.516528 13.239179
+0.518093 13.268477
+0.519658 13.298776
+0.521223 13.329902
+0.522788 13.361677
+0.524353 13.393915
+0.525918 13.426427
+0.527482 13.45902
+0.529047 13.4915
+0.530612 13.523672
+0.532177 13.55534
+0.533742 13.586308
+0.535307 13.616385
+0.536872 13.645379
+0.538437 13.673104
+0.540002 13.699381
+0.541566 13.724035
+0.543131 13.746899
+0.544696 13.767818
+0.546261 13.786645
+0.547826 13.803249
+0.549391 13.81751
+0.550956 13.829324
+0.552521 13.838605
+0.554086 13.845285
+0.555651 13.849313
+0.557215 13.850658
+&
+@target G0.S9
+@type xy
+0 13.464365
+0.003275 13.46472
+0.006551 13.465743
+0.009826 13.467308
+0.013102 13.469172
+0.016377 13.470714
+0.019652 13.469283
+0.022928 13.448024
+0.026203 13.346909
+0.029478 13.186218
+0.032754 13.013272
+0.036029 12.837671
+0.039305 12.661619
+0.04258 12.485882
+0.045855 12.310817
+0.049131 12.13664
+0.052406 11.963523
+0.055682 11.791635
+0.058957 11.621188
+0.062232 11.452476
+0.065508 11.285948
+0.068783 11.122329
+0.072058 10.962863
+0.075334 10.809779
+0.078609 10.667229
+0.081885 10.542805
+0.08516 10.448105
+0.088435 10.392511
+0.091711 10.372094
+0.094986 10.373026
+0.098262 10.383177
+0.101537 10.395216
+0.104812 10.405047
+0.108088 10.410316
+0.111363 10.409597
+0.114638 10.401994
+0.117914 10.386933
+0.121189 10.364055
+0.124465 10.33315
+0.12774 10.294116
+0.131015 10.246929
+0.134291 10.191625
+0.137566 10.128281
+0.140841 10.057008
+0.144117 9.977938
+0.147392 9.891224
+0.150668 9.79703
+0.153943 9.695532
+0.157218 9.586918
+0.160494 9.471387
+0.163769 9.349149
+0.167045 9.220427
+0.17032 9.085462
+0.173595 8.944511
+0.176871 8.797853
+0.180146 8.645792
+0.183421 8.488658
+0.186697 8.326816
+0.189972 8.160667
+0.193247 7.990654
+0.196523 7.81727
+0.199798 7.641065
+0.203074 7.462651
+0.206349 7.282716
+0.209624 7.102036
+0.2129 6.921484
+0.216175 6.742048
+0.219451 6.564846
+0.222726 6.391143
+0.226001 6.222372
+0.229277 6.060141
+0.232552 5.90625
+0.235827 5.762681
+0.239103 5.631582
+0.242378 5.515218
+0.245654 5.415891
+0.248929 5.335823
+0.252204 5.277004
+0.25548 5.241022
+0.258755 5.228909
+&
+@target G0.S10
+@type xy
+0.258755 5.228909
+0.260968 5.237279
+0.263181 5.26218
+0.265394 5.303012
+0.267607 5.358837
+0.269821 5.428476
+0.272034 5.510594
+0.274247 5.603791
+0.27646 5.706676
+0.278673 5.817916
+0.280886 5.93627
+0.283099 6.060609
+0.285312 6.189916
+0.287525 6.323291
+0.289738 6.45994
+0.291951 6.599168
+0.294165 6.740367
+0.296378 6.88301
+0.298591 7.026638
+0.300804 7.170851
+0.303017 7.315307
+0.30523 7.459707
+0.307443 7.603796
+0.309656 7.747353
+0.311869 7.890192
+0.314082 8.032153
+0.316296 8.173104
+0.318509 8.312935
+0.320722 8.451555
+0.322935 8.588895
+0.325148 8.724899
+0.327361 8.859529
+0.329574 8.992759
+0.331787 9.124574
+0.334 9.254973
+0.336213 9.383961
+0.338426 9.511555
+0.340639 9.637776
+0.342853 9.762654
+0.345066 9.886222
+0.347279 10.008519
+0.349492 10.129585
+0.351705 10.249465
+0.353918 10.368203
+0.356131 10.485845
+0.358344 10.602436
+0.360557 10.718019
+0.36277 10.832638
+0.364983 10.946332
+0.367196 11.059137
+0.36941 11.171087
+0.371623 11.282211
+0.373836 11.392534
+0.376049 11.502076
+0.378262 11.610852
+0.380475 11.718873
+0.382688 11.826145
+0.384901 11.932665
+0.387114 12.03843
+0.389327 12.143426
+0.39154 12.247636
+0.393753 12.351037
+0.395967 12.453598
+0.39818 12.55528
+0.400393 12.656037
+0.402606 12.75581
+0.404819 12.854527
+0.407032 12.9521
+0.409245 13.048415
+0.411458 13.143323
+0.413671 13.236627
+0.415884 13.32805
+0.418098 13.417196
+0.420311 13.503474
+0.422524 13.585961
+0.424737 13.663165
+0.42695 13.732599
+0.429163 13.790153
+0.431376 13.829606
+0.433589 13.8439
+&
+@target G0.S11
+@type xy
+0.433589 13.8439
+0.435154 13.840816
+0.436719 13.83178
+0.438284 13.817374
+0.439849 13.798394
+0.441414 13.775691
+0.442978 13.750059
+0.444543 13.722185
+0.446108 13.692635
+0.447673 13.661866
+0.449238 13.630246
+0.450803 13.598072
+0.452368 13.565584
+0.453933 13.532984
+0.455498 13.500439
+0.457062 13.468096
+0.458627 13.436082
+0.460192 13.404514
+0.461757 13.373496
+0.463322 13.343129
+0.464887 13.313507
+0.466452 13.284722
+0.468017 13.256863
+0.469582 13.230018
+0.471147 13.204275
+0.472711 13.179721
+0.474276 13.156444
+0.475841 13.134531
+0.477406 13.114069
+0.478971 13.095145
+0.480536 13.077846
+0.482101 13.062255
+0.483666 13.048454
+0.485231 13.036522
+0.486795 13.026535
+0.48836 13.018561
+0.489925 13.012664
+0.49149 13.008899
+0.493055 13.007314
+0.49462 13.007945
+0.496185 13.010818
+0.49775 13.015947
+0.499314 13.023331
+0.500879 13.032957
+0.502444 13.044798
+0.504009 13.05881
+0.505574 13.074936
+0.507139 13.093104
+0.508704 13.113226
+0.510269 13.135202
+0.511834 13.158918
+0.513398 13.184246
+0.514963 13.21105
+0.516528 13.239179
+0.518093 13.268477
+0.519658 13.298776
+0.521223 13.329902
+0.522788 13.361677
+0.524353 13.393915
+0.525918 13.426427
+0.527482 13.45902
+0.529047 13.4915
+0.530612 13.523672
+0.532177 13.55534
+0.533742 13.586308
+0.535307 13.616385
+0.536872 13.645379
+0.538437 13.673104
+0.540002 13.699381
+0.541566 13.724035
+0.543131 13.746899
+0.544696 13.767818
+0.546261 13.786645
+0.547826 13.803249
+0.549391 13.81751
+0.550956 13.829324
+0.552521 13.838605
+0.554086 13.845285
+0.555651 13.849313
+0.557215 13.850658
+&
+@target G0.S12
+@type xy
+0 14.673812
+0.003275 14.604317
+0.006551 14.454374
+0.009826 14.277047
+0.013102 14.088714
+0.016377 13.895023
+0.019652 13.698652
+0.022928 13.501279
+0.026203 13.304187
+0.029478 13.108485
+0.032754 12.915208
+0.036029 12.725345
+0.039305 12.539864
+0.04258 12.359708
+0.045855 12.185793
+0.049131 12.018994
+0.052406 11.860132
+0.055682 11.709956
+0.058957 11.569118
+0.062232 11.438166
+0.065508 11.317536
+0.068783 11.207577
+0.072058 11.108623
+0.075334 11.021144
+0.078609 10.946014
+0.081885 10.884887
+0.08516 10.840533
+0.088435 10.816674
+0.091711 10.816749
+0.094986 10.842094
+0.098262 10.891339
+0.101537 10.961595
+0.104812 11.049879
+0.108088 11.153742
+0.111363 11.271286
+0.114638 11.400979
+0.117914 11.541482
+0.121189 11.691523
+0.124465 11.849823
+0.12774 12.015034
+0.131015 12.185702
+0.134291 12.360213
+0.137566 12.536723
+0.140841 12.713007
+0.144117 12.886108
+0.147392 13.051247
+0.150668 13.197294
+0.153943 13.280381
+0.157218 13.161358
+0.160494 12.871295
+0.163769 12.533011
+0.167045 12.176306
+0.17032 11.808311
+0.173595 11.43157
+0.176871 11.047298
+0.180146 10.656209
+0.183421 10.258796
+0.186697 9.855436
+0.189972 9.446448
+0.193247 9.032111
+0.196523 8.612685
+0.199798 8.188417
+0.203074 7.759546
+0.206349 7.326309
+0.209624 6.88894
+0.2129 6.447675
+0.216175 6.002753
+0.219451 5.554412
+0.222726 5.102898
+0.226001 4.648457
+0.229277 4.19134
+0.232552 3.731803
+0.235827 3.270102
+0.239103 2.806501
+0.242378 2.341264
+0.245654 1.87466
+0.248929 1.406959
+0.252204 0.938433
+0.25548 0.469359
+0.258755 -0.002235
+&
+@target G0.S13
+@type xy
+0.258755 -0.002235
+0.260968 0.309525
+0.263181 0.618981
+0.265394 0.92827
+0.267607 1.237312
+0.269821 1.546025
+0.272034 1.854326
+0.274247 2.162131
+0.27646 2.469352
+0.278673 2.775904
+0.280886 3.081698
+0.283099 3.386643
+0.285312 3.690646
+0.287525 3.99361
+0.289738 4.295437
+0.291951 4.596024
+0.294165 4.895264
+0.296378 5.193045
+0.298591 5.489251
+0.300804 5.78376
+0.303017 6.07644
+0.30523 6.367157
+0.307443 6.655766
+0.309656 6.942111
+0.311869 7.226031
+0.314082 7.507349
+0.316296 7.785879
+0.318509 8.061419
+0.320722 8.333754
+0.322935 8.60265
+0.325148 8.867856
+0.327361 9.129099
+0.329574 9.386081
+0.331787 9.638476
+0.334 9.885923
+0.336213 10.128021
+0.338426 10.364313
+0.340639 10.594273
+0.342853 10.817273
+0.345066 11.032535
+0.347279 11.239044
+0.349492 11.435391
+0.351705 11.619459
+0.353918 11.787815
+0.356131 11.934454
+0.358344 12.048489
+0.360557 12.111685
+0.36277 12.10339
+0.364983 12.020088
+0.367196 11.881644
+0.36941 11.711132
+0.371623 11.523463
+0.373836 11.326808
+0.376049 11.125671
+0.378262 10.922704
+0.380475 10.719611
+0.382688 10.517585
+0.384901 10.317542
+0.387114 10.120235
+0.389327 9.92633
+0.39154 9.73644
+0.393753 9.551154
+0.395967 9.371053
+0.39818 9.196713
+0.400393 9.028717
+0.402606 8.867655
+0.404819 8.714123
+0.407032 8.568724
+0.409245 8.432064
+0.411458 8.304744
+0.413671 8.18736
+0.415884 8.080491
+0.418098 7.984691
+0.420311 7.900482
+0.422524 7.828342
+0.424737 7.768697
+0.42695 7.721911
+0.429163 7.688277
+0.431376 7.668009
+0.433589 7.661238
+&
+@target G0.S14
+@type xy
+0.433589 7.661238
+0.435154 7.662391
+0.436719 7.665848
+0.438284 7.671593
+0.439849 7.679607
+0.441414 7.689858
+0.442978 7.702307
+0.444543 7.716907
+0.446108 7.733603
+0.447673 7.752332
+0.449238 7.773022
+0.450803 7.795595
+0.452368 7.819965
+0.453933 7.846039
+0.455498 7.873717
+0.457062 7.902895
+0.458627 7.93346
+0.460192 7.965295
+0.461757 7.998277
+0.463322 8.032277
+0.464887 8.067164
+0.466452 8.102801
+0.468017 8.139047
+0.469582 8.175758
+0.471147 8.212787
+0.472711 8.249985
+0.474276 8.287201
+0.475841 8.324283
+0.477406 8.361078
+0.478971 8.397434
+0.480536 8.433199
+0.482101 8.468226
+0.483666 8.502368
+0.485231 8.535484
+0.486795 8.567438
+0.48836 8.598101
+0.489925 8.627352
+0.49149 8.65508
+0.493055 8.681183
+0.49462 8.705571
+0.496185 8.728167
+0.49775 8.74891
+0.499314 8.76775
+0.500879 8.784654
+0.502444 8.799605
+0.504009 8.812602
+0.505574 8.823657
+0.507139 8.832801
+0.508704 8.840077
+0.510269 8.845544
+0.511834 8.849271
+0.513398 8.851341
+0.514963 8.851849
+0.516528 8.850895
+0.518093 8.84859
+0.519658 8.845051
+0.521223 8.840398
+0.522788 8.834758
+0.524353 8.828256
+0.525918 8.821022
+0.527482 8.813184
+0.529047 8.804869
+0.530612 8.796204
+0.532177 8.78731
+0.533742 8.778306
+0.535307 8.769307
+0.536872 8.760422
+0.538437 8.751756
+0.540002 8.743406
+0.541566 8.735465
+0.543131 8.728016
+0.544696 8.721138
+0.546261 8.714901
+0.547826 8.709368
+0.549391 8.704592
+0.550956 8.70062
+0.552521 8.697491
+0.554086 8.695235
+0.555651 8.693873
+0.557215 8.693417
+&
+@target G0.S15
+@type xy
+0 14.673812
+0.003275 14.605767
+0.006551 14.461259
+0.009826 14.293594
+0.013102 14.118871
+0.016377 13.942978
+0.019652 13.771171
+0.022928 13.621639
+0.026203 13.554435
+0.029478 13.549382
+0.032754 13.559488
+0.036029 13.575444
+0.039305 13.595276
+0.04258 13.618415
+0.045855 13.644675
+0.049131 13.674004
+0.052406 13.706401
+0.055682 13.741884
+0.058957 13.780472
+0.062232 13.822183
+0.065508 13.867029
+0.068783 13.915017
+0.072058 13.966145
+0.075334 14.020405
+0.078609 14.077788
+0.081885 14.138277
+0.08516 14.201856
+0.088435 14.268508
+0.091711 14.338217
+0.094986 14.410968
+0.098262 14.486748
+0.101537 14.565546
+0.104812 14.647353
+0.108088 14.732158
+0.111363 14.819946
+0.114638 14.910696
+0.117914 15.004379
+0.121189 15.100951
+0.124465 15.200352
+0.12774 15.302503
+0.131015 15.407307
+0.134291 15.514641
+0.137566 15.624365
+0.140841 15.736318
+0.144117 15.850322
+0.147392 15.966184
+0.150668 16.083702
+0.153943 16.202663
+0.157218 16.322849
+0.160494 16.444043
+0.163769 16.566023
+0.167045 16.688571
+0.17032 16.81147
+0.173595 16.934505
+0.176871 17.057464
+0.180146 17.180137
+0.183421 17.302314
+0.186697 17.423785
+0.189972 17.544337
+0.193247 17.663749
+0.196523 17.781797
+0.199798 17.898241
+0.203074 18.012829
+0.206349 18.125287
+0.209624 18.235316
+0.2129 18.342587
+0.216175 18.44673
+0.219451 18.547331
+0.222726 18.643916
+0.226001 18.73594
+0.229277 18.822774
+0.232552 18.903681
+0.235827 18.97777
+0.239103 19.043906
+0.242378 19.100401
+0.245654 19.143954
+0.248929 19.167724
+0.252204 19.171192
+0.25548 19.168204
+0.258755 19.16666
+&
+@target G0.S16
+@type xy
+0.258755 19.16666
+0.260968 19.166801
+0.263181 19.167221
+0.265394 19.16792
+0.267607 19.168897
+0.269821 19.170152
+0.272034 19.171682
+0.274247 19.173485
+0.27646 19.175558
+0.278673 19.177899
+0.280886 19.180504
+0.283099 19.18337
+0.285312 19.186493
+0.287525 19.189867
+0.289738 19.193489
+0.291951 19.197353
+0.294165 19.201454
+0.296378 19.205785
+0.298591 19.21034
+0.300804 19.215114
+0.303017 19.220098
+0.30523 19.225286
+0.307443 19.230671
+0.309656 19.236243
+0.311869 19.241995
+0.314082 19.247919
+0.316296 19.254006
+0.318509 19.260246
+0.320722 19.26663
+0.322935 19.273149
+0.325148 19.279793
+0.327361 19.286552
+0.329574 19.293415
+0.331787 19.300373
+0.334 19.307413
+0.336213 19.314526
+0.338426 19.321701
+0.340639 19.328925
+0.342853 19.336189
+0.345066 19.34348
+0.347279 19.350787
+0.349492 19.358099
+0.351705 19.365404
+0.353918 19.37269
+0.356131 19.379946
+0.358344 19.387159
+0.360557 19.394319
+0.36277 19.401413
+0.364983 19.40843
+0.367196 19.415359
+0.36941 19.422188
+0.371623 19.428907
+0.373836 19.435503
+0.376049 19.441966
+0.378262 19.448285
+0.380475 19.45445
+0.382688 19.46045
+0.384901 19.466276
+0.387114 19.471917
+0.389327 19.477364
+0.39154 19.482608
+0.393753 19.48764
+0.395967 19.492451
+0.39818 19.497033
+0.400393 19.501378
+0.402606 19.505479
+0.404819 19.509329
+0.407032 19.512921
+0.409245 19.516249
+0.411458 19.519307
+0.413671 19.52209
+0.415884 19.524593
+0.418098 19.526813
+0.420311 19.528744
+0.422524 19.530383
+0.424737 19.531729
+0.42695 19.532778
+0.429163 19.533528
+0.431376 19.533979
+0.433589 19.53413
+&
+@target G0.S17
+@type xy
+0.433589 19.53413
+0.435154 19.534017
+0.436719 19.533681
+0.438284 19.533122
+0.439849 19.53234
+0.441414 19.531338
+0.442978 19.530118
+0.444543 19.528682
+0.446108 19.527035
+0.447673 19.525178
+0.449238 19.523117
+0.450803 19.520856
+0.452368 19.5184
+0.453933 19.515753
+0.455498 19.512922
+0.457062 19.509913
+0.458627 19.506732
+0.460192 19.503386
+0.461757 19.49988
+0.463322 19.496224
+0.464887 19.492424
+0.466452 19.488487
+0.468017 19.484422
+0.469582 19.480236
+0.471147 19.475938
+0.472711 19.471536
+0.474276 19.467037
+0.475841 19.462452
+0.477406 19.457787
+0.478971 19.453052
+0.480536 19.448256
+0.482101 19.443405
+0.483666 19.43851
+0.485231 19.433579
+0.486795 19.428619
+0.48836 19.42364
+0.489925 19.418649
+0.49149 19.413656
+0.493055 19.408666
+0.49462 19.40369
+0.496185 19.398734
+0.49775 19.393806
+0.499314 19.388914
+0.500879 19.384064
+0.502444 19.379264
+0.504009 19.374522
+0.505574 19.369843
+0.507139 19.365234
+0.508704 19.360702
+0.510269 19.356253
+0.511834 19.351893
+0.513398 19.347628
+0.514963 19.343463
+0.516528 19.339403
+0.518093 19.335455
+0.519658 19.331622
+0.521223 19.32791
+0.522788 19.324323
+0.524353 19.320866
+0.525918 19.317542
+0.527482 19.314356
+0.529047 19.311311
+0.530612 19.308411
+0.532177 19.305659
+0.533742 19.303059
+0.535307 19.300613
+0.536872 19.298323
+0.538437 19.296194
+0.540002 19.294226
+0.541566 19.292422
+0.543131 19.290784
+0.544696 19.289314
+0.546261 19.288013
+0.547826 19.286883
+0.549391 19.285924
+0.550956 19.285139
+0.552521 19.284527
+0.554086 19.28409
+0.555651 19.283827
+0.557215 19.283739
+&
+@target G0.S18
+@type xy
+0 15.133086
+0.003275 15.198363
+0.006551 15.335655
+0.009826 15.491898
+0.013102 15.650709
+0.016377 15.806421
+0.019652 15.956309
+0.022928 16.098608
+0.026203 16.231893
+0.029478 16.354847
+0.032754 16.466164
+0.036029 16.564533
+0.039305 16.648658
+0.04258 16.717335
+0.045855 16.769572
+0.049131 16.804742
+0.052406 16.822739
+0.055682 16.824104
+0.058957 16.810054
+0.062232 16.782426
+0.065508 16.74352
+0.068783 16.69591
+0.072058 16.642246
+0.075334 16.585093
+0.078609 16.526809
+0.081885 16.469464
+0.08516 16.414788
+0.088435 16.364133
+0.091711 16.31845
+0.094986 16.278269
+0.098262 16.243685
+0.101537 16.214328
+0.104812 16.189317
+0.108088 16.167166
+0.111363 16.14557
+0.114638 16.121006
+0.117914 16.087968
+0.121189 16.037801
+0.124465 15.957918
+0.12774 15.834535
+0.131015 15.66104
+0.134291 15.442861
+0.137566 15.191264
+0.140841 14.916314
+0.144117 14.625456
+0.147392 14.325348
+0.150668 14.027316
+0.153943 13.774348
+0.157218 13.703991
+0.160494 13.783085
+0.163769 13.886426
+0.167045 13.981742
+0.17032 14.059573
+0.173595 14.115471
+0.176871 14.147012
+0.180146 14.153187
+0.183421 14.134247
+0.186697 14.091568
+0.189972 14.027432
+0.193247 13.944742
+0.196523 13.846711
+0.199798 13.736602
+0.203074 13.61754
+0.206349 13.492408
+0.209624 13.363808
+0.2129 13.234058
+0.216175 13.105219
+0.219451 12.979122
+0.222726 12.857402
+0.226001 12.741515
+0.229277 12.63277
+0.232552 12.532334
+0.235827 12.441247
+0.239103 12.360427
+0.242378 12.290673
+0.245654 12.232663
+0.248929 12.186958
+0.252204 12.153996
+0.25548 12.134093
+0.258755 12.127437
+&
+@target G0.S19
+@type xy
+0.258755 12.127437
+0.260968 12.1263
+0.263181 12.122889
+0.265394 12.117215
+0.267607 12.109291
+0.269821 12.099139
+0.272034 12.086783
+0.274247 12.072256
+0.27646 12.055594
+0.278673 12.036839
+0.280886 12.016038
+0.283099 11.99324
+0.285312 11.968501
+0.287525 11.94188
+0.289738 11.91344
+0.291951 11.883246
+0.294165 11.851368
+0.296378 11.817877
+0.298591 11.782847
+0.300804 11.746354
+0.303017 11.708475
+0.30523 11.66929
+0.307443 11.628879
+0.309656 11.587323
+0.311869 11.544705
+0.314082 11.501108
+0.316296 11.456613
+0.318509 11.411304
+0.320722 11.365264
+0.322935 11.318576
+0.325148 11.271322
+0.327361 11.223583
+0.329574 11.17544
+0.331787 11.126974
+0.334 11.078264
+0.336213 11.029389
+0.338426 10.980426
+0.340639 10.93145
+0.342853 10.882538
+0.345066 10.833763
+0.347279 10.785197
+0.349492 10.736912
+0.351705 10.688977
+0.353918 10.641461
+0.356131 10.59443
+0.358344 10.547951
+0.360557 10.502087
+0.36277 10.4569
+0.364983 10.412451
+0.367196 10.368799
+0.36941 10.326003
+0.371623 10.284117
+0.373836 10.243197
+0.376049 10.203295
+0.378262 10.164461
+0.380475 10.126746
+0.382688 10.090196
+0.384901 10.054858
+0.387114 10.020775
+0.389327 9.987989
+0.39154 9.956542
+0.393753 9.926472
+0.395967 9.897815
+0.39818 9.870606
+0.400393 9.844879
+0.402606 9.820664
+0.404819 9.797991
+0.407032 9.776887
+0.409245 9.757377
+0.411458 9.739485
+0.413671 9.723232
+0.415884 9.708637
+0.418098 9.695719
+0.420311 9.684492
+0.422524 9.674969
+0.424737 9.667162
+0.42695 9.66108
+0.429163 9.656731
+0.431376 9.65412
+0.433589 9.653249
+&
+@target G0.S20
+@type xy
+0.433589 9.653249
+0.435154 9.652906
+0.436719 9.651878
+0.438284 9.650166
+0.439849 9.647773
+0.441414 9.644701
+0.442978 9.640955
+0.444543 9.63654
+0.446108 9.631463
+0.447673 9.625729
+0.449238 9.619347
+0.450803 9.612325
+0.452368 9.604674
+0.453933 9.596403
+0.455498 9.587524
+0.457062 9.57805
+0.458627 9.567993
+0.460192 9.557368
+0.461757 9.546189
+0.463322 9.534471
+0.464887 9.522233
+0.466452 9.50949
+0.468017 9.496261
+0.469582 9.482564
+0.471147 9.46842
+0.472711 9.453849
+0.474276 9.438871
+0.475841 9.423508
+0.477406 9.407784
+0.478971 9.39172
+0.480536 9.375341
+0.482101 9.35867
+0.483666 9.341734
+0.485231 9.324556
+0.486795 9.307164
+0.48836 9.289582
+0.489925 9.271839
+0.49149 9.253961
+0.493055 9.235976
+0.49462 9.217912
+0.496185 9.199797
+0.49775 9.18166
+0.499314 9.163529
+0.500879 9.145432
+0.502444 9.1274
+0.504009 9.109461
+0.505574 9.091644
+0.507139 9.073978
+0.508704 9.056492
+0.510269 9.039215
+0.511834 9.022175
+0.513398 9.005402
+0.514963 8.988922
+0.516528 8.972765
+0.518093 8.956957
+0.519658 8.941525
+0.521223 8.926496
+0.522788 8.911895
+0.524353 8.897749
+0.525918 8.884081
+0.527482 8.870916
+0.529047 8.858277
+0.530612 8.846185
+0.532177 8.834663
+0.533742 8.823731
+0.535307 8.813409
+0.536872 8.803714
+0.538437 8.794666
+0.540002 8.786278
+0.541566 8.778569
+0.543131 8.77155
+0.544696 8.765235
+0.546261 8.759635
+0.547826 8.754761
+0.549391 8.750622
+0.550956 8.747224
+0.552521 8.744576
+0.554086 8.74268
+0.555651 8.741542
+0.557215 8.741162
+&
+@target G0.S21
+@type xy
+0 15.133086
+0.003275 15.202193
+0.006551 15.349918
+0.009826 15.523068
+0.013102 15.705855
+0.016377 15.893286
+0.019652 16.083348
+0.022928 16.275038
+0.026203 16.467753
+0.029478 16.661072
+0.032754 16.854652
+0.036029 17.04819
+0.039305 17.241396
+0.04258 17.43398
+0.045855 17.625647
+0.049131 17.816093
+0.052406 18.004999
+0.055682 18.192036
+0.058957 18.376864
+0.062232 18.55913
+0.065508 18.738474
+0.068783 18.914531
+0.072058 19.086935
+0.075334 19.255321
+0.078609 19.419331
+0.081885 19.578621
+0.08516 19.732862
+0.088435 19.88175
+0.091711 20.025005
+0.094986 20.162379
+0.098262 20.293659
+0.101537 20.418666
+0.104812 20.537257
+0.108088 20.64932
+0.111363 20.754773
+0.114638 20.853553
+0.117914 20.945608
+0.121189 21.030875
+0.124465 21.109266
+0.12774 21.180623
+0.131015 21.244673
+0.134291 21.300929
+0.137566 21.348542
+0.140841 21.386041
+0.144117 21.410925
+0.147392 21.419269
+0.150668 21.406133
+0.153943 21.368172
+0.157218 21.307034
+0.160494 21.228603
+0.163769 21.139121
+0.167045 21.043143
+0.17032 20.943575
+0.173595 20.842246
+0.176871 20.740351
+0.180146 20.638724
+0.183421 20.537983
+0.186697 20.43862
+0.189972 20.341044
+0.193247 20.245615
+0.196523 20.152662
+0.199798 20.062487
+0.203074 19.975378
+0.206349 19.89161
+0.209624 19.811448
+0.2129 19.73515
+0.216175 19.662964
+0.219451 19.595133
+0.222726 19.531894
+0.226001 19.473484
+0.229277 19.420139
+0.232552 19.372119
+0.235827 19.329734
+0.239103 19.293453
+0.242378 19.264212
+0.245654 19.244509
+0.248929 19.240372
+0.252204 19.251568
+0.25548 19.26363
+0.258755 19.268246
+&
+@target G0.S22
+@type xy
+0.258755 19.268246
+0.260968 19.264264
+0.263181 19.252429
+0.265394 19.23305
+0.267607 19.206607
+0.269821 19.173699
+0.272034 19.134995
+0.274247 19.091185
+0.27646 19.042944
+0.278673 18.990909
+0.280886 18.935665
+0.283099 18.877735
+0.285312 18.81758
+0.287525 18.755605
+0.289738 18.69216
+0.291951 18.627544
+0.294165 18.562017
+0.296378 18.495797
+0.298591 18.429071
+0.300804 18.361997
+0.303017 18.294707
+0.30523 18.227313
+0.307443 18.159907
+0.309656 18.092564
+0.311869 18.025345
+0.314082 17.958301
+0.316296 17.891468
+0.318509 17.824876
+0.320722 17.758546
+0.322935 17.69249
+0.325148 17.626716
+0.327361 17.561224
+0.329574 17.496011
+0.331787 17.431067
+0.334 17.36638
+0.336213 17.301934
+0.338426 17.237707
+0.340639 17.173677
+0.342853 17.109816
+0.345066 17.046096
+0.347279 16.982482
+0.349492 16.918939
+0.351705 16.855431
+0.353918 16.791915
+0.356131 16.728351
+0.358344 16.664694
+0.360557 16.600898
+0.36277 16.536919
+0.364983 16.472709
+0.367196 16.408222
+0.36941 16.343412
+0.371623 16.278234
+0.373836 16.212647
+0.376049 16.146609
+0.378262 16.080081
+0.380475 16.013029
+0.382688 15.94542
+0.384901 15.877226
+0.387114 15.808423
+0.389327 15.738991
+0.39154 15.668915
+0.393753 15.598184
+0.395967 15.526795
+0.39818 15.454752
+0.400393 15.382066
+0.402606 15.308759
+0.404819 15.234869
+0.407032 15.160449
+0.409245 15.08558
+0.411458 15.010377
+0.413671 14.935008
+0.415884 14.859717
+0.418098 14.784875
+0.420311 14.711048
+0.422524 14.639136
+0.424737 14.570612
+0.42695 14.507945
+0.429163 14.455235
+0.431376 14.418692
+0.433589 14.405369
+&
+@target G0.S23
+@type xy
+0.433589 14.405369
+0.435154 14.40864
+0.436719 14.418239
+0.438284 14.433586
+0.439849 14.453885
+0.441414 14.47829
+0.442978 14.506012
+0.444543 14.536368
+0.446108 14.568801
+0.447673 14.602861
+0.449238 14.638189
+0.450803 14.674501
+0.452368 14.711569
+0.453933 14.749207
+0.455498 14.787264
+0.457062 14.825613
+0.458627 14.864149
+0.460192 14.90278
+0.461757 14.941427
+0.463322 14.980021
+0.464887 15.0185
+0.466452 15.056809
+0.468017 15.094896
+0.469582 15.132716
+0.471147 15.170226
+0.472711 15.207385
+0.474276 15.244157
+0.475841 15.280507
+0.477406 15.316402
+0.478971 15.351811
+0.480536 15.386705
+0.482101 15.421056
+0.483666 15.454837
+0.485231 15.488024
+0.486795 15.520594
+0.48836 15.552524
+0.489925 15.583792
+0.49149 15.61438
+0.493055 15.644269
+0.49462 15.673441
+0.496185 15.701881
+0.49775 15.729572
+0.499314 15.756501
+0.500879 15.782656
+0.502444 15.808024
+0.504009 15.832595
+0.505574 15.856359
+0.507139 15.879309
+0.508704 15.901437
+0.510269 15.922737
+0.511834 15.943204
+0.513398 15.962835
+0.514963 15.981627
+0.516528 15.999579
+0.518093 16.016692
+0.519658 16.032966
+0.521223 16.048406
+0.522788 16.063014
+0.524353 16.076798
+0.525918 16.089765
+0.527482 16.101925
+0.529047 16.113287
+0.530612 16.123866
+0.532177 16.133675
+0.533742 16.142732
+0.535307 16.151053
+0.536872 16.158658
+0.538437 16.165569
+0.540002 16.171807
+0.541566 16.177396
+0.543131 16.182359
+0.544696 16.186719
+0.546261 16.1905
+0.547826 16.193724
+0.549391 16.196412
+0.550956 16.198584
+0.552521 16.200255
+0.554086 16.201438
+0.555651 16.202145
+0.557215 16.202379
+&
+@target G0.S24
+@type xy
+0 20.247588
+0.003275 20.246686
+0.006551 20.243998
+0.009826 20.239583
+0.013102 20.233524
+0.016377 20.225928
+0.019652 20.216905
+0.022928 20.206556
+0.026203 20.194961
+0.029478 20.182161
+0.032754 20.168149
+0.036029 20.15286
+0.039305 20.136165
+0.04258 20.117862
+0.045855 20.097679
+0.049131 20.075276
+0.052406 20.05026
+0.055682 20.022206
+0.058957 19.990705
+0.062232 19.955432
+0.065508 19.916252
+0.068783 19.873357
+0.072058 19.827415
+0.075334 19.779661
+0.078609 19.731795
+0.081885 19.685575
+0.08516 19.642183
+0.088435 19.601773
+0.091711 19.563517
+0.094986 19.526045
+0.098262 19.487895
+0.101537 19.44778
+0.104812 19.404673
+0.108088 19.357805
+0.111363 19.306622
+0.114638 19.250756
+0.117914 19.189994
+0.121189 19.124264
+0.124465 19.053641
+0.12774 18.978351
+0.131015 18.898797
+0.134291 18.815583
+0.137566 18.729558
+0.140841 18.64185
+0.144117 18.553919
+0.147392 18.467598
+0.150668 18.385125
+0.153943 18.309141
+0.157218 18.242641
+0.160494 18.188828
+0.163769 18.150871
+0.167045 18.131578
+0.17032 18.133038
+0.173595 18.156341
+0.176871 18.20143
+0.180146 18.267127
+0.183421 18.351271
+0.186697 18.450918
+0.189972 18.562513
+0.193247 18.681988
+0.196523 18.804726
+0.199798 18.925409
+0.203074 19.037854
+0.206349 19.135215
+0.209624 19.211236
+0.2129 19.262642
+0.216175 19.290793
+0.219451 19.300543
+0.222726 19.297588
+0.226001 19.28672
+0.229277 19.271434
+0.232552 19.254145
+0.235827 19.236501
+0.239103 19.219643
+0.242378 19.204369
+0.245654 19.191248
+0.248929 19.180681
+0.252204 19.17295
+0.25548 19.168242
+0.258755 19.16666
+&
+@target G0.S25
+@type xy
+0.258755 19.16666
+0.260968 19.166734
+0.263181 19.166954
+0.265394 19.16732
+0.267607 19.167834
+0.269821 19.168495
+0.272034 19.169303
+0.274247 19.170259
+0.27646 19.171363
+0.278673 19.172616
+0.280886 19.174018
+0.283099 19.175571
+0.285312 19.177275
+0.287525 19.179131
+0.289738 19.181139
+0.291951 19.183302
+0.294165 19.18562
+0.296378 19.188095
+0.298591 19.190728
+0.300804 19.19352
+0.303017 19.196474
+0.30523 19.199589
+0.307443 19.202869
+0.309656 19.206315
+0.311869 19.209929
+0.314082 19.213712
+0.316296 19.217665
+0.318509 19.221791
+0.320722 19.226091
+0.322935 19.230567
+0.325148 19.235219
+0.327361 19.240048
+0.329574 19.245057
+0.331787 19.250245
+0.334 19.255612
+0.336213 19.261159
+0.338426 19.266886
+0.340639 19.272791
+0.342853 19.278874
+0.345066 19.285132
+0.347279 19.291563
+0.349492 19.298165
+0.351705 19.304933
+0.353918 19.311863
+0.356131 19.31895
+0.358344 19.326187
+0.360557 19.333566
+0.36277 19.34108
+0.364983 19.348718
+0.367196 19.356471
+0.36941 19.364325
+0.371623 19.372267
+0.373836 19.380282
+0.376049 19.388354
+0.378262 19.396464
+0.380475 19.404593
+0.382688 19.41272
+0.384901 19.420822
+0.387114 19.428874
+0.389327 19.436851
+0.39154 19.444724
+0.393753 19.452467
+0.395967 19.460048
+0.39818 19.467436
+0.400393 19.474599
+0.402606 19.481505
+0.404819 19.488121
+0.407032 19.494414
+0.409245 19.50035
+0.411458 19.505898
+0.413671 19.511027
+0.415884 19.515706
+0.418098 19.519907
+0.420311 19.523605
+0.422524 19.526776
+0.424737 19.529399
+0.42695 19.531458
+0.429163 19.532939
+0.431376 19.533831
+0.433589 19.53413
+&
+@target G0.S26
+@type xy
+0.433589 19.53413
+0.435154 19.534017
+0.436719 19.533681
+0.438284 19.533122
+0.439849 19.53234
+0.441414 19.531338
+0.442978 19.530118
+0.444543 19.528682
+0.446108 19.527035
+0.447673 19.525178
+0.449238 19.523117
+0.450803 19.520856
+0.452368 19.5184
+0.453933 19.515753
+0.455498 19.512922
+0.457062 19.509913
+0.458627 19.506732
+0.460192 19.503386
+0.461757 19.49988
+0.463322 19.496224
+0.464887 19.492424
+0.466452 19.488487
+0.468017 19.484422
+0.469582 19.480236
+0.471147 19.475938
+0.472711 19.471536
+0.474276 19.467037
+0.475841 19.462452
+0.477406 19.457787
+0.478971 19.453052
+0.480536 19.448256
+0.482101 19.443405
+0.483666 19.43851
+0.485231 19.433579
+0.486795 19.428619
+0.48836 19.42364
+0.489925 19.418649
+0.49149 19.413656
+0.493055 19.408666
+0.49462 19.40369
+0.496185 19.398734
+0.49775 19.393806
+0.499314 19.388914
+0.500879 19.384064
+0.502444 19.379264
+0.504009 19.374522
+0.505574 19.369843
+0.507139 19.365234
+0.508704 19.360702
+0.510269 19.356253
+0.511834 19.351893
+0.513398 19.347628
+0.514963 19.343463
+0.516528 19.339403
+0.518093 19.335455
+0.519658 19.331622
+0.521223 19.32791
+0.522788 19.324323
+0.524353 19.320866
+0.525918 19.317542
+0.527482 19.314356
+0.529047 19.311311
+0.530612 19.308411
+0.532177 19.305659
+0.533742 19.303059
+0.535307 19.300613
+0.536872 19.298323
+0.538437 19.296194
+0.540002 19.294226
+0.541566 19.292422
+0.543131 19.290784
+0.544696 19.289314
+0.546261 19.288013
+0.547826 19.286883
+0.549391 19.285924
+0.550956 19.285139
+0.552521 19.284527
+0.554086 19.28409
+0.555651 19.283827
+0.557215 19.283739
+&
+@target G0.S27
+@type xy
+0 20.247588
+0.003275 20.241152
+0.006551 20.222043
+0.009826 20.190843
+0.013102 20.148482
+0.016377 20.096186
+0.019652 20.035425
+0.022928 19.96786
+0.026203 19.895297
+0.029478 19.819651
+0.032754 19.742914
+0.036029 19.667107
+0.039305 19.59422
+0.04258 19.526114
+0.045855 19.464389
+0.049131 19.410219
+0.052406 19.364178
+0.055682 19.326102
+0.058957 19.295021
+0.062232 19.269168
+0.065508 19.246063
+0.068783 19.222603
+0.072058 19.195163
+0.075334 19.159714
+0.078609 19.11209
+0.081885 19.048506
+0.08516 18.96624
+0.088435 18.864099
+0.091711 18.742342
+0.094986 18.602197
+0.098262 18.445362
+0.101537 18.27372
+0.104812 18.089258
+0.108088 17.894176
+0.111363 17.691131
+0.114638 17.483718
+0.117914 17.277297
+0.121189 17.080223
+0.124465 16.904683
+0.12774 16.764013
+0.131015 16.664371
+0.134291 16.599913
+0.137566 16.559067
+0.140841 16.53169
+0.144117 16.51082
+0.147392 16.491897
+0.150668 16.471808
+0.153943 16.448283
+0.157218 16.419583
+0.160494 16.3844
+0.163769 16.341886
+0.167045 16.291764
+0.17032 16.234415
+0.173595 16.170871
+0.176871 16.102653
+0.180146 16.03149
+0.183421 15.959011
+0.186697 15.88651
+0.189972 15.814834
+0.193247 15.744419
+0.196523 15.675403
+0.199798 15.60777
+0.203074 15.541467
+0.206349 15.476487
+0.209624 15.412901
+0.2129 15.350874
+0.216175 15.290653
+0.219451 15.232558
+0.222726 15.176958
+0.226001 15.12426
+0.229277 15.074891
+0.232552 15.029284
+0.235827 14.987864
+0.239103 14.951036
+0.242378 14.919176
+0.245654 14.892618
+0.248929 14.87165
+0.252204 14.856502
+0.25548 14.847345
+0.258755 14.844281
+&
+@target G0.S28
+@type xy
+0.258755 14.844281
+0.260968 14.848345
+0.263181 14.860506
+0.265394 14.880664
+0.267607 14.908655
+0.269821 14.944251
+0.272034 14.987165
+0.274247 15.037049
+0.27646 15.093503
+0.278673 15.156072
+0.280886 15.224255
+0.283099 15.297502
+0.285312 15.375218
+0.287525 15.456764
+0.289738 15.541452
+0.291951 15.628541
+0.294165 15.717228
+0.296378 15.806627
+0.298591 15.895748
+0.300804 15.983449
+0.303017 16.068376
+0.30523 16.148871
+0.307443 16.222836
+0.309656 16.287562
+0.311869 16.339516
+0.314082 16.3742
+0.316296 16.386263
+0.318509 16.370229
+0.320722 16.321981
+0.322935 16.240392
+0.325148 16.127833
+0.327361 15.989081
+0.329574 15.829602
+0.331787 15.65436
+0.334 15.467371
+0.336213 15.271729
+0.338426 15.069804
+0.340639 14.863457
+0.342853 14.654233
+0.345066 14.443532
+0.347279 14.232782
+0.349492 14.023661
+0.351705 13.81845
+0.353918 13.620687
+0.356131 13.43644
+0.358344 13.276643
+0.360557 13.159582
+0.36277 13.105978
+0.364983 13.119448
+0.367196 13.180274
+0.36941 13.265579
+0.371623 13.360717
+0.373836 13.457845
+0.376049 13.552861
+0.378262 13.643584
+0.380475 13.728857
+0.382688 13.808099
+0.384901 13.881074
+0.387114 13.947763
+0.389327 14.008293
+0.39154 14.062886
+0.393753 14.111828
+0.395967 14.155449
+0.39818 14.194103
+0.400393 14.22816
+0.402606 14.25799
+0.404819 14.283963
+0.407032 14.306437
+0.409245 14.325756
+0.411458 14.342245
+0.413671 14.356207
+0.415884 14.367924
+0.418098 14.377649
+0.420311 14.385609
+0.422524 14.392004
+0.424737 14.397003
+0.42695 14.400745
+0.429163 14.40334
+0.431376 14.404866
+0.433589 14.405369
+&
+@target G0.S29
+@type xy
+0.433589 14.405369
+0.435154 14.40864
+0.436719 14.418239
+0.438284 14.433586
+0.439849 14.453885
+0.441414 14.47829
+0.442978 14.506012
+0.444543 14.536368
+0.446108 14.568801
+0.447673 14.602861
+0.449238 14.638189
+0.450803 14.674501
+0.452368 14.711569
+0.453933 14.749207
+0.455498 14.787264
+0.457062 14.825613
+0.458627 14.864149
+0.460192 14.90278
+0.461757 14.941427
+0.463322 14.980021
+0.464887 15.0185
+0.466452 15.056809
+0.468017 15.094896
+0.469582 15.132716
+0.471147 15.170226
+0.472711 15.207385
+0.474276 15.244157
+0.475841 15.280507
+0.477406 15.316402
+0.478971 15.351811
+0.480536 15.386705
+0.482101 15.421056
+0.483666 15.454837
+0.485231 15.488024
+0.486795 15.520594
+0.48836 15.552524
+0.489925 15.583792
+0.49149 15.61438
+0.493055 15.644269
+0.49462 15.673441
+0.496185 15.701881
+0.49775 15.729572
+0.499314 15.756501
+0.500879 15.782656
+0.502444 15.808024
+0.504009 15.832595
+0.505574 15.856359
+0.507139 15.879309
+0.508704 15.901437
+0.510269 15.922737
+0.511834 15.943204
+0.513398 15.962835
+0.514963 15.981627
+0.516528 15.999579
+0.518093 16.016692
+0.519658 16.032966
+0.521223 16.048406
+0.522788 16.063014
+0.524353 16.076798
+0.525918 16.089765
+0.527482 16.101925
+0.529047 16.113287
+0.530612 16.123866
+0.532177 16.133675
+0.533742 16.142732
+0.535307 16.151053
+0.536872 16.158658
+0.538437 16.165569
+0.540002 16.171807
+0.541566 16.177396
+0.543131 16.182359
+0.544696 16.186719
+0.546261 16.1905
+0.547826 16.193724
+0.549391 16.196412
+0.550956 16.198584
+0.552521 16.200255
+0.554086 16.201438
+0.555651 16.202145
+0.557215 16.202379
+&
+@target G0.S30
+@type xy
+0 23.50494
+0.003275 23.508833
+0.006551 23.519475
+0.009826 23.532748
+0.013102 23.539194
+0.016377 23.529008
+0.019652 23.502903
+0.022928 23.46577
+0.026203 23.420577
+0.029478 23.36886
+0.032754 23.311561
+0.036029 23.249403
+0.039305 23.183036
+0.04258 23.113105
+0.045855 23.040292
+0.049131 22.965328
+0.052406 22.88901
+0.055682 22.812202
+0.058957 22.735828
+0.062232 22.660848
+0.065508 22.588229
+0.068783 22.518889
+0.072058 22.453632
+0.075334 22.393074
+0.078609 22.337566
+0.081885 22.287137
+0.08516 22.241454
+0.088435 22.199819
+0.091711 22.161198
+0.094986 22.124289
+0.098262 22.087609
+0.101537 22.049613
+0.104812 22.008817
+0.108088 21.963937
+0.111363 21.913996
+0.114638 21.858416
+0.117914 21.79704
+0.121189 21.730101
+0.124465 21.658154
+0.12774 21.581973
+0.131015 21.50245
+0.134291 21.42051
+0.137566 21.337044
+0.140841 21.252867
+0.144117 21.168689
+0.147392 21.085106
+0.150668 21.002604
+0.153943 20.92156
+0.157218 20.842264
+0.160494 20.76493
+0.163769 20.689721
+0.167045 20.616771
+0.17032 20.546203
+0.173595 20.478162
+0.176871 20.412837
+0.180146 20.350498
+0.183421 20.29154
+0.186697 20.236544
+0.189972 20.186367
+0.193247 20.14228
+0.196523 20.106167
+0.199798 20.080782
+0.203074 20.069971
+0.206349 20.078478
+0.209624 20.110688
+0.2129 20.168206
+0.216175 20.248177
+0.219451 20.344396
+0.222726 20.449935
+0.226001 20.558859
+0.229277 20.666605
+0.232552 20.769748
+0.235827 20.865682
+0.239103 20.952359
+0.242378 21.028138
+0.245654 21.091694
+0.248929 21.141996
+0.252204 21.178313
+0.25548 21.200216
+0.258755 21.20753
+&
+@target G0.S31
+@type xy
+0.258755 21.20753
+0.260968 21.200637
+0.263181 21.180025
+0.265394 21.145894
+0.267607 21.098562
+0.269821 21.038456
+0.272034 20.96609
+0.274247 20.882046
+0.27646 20.786957
+0.278673 20.681494
+0.280886 20.566346
+0.283099 20.442221
+0.285312 20.309837
+0.287525 20.169924
+0.289738 20.023225
+0.291951 19.870512
+0.294165 19.712593
+0.296378 19.550342
+0.298591 19.384726
+0.300804 19.216858
+0.303017 19.048059
+0.30523 18.879963
+0.307443 18.71465
+0.309656 18.554829
+0.311869 18.40405
+0.314082 18.26685
+0.316296 18.148648
+0.318509 18.055014
+0.320722 17.990195
+0.322935 17.955481
+0.325148 17.948701
+0.327361 17.965322
+0.329574 18.000162
+0.331787 18.04859
+0.334 18.106976
+0.336213 18.172668
+0.338426 18.243813
+0.340639 18.319148
+0.342853 18.397845
+0.345066 18.479384
+0.347279 18.563466
+0.349492 18.64995
+0.351705 18.738805
+0.353918 18.830076
+0.356131 18.923856
+0.358344 19.020261
+0.360557 19.119415
+0.36277 19.221431
+0.364983 19.326399
+0.367196 19.434371
+0.36941 19.545353
+0.371623 19.659297
+0.373836 19.776095
+0.376049 19.895575
+0.378262 20.017503
+0.380475 20.141578
+0.382688 20.26744
+0.384901 20.39467
+0.387114 20.522796
+0.389327 20.6513
+0.39154 20.779623
+0.393753 20.907169
+0.395967 21.033314
+0.39818 21.157407
+0.400393 21.278782
+0.402606 21.396757
+0.404819 21.510639
+0.407032 21.619736
+0.409245 21.723352
+0.411458 21.820804
+0.413671 21.911419
+0.415884 21.994546
+0.418098 22.069567
+0.420311 22.135899
+0.422524 22.193011
+0.424737 22.24043
+0.42695 22.277751
+0.429163 22.304649
+0.431376 22.320885
+0.433589 22.326313
+&
+@target G0.S32
+@type xy
+0.433589 22.326313
+0.435154 22.325154
+0.436719 22.321679
+0.438284 22.315896
+0.439849 22.307822
+0.441414 22.297476
+0.442978 22.284885
+0.444543 22.27008
+0.446108 22.253099
+0.447673 22.233982
+0.449238 22.212776
+0.450803 22.189531
+0.452368 22.1643
+0.453933 22.137141
+0.455498 22.108113
+0.457062 22.07728
+0.458627 22.044705
+0.460192 22.010457
+0.461757 21.974601
+0.463322 21.937209
+0.464887 21.898348
+0.466452 21.858091
+0.468017 21.816506
+0.469582 21.773664
+0.471147 21.729635
+0.472711 21.684489
+0.474276 21.638295
+0.475841 21.59112
+0.477406 21.543031
+0.478971 21.494096
+0.480536 21.444378
+0.482101 21.393943
+0.483666 21.342853
+0.485231 21.29117
+0.486795 21.238957
+0.48836 21.186273
+0.489925 21.133179
+0.49149 21.079733
+0.493055 21.025994
+0.49462 20.972022
+0.496185 20.917874
+0.49775 20.86361
+0.499314 20.809288
+0.500879 20.754967
+0.502444 20.700709
+0.504009 20.646574
+0.505574 20.592626
+0.507139 20.538927
+0.508704 20.485545
+0.510269 20.432546
+0.511834 20.38
+0.513398 20.32798
+0.514963 20.27656
+0.516528 20.225818
+0.518093 20.175833
+0.519658 20.126689
+0.521223 20.07847
+0.522788 20.031266
+0.524353 19.985168
+0.525918 19.94027
+0.527482 19.896668
+0.529047 19.854461
+0.530612 19.813749
+0.532177 19.774635
+0.533742 19.73722
+0.535307 19.701607
+0.536872 19.6679
+0.538437 19.636199
+0.540002 19.606603
+0.541566 19.57921
+0.543131 19.55411
+0.544696 19.531393
+0.546261 19.511139
+0.547826 19.493424
+0.549391 19.478315
+0.550956 19.46587
+0.552521 19.456138
+0.554086 19.449158
+0.555651 19.444959
+0.557215 19.443558
+&
+@target G0.S33
+@type xy
+0 23.50494
+0.003275 23.505825
+0.006551 23.508482
+0.009826 23.512922
+0.013102 23.519166
+0.016377 23.527239
+0.019652 23.537175
+0.022928 23.549012
+0.026203 23.562795
+0.029478 23.578572
+0.032754 23.596392
+0.036029 23.616305
+0.039305 23.638356
+0.04258 23.662579
+0.045855 23.688992
+0.049131 23.717576
+0.052406 23.748257
+0.055682 23.780858
+0.058957 23.815019
+0.062232 23.850025
+0.065508 23.884443
+0.068783 23.915327
+0.072058 23.936711
+0.075334 23.938683
+0.078609 23.913074
+0.081885 23.862579
+0.08516 23.795774
+0.088435 23.719038
+0.091711 23.63582
+0.094986 23.547938
+0.098262 23.456423
+0.101537 23.361923
+0.104812 23.264892
+0.108088 23.165684
+0.111363 23.064605
+0.114638 22.961942
+0.117914 22.857983
+0.121189 22.753044
+0.124465 22.647486
+0.12774 22.54175
+0.131015 22.43641
+0.134291 22.33226
+0.137566 22.230462
+0.140841 22.132808
+0.144117 22.042118
+0.147392 21.962634
+0.150668 21.899616
+0.153943 21.856725
+0.157218 21.832626
+0.160494 21.82175
+0.163769 21.818163
+0.167045 21.817625
+0.17032 21.817543
+0.173595 21.816403
+0.176871 21.813328
+0.180146 21.807812
+0.183421 21.799568
+0.186697 21.788447
+0.189972 21.774389
+0.193247 21.757399
+0.196523 21.737529
+0.199798 21.714872
+0.203074 21.689556
+0.206349 21.661744
+0.209624 21.631638
+0.2129 21.599478
+0.216175 21.565551
+0.219451 21.530192
+0.222726 21.493799
+0.226001 21.456832
+0.229277 21.419828
+0.232552 21.383405
+0.235827 21.348264
+0.239103 21.31519
+0.242378 21.285034
+0.245654 21.258687
+0.248929 21.237035
+0.252204 21.220887
+0.25548 21.210907
+0.258755 21.20753
+&
+@target G0.S34
+@type xy
+0.258755 21.20753
+0.260968 21.211328
+0.263181 21.222611
+0.265394 21.241057
+0.267607 21.266168
+0.269821 21.297321
+0.272034 21.333817
+0.274247 21.374926
+0.27646 21.419931
+0.278673 21.468145
+0.280886 21.51893
+0.283099 21.571704
+0.285312 21.625942
+0.287525 21.681175
+0.289738 21.736984
+0.291951 21.792997
+0.294165 21.848883
+0.296378 21.904349
+0.298591 21.959133
+0.300804 22.013002
+0.303017 22.06575
+0.30523 22.117192
+0.307443 22.167163
+0.309656 22.215517
+0.311869 22.262125
+0.314082 22.30687
+0.316296 22.349653
+0.318509 22.390384
+0.320722 22.428987
+0.322935 22.465395
+0.325148 22.499554
+0.327361 22.531418
+0.329574 22.560951
+0.331787 22.588127
+0.334 22.612926
+0.336213 22.635342
+0.338426 22.655371
+0.340639 22.673022
+0.342853 22.68831
+0.345066 22.701259
+0.347279 22.7119
+0.349492 22.720273
+0.351705 22.726425
+0.353918 22.73041
+0.356131 22.73229
+0.358344 22.732137
+0.360557 22.730025
+0.36277 22.72604
+0.364983 22.720273
+0.367196 22.71282
+0.36941 22.703786
+0.371623 22.69328
+0.373836 22.681418
+0.376049 22.668321
+0.378262 22.654113
+0.380475 22.638925
+0.382688 22.622891
+0.384901 22.606145
+0.387114 22.588829
+0.389327 22.571083
+0.39154 22.553048
+0.393753 22.534867
+0.395967 22.516683
+0.39818 22.498637
+0.400393 22.480867
+0.402606 22.463509
+0.404819 22.446696
+0.407032 22.430557
+0.409245 22.415213
+0.411458 22.400781
+0.413671 22.38737
+0.415884 22.375082
+0.418098 22.364011
+0.420311 22.35424
+0.422524 22.345843
+0.424737 22.338884
+0.42695 22.333416
+0.429163 22.32948
+0.431376 22.327107
+0.433589 22.326313
+&
+@target G0.S35
+@type xy
+0.433589 22.326313
+0.435154 22.325154
+0.436719 22.321679
+0.438284 22.315896
+0.439849 22.307822
+0.441414 22.297476
+0.442978 22.284885
+0.444543 22.27008
+0.446108 22.253099
+0.447673 22.233982
+0.449238 22.212776
+0.450803 22.189531
+0.452368 22.1643
+0.453933 22.137141
+0.455498 22.108113
+0.457062 22.07728
+0.458627 22.044705
+0.460192 22.010457
+0.461757 21.974601
+0.463322 21.937209
+0.464887 21.898348
+0.466452 21.858091
+0.468017 21.816506
+0.469582 21.773664
+0.471147 21.729635
+0.472711 21.684489
+0.474276 21.638295
+0.475841 21.59112
+0.477406 21.543031
+0.478971 21.494096
+0.480536 21.444378
+0.482101 21.393943
+0.483666 21.342853
+0.485231 21.29117
+0.486795 21.238957
+0.48836 21.186273
+0.489925 21.133179
+0.49149 21.079733
+0.493055 21.025994
+0.49462 20.972022
+0.496185 20.917874
+0.49775 20.86361
+0.499314 20.809288
+0.500879 20.754967
+0.502444 20.700709
+0.504009 20.646574
+0.505574 20.592626
+0.507139 20.538927
+0.508704 20.485545
+0.510269 20.432546
+0.511834 20.38
+0.513398 20.32798
+0.514963 20.27656
+0.516528 20.225818
+0.518093 20.175833
+0.519658 20.126689
+0.521223 20.07847
+0.522788 20.031266
+0.524353 19.985168
+0.525918 19.94027
+0.527482 19.896668
+0.529047 19.854461
+0.530612 19.813749
+0.532177 19.774635
+0.533742 19.73722
+0.535307 19.701607
+0.536872 19.6679
+0.538437 19.636199
+0.540002 19.606603
+0.541566 19.57921
+0.543131 19.55411
+0.544696 19.531393
+0.546261 19.511139
+0.547826 19.493424
+0.549391 19.478315
+0.550956 19.46587
+0.552521 19.456138
+0.554086 19.449158
+0.555651 19.444959
+0.557215 19.443558
+&
+@target G0.S36
+@type xy
+0 23.671839
+0.003275 23.669961
+0.006551 23.665309
+0.009826 23.661852
+0.013102 23.668796
+0.016377 23.695585
+0.019652 23.740835
+0.022928 23.795881
+0.026203 23.837284
+0.029478 23.871789
+0.032754 23.905
+0.036029 23.936534
+0.039305 23.965627
+0.04258 23.991505
+0.045855 24.013442
+0.049131 24.030767
+0.052406 24.042875
+0.055682 24.04923
+0.058957 24.049381
+0.062232 24.042984
+0.065508 24.029832
+0.068783 24.009887
+0.072058 23.983308
+0.075334 23.95047
+0.078609 23.911968
+0.081885 23.8686
+0.08516 23.821349
+0.088435 23.771353
+0.091711 23.71987
+0.094986 23.668243
+0.098262 23.617849
+0.101537 23.570035
+0.104812 23.526035
+0.108088 23.486875
+0.111363 23.453284
+0.114638 23.425621
+0.117914 23.403855
+0.121189 23.387583
+0.124465 23.376095
+0.12774 23.368454
+0.131015 23.363582
+0.134291 23.360328
+0.137566 23.357525
+0.140841 23.354031
+0.144117 23.348763
+0.147392 23.340727
+0.150668 23.329039
+0.153943 23.312951
+0.157218 23.291863
+0.160494 23.265332
+0.163769 23.233067
+0.167045 23.194918
+0.17032 23.150864
+0.173595 23.100999
+0.176871 23.04552
+0.180146 22.984721
+0.183421 22.918981
+0.186697 22.848768
+0.189972 22.774622
+0.193247 22.697157
+0.196523 22.617048
+0.199798 22.535016
+0.203074 22.451823
+0.206349 22.36825
+0.209624 22.285089
+0.2129 22.203131
+0.216175 22.123151
+0.219451 22.0459
+0.222726 21.972097
+0.226001 21.902423
+0.229277 21.837513
+0.232552 21.777954
+0.235827 21.724283
+0.239103 21.676979
+0.242378 21.636461
+0.245654 21.603071
+0.248929 21.577056
+0.252204 21.558533
+0.25548 21.547485
+0.258755 21.54382
+&
+@target G0.S37
+@type xy
+0.258755 21.54382
+0.260968 21.544679
+0.263181 21.547251
+0.265394 21.55153
+0.267607 21.557503
+0.269821 21.565153
+0.272034 21.574458
+0.274247 21.585391
+0.27646 21.597923
+0.278673 21.612017
+0.280886 21.627636
+0.283099 21.644736
+0.285312 21.663271
+0.287525 21.683193
+0.289738 21.704449
+0.291951 21.726986
+0.294165 21.750745
+0.296378 21.775669
+0.298591 21.801697
+0.300804 21.828767
+0.303017 21.856816
+0.30523 21.885781
+0.307443 21.915596
+0.309656 21.946197
+0.311869 21.977518
+0.314082 22.009495
+0.316296 22.042063
+0.318509 22.075157
+0.320722 22.108712
+0.322935 22.142667
+0.325148 22.176957
+0.327361 22.211521
+0.329574 22.246299
+0.331787 22.281231
+0.334 22.316259
+0.336213 22.351324
+0.338426 22.386372
+0.340639 22.421347
+0.342853 22.456196
+0.345066 22.490867
+0.347279 22.525311
+0.349492 22.559476
+0.351705 22.593316
+0.353918 22.626785
+0.356131 22.659838
+0.358344 22.69243
+0.360557 22.724521
+0.36277 22.75607
+0.364983 22.787037
+0.367196 22.817384
+0.36941 22.847076
+0.371623 22.876078
+0.373836 22.904355
+0.376049 22.931876
+0.378262 22.958609
+0.380475 22.984524
+0.382688 23.009594
+0.384901 23.033792
+0.387114 23.057091
+0.389327 23.079467
+0.39154 23.100897
+0.393753 23.121358
+0.395967 23.14083
+0.39818 23.159293
+0.400393 23.176728
+0.402606 23.193119
+0.404819 23.208449
+0.407032 23.222703
+0.409245 23.235867
+0.411458 23.247929
+0.413671 23.258877
+0.415884 23.2687
+0.418098 23.277389
+0.420311 23.284937
+0.422524 23.291335
+0.424737 23.296578
+0.42695 23.300661
+0.429163 23.303581
+0.431376 23.305333
+0.433589 23.305918
+&
+@target G0.S38
+@type xy
+0.433589 23.305918
+0.435154 23.30603
+0.436719 23.306367
+0.438284 23.306927
+0.439849 23.307711
+0.441414 23.308715
+0.442978 23.309937
+0.444543 23.311376
+0.446108 23.313028
+0.447673 23.314889
+0.449238 23.316956
+0.450803 23.319224
+0.452368 23.321688
+0.453933 23.324343
+0.455498 23.327185
+0.457062 23.330206
+0.458627 23.333401
+0.460192 23.336763
+0.461757 23.340286
+0.463322 23.343962
+0.464887 23.347784
+0.466452 23.351745
+0.468017 23.355837
+0.469582 23.360052
+0.471147 23.364382
+0.472711 23.368819
+0.474276 23.373355
+0.475841 23.377981
+0.477406 23.382689
+0.478971 23.387471
+0.480536 23.392318
+0.482101 23.397221
+0.483666 23.402172
+0.485231 23.407163
+0.486795 23.412185
+0.48836 23.417229
+0.489925 23.422288
+0.49149 23.427353
+0.493055 23.432416
+0.49462 23.43747
+0.496185 23.442505
+0.49775 23.447515
+0.499314 23.452491
+0.500879 23.457427
+0.502444 23.462314
+0.504009 23.467146
+0.505574 23.471916
+0.507139 23.476617
+0.508704 23.481243
+0.510269 23.485786
+0.511834 23.49024
+0.513398 23.494601
+0.514963 23.498861
+0.516528 23.503014
+0.518093 23.507057
+0.519658 23.510983
+0.521223 23.514787
+0.522788 23.518464
+0.524353 23.52201
+0.525918 23.525421
+0.527482 23.528692
+0.529047 23.531819
+0.530612 23.534798
+0.532177 23.537626
+0.533742 23.540299
+0.535307 23.542815
+0.536872 23.54517
+0.538437 23.547361
+0.540002 23.549387
+0.541566 23.551244
+0.543131 23.552931
+0.544696 23.554445
+0.546261 23.555785
+0.547826 23.55695
+0.549391 23.557937
+0.550956 23.558747
+0.552521 23.559377
+0.554086 23.559828
+0.555651 23.560099
+0.557215 23.560189
+&
+@target G0.S39
+@type xy
+0 23.671839
+0.003275 23.675099
+0.006551 23.684744
+0.009826 23.70038
+0.013102 23.721401
+0.016377 23.747066
+0.019652 23.776766
+0.022928 23.812898
+0.026203 23.874513
+0.029478 23.951928
+0.032754 24.037232
+0.036029 24.128788
+0.039305 24.225468
+0.04258 24.326166
+0.045855 24.429584
+0.049131 24.533833
+0.052406 24.635259
+0.055682 24.724586
+0.058957 24.780971
+0.062232 24.795134
+0.065508 24.787077
+0.068783 24.770902
+0.072058 24.751675
+0.075334 24.731306
+0.078609 24.710605
+0.081885 24.68993
+0.08516 24.669417
+0.088435 24.649099
+0.091711 24.628965
+0.094986 24.608996
+0.098262 24.589183
+0.101537 24.569545
+0.104812 24.550128
+0.108088 24.53101
+0.111363 24.5123
+0.114638 24.494138
+0.117914 24.476698
+0.121189 24.460185
+0.124465 24.444839
+0.12774 24.430931
+0.131015 24.41877
+0.134291 24.40869
+0.137566 24.401049
+0.140841 24.396216
+0.144117 24.394547
+0.147392 24.396366
+0.150668 24.401937
+0.153943 24.411438
+0.157218 24.424945
+0.160494 24.442426
+0.163769 24.463743
+0.167045 24.48867
+0.17032 24.516905
+0.173595 24.548098
+0.176871 24.581867
+0.180146 24.617807
+0.183421 24.655506
+0.186697 24.694545
+0.189972 24.734502
+0.193247 24.774954
+0.196523 24.81547
+0.199798 24.855619
+0.203074 24.894963
+0.206349 24.93307
+0.209624 24.969512
+0.2129 25.003885
+0.216175 25.035822
+0.219451 25.065014
+0.222726 25.091228
+0.226001 25.114333
+0.229277 25.134302
+0.232552 25.151216
+0.235827 25.165249
+0.239103 25.176642
+0.242378 25.185669
+0.245654 25.19261
+0.248929 25.197721
+0.252204 25.201215
+0.25548 25.20325
+0.258755 25.203918
+&
+@target G0.S40
+@type xy
+0.258755 25.203918
+0.260968 25.203339
+0.263181 25.2016
+0.265394 25.198704
+0.267607 25.194653
+0.269821 25.189448
+0.272034 25.183094
+0.274247 25.175595
+0.27646 25.166957
+0.278673 25.157185
+0.280886 25.146286
+0.283099 25.134268
+0.285312 25.12114
+0.287525 25.106911
+0.289738 25.091591
+0.291951 25.075192
+0.294165 25.057726
+0.296378 25.039206
+0.298591 25.019646
+0.300804 24.999061
+0.303017 24.977468
+0.30523 24.954884
+0.307443 24.931327
+0.309656 24.906817
+0.311869 24.881373
+0.314082 24.855018
+0.316296 24.827776
+0.318509 24.799669
+0.320722 24.770725
+0.322935 24.740969
+0.325148 24.71043
+0.327361 24.679137
+0.329574 24.647123
+0.331787 24.61442
+0.334 24.581062
+0.336213 24.547085
+0.338426 24.512527
+0.340639 24.477427
+0.342853 24.441827
+0.345066 24.405769
+0.347279 24.3693
+0.349492 24.332464
+0.351705 24.295312
+0.353918 24.257894
+0.356131 24.220263
+0.358344 24.182475
+0.360557 24.144585
+0.36277 24.106655
+0.364983 24.068745
+0.367196 24.030919
+0.36941 23.993243
+0.371623 23.955785
+0.373836 23.918614
+0.376049 23.881803
+0.378262 23.845427
+0.380475 23.809559
+0.382688 23.774279
+0.384901 23.739666
+0.387114 23.705799
+0.389327 23.672761
+0.39154 23.640633
+0.393753 23.6095
+0.395967 23.579444
+0.39818 23.550548
+0.400393 23.522896
+0.402606 23.496569
+0.404819 23.471647
+0.407032 23.448208
+0.409245 23.426328
+0.411458 23.406079
+0.413671 23.387531
+0.415884 23.370749
+0.418098 23.35579
+0.420311 23.342711
+0.422524 23.331559
+0.424737 23.322376
+0.42695 23.315196
+0.429163 23.310048
+0.431376 23.306951
+0.433589 23.305918
+&
+@target G0.S41
+@type xy
+0.433589 23.305918
+0.435154 23.30603
+0.436719 23.306367
+0.438284 23.306927
+0.439849 23.307711
+0.441414 23.308715
+0.442978 23.309937
+0.444543 23.311376
+0.446108 23.313028
+0.447673 23.314889
+0.449238 23.316956
+0.450803 23.319224
+0.452368 23.321688
+0.453933 23.324343
+0.455498 23.327185
+0.457062 23.330206
+0.458627 23.333401
+0.460192 23.336763
+0.461757 23.340286
+0.463322 23.343962
+0.464887 23.347784
+0.466452 23.351745
+0.468017 23.355837
+0.469582 23.360052
+0.471147 23.364382
+0.472711 23.368819
+0.474276 23.373355
+0.475841 23.377981
+0.477406 23.382689
+0.478971 23.387471
+0.480536 23.392318
+0.482101 23.397221
+0.483666 23.402172
+0.485231 23.407163
+0.486795 23.412185
+0.48836 23.417229
+0.489925 23.422288
+0.49149 23.427353
+0.493055 23.432416
+0.49462 23.43747
+0.496185 23.442505
+0.49775 23.447515
+0.499314 23.452491
+0.500879 23.457427
+0.502444 23.462314
+0.504009 23.467146
+0.505574 23.471916
+0.507139 23.476617
+0.508704 23.481243
+0.510269 23.485786
+0.511834 23.49024
+0.513398 23.494601
+0.514963 23.498861
+0.516528 23.503014
+0.518093 23.507057
+0.519658 23.510983
+0.521223 23.514787
+0.522788 23.518464
+0.524353 23.52201
+0.525918 23.525421
+0.527482 23.528692
+0.529047 23.531819
+0.530612 23.534798
+0.532177 23.537626
+0.533742 23.540299
+0.535307 23.542815
+0.536872 23.54517
+0.538437 23.547361
+0.540002 23.549387
+0.541566 23.551244
+0.543131 23.552931
+0.544696 23.554445
+0.546261 23.555785
+0.547826 23.55695
+0.549391 23.557937
+0.550956 23.558747
+0.552521 23.559377
+0.554086 23.559828
+0.555651 23.560099
+0.557215 23.560189
+&
+@target G0.S42
+@type xy
+0 25.075482
+0.003275 25.075143
+0.006551 25.074107
+0.009826 25.072313
+0.013102 25.069666
+0.016377 25.066045
+0.019652 25.061313
+0.022928 25.055329
+0.026203 25.047963
+0.029478 25.039111
+0.032754 25.028712
+0.036029 25.016775
+0.039305 25.003415
+0.04258 24.988917
+0.045855 24.973886
+0.049131 24.959619
+0.052406 24.949264
+0.055682 24.951673
+0.058957 24.987321
+0.062232 25.065151
+0.065508 25.164821
+0.068783 25.271854
+0.072058 25.380736
+0.075334 25.489026
+0.078609 25.595293
+0.081885 25.698489
+0.08516 25.797737
+0.088435 25.892255
+0.091711 25.981317
+0.094986 26.064251
+0.098262 26.140438
+0.101537 26.209316
+0.104812 26.270395
+0.108088 26.323263
+0.111363 26.367603
+0.114638 26.403197
+0.117914 26.429935
+0.121189 26.44782
+0.124465 26.456967
+0.12774 26.457602
+0.131015 26.450053
+0.134291 26.434743
+0.137566 26.412181
+0.140841 26.382951
+0.144117 26.3477
+0.147392 26.307124
+0.150668 26.261963
+0.153943 26.212984
+0.157218 26.16097
+0.160494 26.106709
+0.163769 26.050981
+0.167045 25.994543
+0.17032 25.938115
+0.173595 25.882363
+0.176871 25.82789
+0.180146 25.775222
+0.183421 25.724797
+0.186697 25.67696
+0.189972 25.631964
+0.193247 25.589965
+0.196523 25.551034
+0.199798 25.51516
+0.203074 25.482259
+0.206349 25.452186
+0.209624 25.424744
+0.2129 25.399697
+0.216175 25.376778
+0.219451 25.355711
+0.222726 25.336218
+0.226001 25.31805
+0.229277 25.301007
+0.232552 25.284967
+0.235827 25.269911
+0.239103 25.255935
+0.242378 25.243247
+0.245654 25.232148
+0.248929 25.222994
+0.252204 25.21614
+0.25548 25.211889
+0.258755 25.210446
+&
+@target G0.S43
+@type xy
+0.258755 25.210446
+0.260968 25.210818
+0.263181 25.211886
+0.265394 25.213517
+0.267607 25.215511
+0.269821 25.217627
+0.272034 25.219618
+0.274247 25.221265
+0.27646 25.2224
+0.278673 25.222927
+0.280886 25.222836
+0.283099 25.222197
+0.285312 25.221153
+0.287525 25.219912
+0.289738 25.218722
+0.291951 25.217863
+0.294165 25.217626
+0.296378 25.2183
+0.298591 25.220165
+0.300804 25.223479
+0.303017 25.228479
+0.30523 25.235369
+0.307443 25.244328
+0.309656 25.255501
+0.311869 25.269005
+0.314082 25.28493
+0.316296 25.303335
+0.318509 25.324257
+0.320722 25.347708
+0.322935 25.373683
+0.325148 25.402154
+0.327361 25.433081
+0.329574 25.466407
+0.331787 25.502066
+0.334 25.53998
+0.336213 25.580067
+0.338426 25.622237
+0.340639 25.666397
+0.342853 25.71245
+0.345066 25.760302
+0.347279 25.809855
+0.349492 25.861015
+0.351705 25.91369
+0.353918 25.967789
+0.356131 26.023224
+0.358344 26.079913
+0.360557 26.137773
+0.36277 26.196727
+0.364983 26.256698
+0.367196 26.317613
+0.36941 26.379399
+0.371623 26.441983
+0.373836 26.505291
+0.376049 26.569248
+0.378262 26.633775
+0.380475 26.698787
+0.382688 26.764194
+0.384901 26.829896
+0.387114 26.895784
+0.389327 26.961734
+0.39154 27.027608
+0.393753 27.093251
+0.395967 27.158486
+0.39818 27.223112
+0.400393 27.286902
+0.402606 27.349599
+0.404819 27.410911
+0.407032 27.470512
+0.409245 27.528035
+0.411458 27.583075
+0.413671 27.635185
+0.415884 27.683882
+0.418098 27.728653
+0.420311 27.768959
+0.422524 27.80426
+0.424737 27.834025
+0.42695 27.857764
+0.429163 27.875055
+0.431376 27.885568
+0.433589 27.889097
+&
+@target G0.S44
+@type xy
+0.433589 27.889097
+0.435154 27.888319
+0.436719 27.88599
+0.438284 27.882128
+0.439849 27.876756
+0.441414 27.869911
+0.442978 27.861636
+0.444543 27.851981
+0.446108 27.841004
+0.447673 27.828765
+0.449238 27.81533
+0.450803 27.800765
+0.452368 27.785138
+0.453933 27.76852
+0.455498 27.750977
+0.457062 27.732577
+0.458627 27.713385
+0.460192 27.693466
+0.461757 27.672882
+0.463322 27.65169
+0.464887 27.62995
+0.466452 27.607715
+0.468017 27.585039
+0.469582 27.561973
+0.471147 27.538564
+0.472711 27.51486
+0.474276 27.490906
+0.475841 27.466746
+0.477406 27.442422
+0.478971 27.417975
+0.480536 27.393445
+0.482101 27.368871
+0.483666 27.34429
+0.485231 27.319739
+0.486795 27.295255
+0.48836 27.270871
+0.489925 27.246622
+0.49149 27.222541
+0.493055 27.19866
+0.49462 27.175012
+0.496185 27.151626
+0.49775 27.128532
+0.499314 27.105759
+0.500879 27.083335
+0.502444 27.061286
+0.504009 27.039637
+0.505574 27.018415
+0.507139 26.99764
+0.508704 26.977337
+0.510269 26.957526
+0.511834 26.938228
+0.513398 26.91946
+0.514963 26.90124
+0.516528 26.883586
+0.518093 26.866511
+0.519658 26.85003
+0.521223 26.834156
+0.522788 26.818901
+0.524353 26.804274
+0.525918 26.790286
+0.527482 26.776945
+0.529047 26.764259
+0.530612 26.752234
+0.532177 26.740876
+0.533742 26.730191
+0.535307 26.720182
+0.536872 26.710853
+0.538437 26.702207
+0.540002 26.694247
+0.541566 26.686975
+0.543131 26.680392
+0.544696 26.6745
+0.546261 26.6693
+0.547826 26.664792
+0.549391 26.660977
+0.550956 26.657855
+0.552521 26.655426
+0.554086 26.653692
+0.555651 26.652651
+0.557215 26.652304
+&
+@target G0.S45
+@type xy
+0 25.075482
+0.003275 25.073619
+0.006551 25.068032
+0.009826 25.058728
+0.013102 25.045721
+0.016377 25.029027
+0.019652 25.008671
+0.022928 24.984681
+0.026203 24.957094
+0.029478 24.925954
+0.032754 24.891314
+0.036029 24.853238
+0.039305 24.811806
+0.04258 24.767117
+0.045855 24.719296
+0.049131 24.668511
+0.052406 24.614994
+0.055682 24.559084
+0.058957 24.501305
+0.062232 24.442541
+0.065508 24.38439
+0.068783 24.329959
+0.072058 24.285371
+0.075334 24.260681
+0.078609 24.26419
+0.081885 24.293314
+0.08516 24.339568
+0.088435 24.396635
+0.091711 24.461102
+0.094986 24.531153
+0.098262 24.605724
+0.101537 24.684107
+0.104812 24.765751
+0.108088 24.85018
+0.111363 24.93695
+0.114638 25.02562
+0.117914 25.115751
+0.121189 25.206901
+0.124465 25.298625
+0.12774 25.390481
+0.131015 25.482033
+0.134291 25.572856
+0.137566 25.662544
+0.140841 25.750709
+0.144117 25.83699
+0.147392 25.921052
+0.150668 26.002593
+0.153943 26.081341
+0.157218 26.157059
+0.160494 26.229543
+0.163769 26.298625
+0.167045 26.36417
+0.17032 26.426078
+0.173595 26.48428
+0.176871 26.538741
+0.180146 26.589454
+0.183421 26.636444
+0.186697 26.679759
+0.189972 26.719476
+0.193247 26.755693
+0.196523 26.78853
+0.199798 26.818124
+0.203074 26.844629
+0.206349 26.868215
+0.209624 26.889058
+0.2129 26.907347
+0.216175 26.923274
+0.219451 26.937032
+0.222726 26.948819
+0.226001 26.958824
+0.229277 26.967234
+0.232552 26.974227
+0.235827 26.979969
+0.239103 26.984613
+0.242378 26.988297
+0.245654 26.991141
+0.248929 26.993246
+0.252204 26.994692
+0.25548 26.995535
+0.258755 26.995813
+&
+@target G0.S46
+@type xy
+0.258755 26.995813
+0.260968 26.99689
+0.263181 27.000118
+0.265394 27.005483
+0.267607 27.012961
+0.269821 27.022522
+0.272034 27.034123
+0.274247 27.047715
+0.27646 27.06324
+0.278673 27.080629
+0.280886 27.099809
+0.283099 27.120695
+0.285312 27.143196
+0.287525 27.167214
+0.289738 27.192643
+0.291951 27.21937
+0.294165 27.247279
+0.296378 27.276244
+0.298591 27.30614
+0.300804 27.336832
+0.303017 27.368186
+0.30523 27.400064
+0.307443 27.432327
+0.309656 27.464833
+0.311869 27.497442
+0.314082 27.530014
+0.316296 27.562411
+0.318509 27.594498
+0.320722 27.626143
+0.322935 27.657217
+0.325148 27.687598
+0.327361 27.717168
+0.329574 27.745817
+0.331787 27.77344
+0.334 27.799942
+0.336213 27.825233
+0.338426 27.849236
+0.340639 27.871878
+0.342853 27.8931
+0.345066 27.912849
+0.347279 27.931084
+0.349492 27.947772
+0.351705 27.962891
+0.353918 27.97643
+0.356131 27.988386
+0.358344 27.998766
+0.360557 28.007588
+0.36277 28.014878
+0.364983 28.020671
+0.367196 28.02501
+0.36941 28.027948
+0.371623 28.029545
+0.373836 28.029867
+0.376049 28.028989
+0.378262 28.026989
+0.380475 28.023953
+0.382688 28.019972
+0.384901 28.01514
+0.387114 28.009553
+0.389327 28.003314
+0.39154 27.996523
+0.393753 27.989285
+0.395967 27.981705
+0.39818 27.973886
+0.400393 27.96593
+0.402606 27.957941
+0.404819 27.950015
+0.407032 27.942248
+0.409245 27.934733
+0.411458 27.927556
+0.413671 27.920799
+0.415884 27.914538
+0.418098 27.908843
+0.420311 27.903776
+0.422524 27.899392
+0.424737 27.895739
+0.42695 27.892856
+0.429163 27.890775
+0.431376 27.889517
+0.433589 27.889097
+&
+@target G0.S47
+@type xy
+0.433589 27.889097
+0.435154 27.888319
+0.436719 27.88599
+0.438284 27.882128
+0.439849 27.876756
+0.441414 27.869911
+0.442978 27.861636
+0.444543 27.851981
+0.446108 27.841004
+0.447673 27.828765
+0.449238 27.81533
+0.450803 27.800765
+0.452368 27.785138
+0.453933 27.76852
+0.455498 27.750977
+0.457062 27.732577
+0.458627 27.713385
+0.460192 27.693466
+0.461757 27.672882
+0.463322 27.65169
+0.464887 27.62995
+0.466452 27.607715
+0.468017 27.585039
+0.469582 27.561973
+0.471147 27.538564
+0.472711 27.51486
+0.474276 27.490906
+0.475841 27.466746
+0.477406 27.442422
+0.478971 27.417975
+0.480536 27.393445
+0.482101 27.368871
+0.483666 27.34429
+0.485231 27.319739
+0.486795 27.295255
+0.48836 27.270871
+0.489925 27.246622
+0.49149 27.222541
+0.493055 27.19866
+0.49462 27.175012
+0.496185 27.151626
+0.49775 27.128532
+0.499314 27.105759
+0.500879 27.083335
+0.502444 27.061286
+0.504009 27.039637
+0.505574 27.018415
+0.507139 26.99764
+0.508704 26.977337
+0.510269 26.957526
+0.511834 26.938228
+0.513398 26.91946
+0.514963 26.90124
+0.516528 26.883586
+0.518093 26.866511
+0.519658 26.85003
+0.521223 26.834156
+0.522788 26.818901
+0.524353 26.804274
+0.525918 26.790286
+0.527482 26.776945
+0.529047 26.764259
+0.530612 26.752234
+0.532177 26.740876
+0.533742 26.730191
+0.535307 26.720182
+0.536872 26.710853
+0.538437 26.702207
+0.540002 26.694247
+0.541566 26.686975
+0.543131 26.680392
+0.544696 26.6745
+0.546261 26.6693
+0.547826 26.664792
+0.549391 26.660977
+0.550956 26.657855
+0.552521 26.655426
+0.554086 26.653692
+0.555651 26.652651
+0.557215 26.652304
+&
+@target G0.S48
+@type xy
+0 30.387056
+0.003275 30.386763
+0.006551 30.385953
+0.009826 30.38479
+0.013102 30.383482
+0.016377 30.382258
+0.019652 30.381356
+0.022928 30.381021
+0.026203 30.3815
+0.029478 30.383041
+0.032754 30.385881
+0.036029 30.390252
+0.039305 30.396365
+0.04258 30.404414
+0.045855 30.414571
+0.049131 30.426979
+0.052406 30.441754
+0.055682 30.458981
+0.058957 30.478719
+0.062232 30.500998
+0.065508 30.525823
+0.068783 30.553181
+0.072058 30.583038
+0.075334 30.615351
+0.078609 30.650069
+0.081885 30.687137
+0.08516 30.7265
+0.088435 30.768103
+0.091711 30.811893
+0.094986 30.857817
+0.098262 30.905821
+0.101537 30.955838
+0.104812 31.007791
+0.108088 31.061581
+0.111363 31.11708
+0.114638 31.174125
+0.117914 31.232515
+0.121189 31.292003
+0.124465 31.352301
+0.12774 31.413075
+0.131015 31.473953
+0.134291 31.534529
+0.137566 31.594371
+0.140841 31.653028
+0.144117 31.710043
+0.147392 31.764956
+0.150668 31.817319
+0.153943 31.866699
+0.157218 31.912686
+0.160494 31.954905
+0.163769 31.993012
+0.167045 32.026708
+0.17032 32.055736
+0.173595 32.079887
+0.176871 32.099003
+0.180146 32.112981
+0.183421 32.121771
+0.186697 32.125379
+0.189972 32.123872
+0.193247 32.117374
+0.196523 32.10607
+0.199798 32.090207
+0.203074 32.070095
+0.206349 32.046104
+0.209624 32.018666
+0.2129 31.988275
+0.216175 31.955482
+0.219451 31.920894
+0.222726 31.885166
+0.226001 31.848999
+0.229277 31.813124
+0.232552 31.778295
+0.235827 31.745272
+0.239103 31.714804
+0.242378 31.687605
+0.245654 31.664336
+0.248929 31.645581
+0.252204 31.63182
+0.25548 31.623414
+0.258755 31.620587
+&
+@target G0.S49
+@type xy
+0.258755 31.620587
+0.260968 31.623892
+0.263181 31.633758
+0.265394 31.650034
+0.267607 31.672476
+0.269821 31.700755
+0.272034 31.734467
+0.274247 31.773144
+0.27646 31.816269
+0.278673 31.863289
+0.280886 31.913627
+0.283099 31.966693
+0.285312 32.021894
+0.287525 32.078644
+0.289738 32.136369
+0.291951 32.194515
+0.294165 32.252549
+0.296378 32.309965
+0.298591 32.366286
+0.300804 32.421062
+0.303017 32.473877
+0.30523 32.524343
+0.307443 32.572103
+0.309656 32.616829
+0.311869 32.658225
+0.314082 32.69602
+0.316296 32.729976
+0.318509 32.759876
+0.320722 32.785535
+0.322935 32.80679
+0.325148 32.823502
+0.327361 32.835559
+0.329574 32.842868
+0.331787 32.845362
+0.334 32.842992
+0.336213 32.835733
+0.338426 32.823578
+0.340639 32.806541
+0.342853 32.784652
+0.345066 32.757964
+0.347279 32.726545
+0.349492 32.69048
+0.351705 32.649873
+0.353918 32.604842
+0.356131 32.555523
+0.358344 32.502068
+0.360557 32.444641
+0.36277 32.383426
+0.364983 32.318616
+0.367196 32.250424
+0.36941 32.179073
+0.371623 32.104802
+0.373836 32.027865
+0.376049 31.948528
+0.378262 31.867073
+0.380475 31.783793
+0.382688 31.699
+0.384901 31.613017
+0.387114 31.526183
+0.389327 31.438852
+0.39154 31.351394
+0.393753 31.264195
+0.395967 31.177656
+0.39818 31.092195
+0.400393 31.008247
+0.402606 30.926263
+0.404819 30.846707
+0.407032 30.770062
+0.409245 30.696821
+0.411458 30.627492
+0.413671 30.562587
+0.415884 30.502627
+0.418098 30.448129
+0.420311 30.399602
+0.422524 30.357538
+0.424737 30.322394
+0.42695 30.294582
+0.429163 30.274449
+0.431376 30.262259
+0.433589 30.258177
+&
+@target G0.S50
+@type xy
+0.433589 30.258177
+0.435154 30.259717
+0.436719 30.264329
+0.438284 30.271989
+0.439849 30.28266
+0.441414 30.296289
+0.442978 30.31281
+0.444543 30.332148
+0.446108 30.354214
+0.447673 30.378913
+0.449238 30.406143
+0.450803 30.435795
+0.452368 30.467756
+0.453933 30.501911
+0.455498 30.538143
+0.457062 30.576334
+0.458627 30.616364
+0.460192 30.658118
+0.461757 30.701477
+0.463322 30.746329
+0.464887 30.792558
+0.466452 30.840056
+0.468017 30.888712
+0.469582 30.938422
+0.471147 30.989081
+0.472711 31.040589
+0.474276 31.092846
+0.475841 31.145756
+0.477406 31.199226
+0.478971 31.253163
+0.480536 31.307479
+0.482101 31.362087
+0.483666 31.416901
+0.485231 31.47184
+0.486795 31.52682
+0.48836 31.581765
+0.489925 31.636597
+0.49149 31.691241
+0.493055 31.745623
+0.49462 31.799673
+0.496185 31.853319
+0.49775 31.906495
+0.499314 31.959133
+0.500879 32.011169
+0.502444 32.062539
+0.504009 32.113182
+0.505574 32.163039
+0.507139 32.212049
+0.508704 32.260157
+0.510269 32.307308
+0.511834 32.353447
+0.513398 32.398523
+0.514963 32.442485
+0.516528 32.485284
+0.518093 32.526872
+0.519658 32.567205
+0.521223 32.606237
+0.522788 32.643927
+0.524353 32.680234
+0.525918 32.715118
+0.527482 32.748543
+0.529047 32.780472
+0.530612 32.81087
+0.532177 32.839707
+0.533742 32.866952
+0.535307 32.892575
+0.536872 32.916549
+0.538437 32.93885
+0.540002 32.959453
+0.541566 32.978338
+0.543131 32.995484
+0.544696 33.010874
+0.546261 33.024491
+0.547826 33.036322
+0.549391 33.046353
+0.550956 33.054575
+0.552521 33.060978
+0.554086 33.065557
+0.555651 33.068306
+0.557215 33.069223
+&
+@target G0.S51
+@type xy
+0 30.387056
+0.003275 30.386602
+0.006551 30.38519
+0.009826 30.382706
+0.013102 30.37903
+0.016377 30.374049
+0.019652 30.36767
+0.022928 30.359817
+0.026203 30.350431
+0.029478 30.339469
+0.032754 30.326903
+0.036029 30.312721
+0.039305 30.296919
+0.04258 30.27951
+0.045855 30.260513
+0.049131 30.239959
+0.052406 30.217884
+0.055682 30.194333
+0.058957 30.169355
+0.062232 30.143003
+0.065508 30.115333
+0.068783 30.086402
+0.072058 30.056267
+0.075334 30.024981
+0.078609 29.992597
+0.081885 29.959158
+0.08516 29.924701
+0.088435 29.889252
+0.091711 29.852823
+0.094986 29.81541
+0.098262 29.776991
+0.101537 29.737524
+0.104812 29.696942
+0.108088 29.655157
+0.111363 29.612058
+0.114638 29.567514
+0.117914 29.521378
+0.121189 29.473487
+0.124465 29.423676
+0.12774 29.371777
+0.131015 29.317634
+0.134291 29.261101
+0.137566 29.202058
+0.140841 29.14041
+0.144117 29.076094
+0.147392 29.009086
+0.150668 28.939396
+0.153943 28.867076
+0.157218 28.792217
+0.160494 28.714949
+0.163769 28.635443
+0.167045 28.553905
+0.17032 28.470581
+0.173595 28.38575
+0.176871 28.299729
+0.180146 28.212867
+0.183421 28.12555
+0.186697 28.038195
+0.189972 27.951254
+0.193247 27.865214
+0.196523 27.78059
+0.199798 27.69793
+0.203074 27.617805
+0.206349 27.540808
+0.209624 27.467535
+0.2129 27.398575
+0.216175 27.334486
+0.219451 27.275767
+0.222726 27.222827
+0.226001 27.175948
+0.229277 27.135258
+0.232552 27.100713
+0.235827 27.072085
+0.239103 27.048985
+0.242378 27.030898
+0.245654 27.017231
+0.248929 27.00738
+0.252204 27.000795
+0.25548 26.997034
+0.258755 26.995813
+&
+@target G0.S52
+@type xy
+0.258755 26.995813
+0.260968 26.998382
+0.263181 27.006121
+0.265394 27.019112
+0.267607 27.03748
+0.269821 27.061369
+0.272034 27.090916
+0.274247 27.126231
+0.27646 27.167369
+0.278673 27.214321
+0.280886 27.267001
+0.283099 27.32525
+0.285312 27.388839
+0.287525 27.457482
+0.289738 27.530848
+0.291951 27.608574
+0.294165 27.690274
+0.296378 27.775556
+0.298591 27.864025
+0.300804 27.955288
+0.303017 28.048961
+0.30523 28.144672
+0.307443 28.242057
+0.309656 28.340767
+0.311869 28.440462
+0.314082 28.540814
+0.316296 28.641504
+0.318509 28.742224
+0.320722 28.842674
+0.322935 28.94256
+0.325148 29.041599
+0.327361 29.139513
+0.329574 29.236032
+0.331787 29.330892
+0.334 29.423838
+0.336213 29.514623
+0.338426 29.603006
+0.340639 29.688757
+0.342853 29.771654
+0.345066 29.851486
+0.347279 29.928053
+0.349492 30.001167
+0.351705 30.070652
+0.353918 30.136345
+0.356131 30.1981
+0.358344 30.255782
+0.360557 30.309276
+0.36277 30.358482
+0.364983 30.403318
+0.367196 30.44372
+0.36941 30.479643
+0.371623 30.511064
+0.373836 30.537979
+0.376049 30.560407
+0.378262 30.578387
+0.380475 30.591985
+0.382688 30.601288
+0.384901 30.606411
+0.387114 30.607493
+0.389327 30.604701
+0.39154 30.598232
+0.393753 30.58831
+0.395967 30.575192
+0.39818 30.559167
+0.400393 30.540557
+0.402606 30.519719
+0.404819 30.497044
+0.407032 30.47296
+0.409245 30.447928
+0.411458 30.422441
+0.413671 30.397021
+0.415884 30.372211
+0.418098 30.348566
+0.420311 30.326644
+0.422524 30.306986
+0.424737 30.2901
+0.42695 30.276443
+0.429163 30.266396
+0.431376 30.260247
+0.433589 30.258177
+&
+@target G0.S53
+@type xy
+0.433589 30.258177
+0.435154 30.259717
+0.436719 30.264329
+0.438284 30.271989
+0.439849 30.28266
+0.441414 30.296289
+0.442978 30.31281
+0.444543 30.332148
+0.446108 30.354214
+0.447673 30.378913
+0.449238 30.406143
+0.450803 30.435795
+0.452368 30.467756
+0.453933 30.501911
+0.455498 30.538143
+0.457062 30.576334
+0.458627 30.616364
+0.460192 30.658118
+0.461757 30.701477
+0.463322 30.746329
+0.464887 30.792558
+0.466452 30.840056
+0.468017 30.888712
+0.469582 30.938422
+0.471147 30.989081
+0.472711 31.040589
+0.474276 31.092846
+0.475841 31.145756
+0.477406 31.199226
+0.478971 31.253163
+0.480536 31.307479
+0.482101 31.362087
+0.483666 31.416901
+0.485231 31.47184
+0.486795 31.52682
+0.48836 31.581765
+0.489925 31.636597
+0.49149 31.691241
+0.493055 31.745623
+0.49462 31.799673
+0.496185 31.853319
+0.49775 31.906495
+0.499314 31.959133
+0.500879 32.011169
+0.502444 32.062539
+0.504009 32.113182
+0.505574 32.163039
+0.507139 32.212049
+0.508704 32.260157
+0.510269 32.307308
+0.511834 32.353447
+0.513398 32.398523
+0.514963 32.442485
+0.516528 32.485284
+0.518093 32.526872
+0.519658 32.567205
+0.521223 32.606237
+0.522788 32.643927
+0.524353 32.680234
+0.525918 32.715118
+0.527482 32.748543
+0.529047 32.780472
+0.530612 32.81087
+0.532177 32.839707
+0.533742 32.866952
+0.535307 32.892575
+0.536872 32.916549
+0.538437 32.93885
+0.540002 32.959453
+0.541566 32.978338
+0.543131 32.995484
+0.544696 33.010874
+0.546261 33.024491
+0.547826 33.036322
+0.549391 33.046353
+0.550956 33.054575
+0.552521 33.060978
+0.554086 33.065557
+0.555651 33.068306
+0.557215 33.069223
+&
