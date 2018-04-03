@@ -35,7 +35,7 @@ def reordering(freq_vec, local_modes, normal_modes):
     for j, nmod in enumerate(normal_modes):
         max_index = j
         max_overlap = compute_overlap(local_modes[j], nmod)
-        for k in range(max(0, j-5), min(j+5, len(normal_modes))):
+        for k in range(max(0, j-2), min(j+2, len(normal_modes))):
             overlap = compute_overlap(local_modes[k], nmod)
             if (overlap - max_overlap > 1.0E-8 and (k not in index_list)):
                 max_index = k
@@ -43,7 +43,6 @@ def reordering(freq_vec, local_modes, normal_modes):
         index_list.append(max_index)
         outvec.append(freq_vec[max_index])
         outmode.append(local_modes[max_index])
-        print max_index
     return (outvec, outmode)
 
 
